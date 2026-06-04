@@ -1,0 +1,2512 @@
+{
+  "nav": {
+    "home": "Home",
+    "patterns": "Patterns",
+    "structures": "Structures",
+    "algorithms": "Algorithms",
+    "compare": "Compare",
+    "reference": "Reference",
+    "achievements": "Achievements",
+    "search": "Search"
+  },
+  "backToTop": "Back to top",
+  "hero": {
+    "badge": "75+ interactive tutorials",
+    "title": {
+      "1": "Make abstract concepts",
+      "2": "visible"
+    },
+    "desc": "Understand design patterns, data structures, and algorithms through step-by-step animations, synchronized code highlighting, and interactive sandboxes.",
+    "cta": {
+      "start": "Start Learning →",
+      "browse": "Browse All"
+    }
+  },
+  "stats": {
+    "tagline": "Comprehensive coverage of computer science fundamentals",
+    "algorithms": {
+      "label": "Algorithms",
+      "sublabel": "Sorting, searching, graph & DP"
+    },
+    "patterns": {
+      "label": "Design Patterns",
+      "sublabel": "23 GoF patterns"
+    },
+    "structures": {
+      "label": "Data Structures",
+      "sublabel": "Arrays to graphs"
+    },
+    "visualizers": {
+      "label": "Visualizers",
+      "sublabel": "Interactive demos"
+    }
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "subtitle": "Three steps to master computer science concepts",
+    "steps": {
+      "visualize": {
+        "title": "Visualize",
+        "desc": "Watch UML diagrams and animations that make abstract concepts tangible"
+      },
+      "interact": {
+        "title": "Interact",
+        "desc": "Run step-by-step visualizations with playback controls"
+      },
+      "understand": {
+        "title": "Understand",
+        "desc": "Read synchronized code explanations and experiment in sandbox"
+      }
+    }
+  },
+  "categories": {
+    "viewSubcategories": "View subcategories ({count})",
+    "patterns": {
+      "title": "Design Patterns",
+      "desc": "23 GoF design patterns visualized with UML class diagrams, runtime object interaction, and synchronized code.",
+      "meta": "23 patterns · 3 difficulty levels"
+    },
+    "structures": {
+      "title": "Data Structures",
+      "desc": "From arrays to graphs, each structure supports visual step-by-step insert/delete/search operations.",
+      "meta": "16 structures · Interactive"
+    },
+    "algorithms": {
+      "title": "Algorithms",
+      "desc": "Sorting, searching, graph algorithms, and dynamic programming with frame-by-frame playback and variable tracking.",
+      "meta": "59+ algorithms · Adjustable speed"
+    }
+  },
+  "featured": {
+    "tags": {
+      "sorting": "Sorting",
+      "behavioral": "Behavioral",
+      "tree": "Tree",
+      "search": "Search",
+      "structural": "Structural",
+      "dp": "DP",
+      "graph": "Graph",
+      "structure": "Structure"
+    },
+    "badge": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    },
+    "title": "Featured Visualizations",
+    "subtitle": "Explore interactive tutorials with step-by-step animations",
+    "viewAll": "View All",
+    "items": {
+      "bubbleSort": {
+        "title": "Bubble Sort",
+        "desc": "Watch how Bubble Sort bubbles the largest element to the end, step by step."
+      },
+      "observer": {
+        "title": "Observer Pattern",
+        "desc": "Learn the Subject-Observer one-to-many notification mechanism."
+      },
+      "bst": {
+        "title": "Binary Search Tree",
+        "desc": "Explore BST insertion and search with visual node traversal."
+      },
+      "quickSort": {
+        "title": "Quick Sort",
+        "desc": "Master the divide-and-conquer sorting with pivot placement."
+      },
+      "heapSort": {
+        "title": "Heap Sort",
+        "desc": "Understand heap data structure and heapify operations."
+      },
+      "mergeSort": {
+        "title": "Merge Sort",
+        "desc": "See how merge sort divides arrays and merges them back sorted."
+      },
+      "binarySearch": {
+        "title": "Binary Search",
+        "desc": "Find targets fast in sorted arrays with logarithmic search."
+      },
+      "decorator": {
+        "title": "Decorator Pattern",
+        "desc": "Learn how decorators dynamically add responsibilities to objects."
+      },
+      "knapsack": {
+        "title": "Knapsack Problem",
+        "desc": "Solve the classic dynamic programming optimization problem."
+      },
+      "astar": {
+        "title": "A* Search",
+        "desc": "Find the shortest path with heuristic-guided graph search."
+      },
+      "lru": {
+        "title": "LRU Cache",
+        "desc": "Understand cache eviction with least recently used strategy."
+      },
+      "hashTable": {
+        "title": "Hash Table",
+        "desc": "See how hashing enables O(1) average case data retrieval."
+      }
+    }
+  },
+  "footer": {
+    "desc": "Interactive visual tutorials — making abstract computing concepts tangible and visible.",
+    "content": "Content",
+    "features": "Features",
+    "about": "About",
+    "patterns": "Design Patterns",
+    "structures": "Data Structures",
+    "algorithms": "Algorithms",
+    "complexity": "Complexity Reference",
+    "compareMode": "Compare Mode",
+    "sandbox": "Sandbox",
+    "progress": "Progress Tracking",
+    "shortcuts": "Keyboard Shortcuts",
+    "aboutProject": "About Project",
+    "feedback": "Feedback"
+  },
+  "algorithms": {
+    "sorting": {
+      "title": "Sorting Algorithms",
+      "desc": "From Bubble Sort to Quick Sort, visualize the partitioning, swapping, and merging of each algorithm.",
+      "badge": "Sorting"
+    },
+    "search": {
+      "title": "Search Algorithms",
+      "desc": "From Linear Search to Binary Search, visualize each algorithm's search strategy and performance differences.",
+      "badge": "Search"
+    },
+    "graph": {
+      "title": "Graph Algorithms",
+      "desc": "BFS, DFS, shortest path, minimum spanning tree—visualize graph traversal and algorithm execution.",
+      "badge": "Graph"
+    }
+  },
+  "patterns": {
+    "title": "Design Patterns",
+    "desc": "23 GoF design patterns visualized with UML class diagrams, runtime object interaction, and synchronized code.",
+    "badge": "Design Patterns"
+  },
+  "structures": {
+    "title": "Data Structures",
+    "desc": "From arrays to graphs, each structure supports visual step-by-step insert/delete/search operations.",
+    "badge": "Data Structures"
+  },
+  "compare": {
+    "badge": "↔️ Compare Mode",
+    "title": "Compare Mode",
+    "desc": "Select two topics and watch them side by side to compare efficiency, structure, and behavior.",
+    "algorithms": "Sorting Algorithms",
+    "searches": "Search Algorithms",
+    "graphs": "Graph Algorithms",
+    "patterns": "Design Patterns",
+    "structures": "Data Structures",
+    "leftLabel": "Left",
+    "rightLabel": "Right",
+    "selectDiff": "Please select two different topics to compare",
+    "selected": "Selected",
+    "start": "Start Comparing →",
+    "sync": {
+      "title": "Sync Playback",
+      "desc": "Both panels play simultaneously with adjustable speed",
+      "label": "Sync Playback",
+      "on": "On",
+      "off": "Off",
+      "hint": {
+        "on": "Play/Pause/Step controls both panels",
+        "off": "Each panel controlled independently"
+      }
+    },
+    "complexity": {
+      "title": "Complexity Comparison",
+      "desc": "Time/space complexity displayed side by side"
+    },
+    "code": {
+      "title": "Code Highlighting",
+      "desc": "Step-synchronized code line highlighting"
+    },
+    "breadcrumb": "Compare Mode",
+    "info": "Info",
+    "timeComplexity": "Time Complexity",
+    "spaceComplexity": "Space Complexity",
+    "complexityCompare": "Complexity Comparison",
+    "metric": "Metric"
+  },
+  "reference": {
+    "badge": "📚 Reference Guide",
+    "title": "Reference",
+    "desc": "Complete overview of time/space complexity for all algorithms and data structures",
+    "searchPlaceholder": "Search algorithms and data structures...",
+    "noResults": "No matching results found",
+    "filterTabs": {
+      "all": "All",
+      "sorting": "Sorting",
+      "searching": "Searching",
+      "dataStructures": "Data Structures",
+      "graphAlgorithms": "Graph Algorithms",
+    "patterns": "Design Patterns"
+    },
+    "tableHeaders": {
+      "algorithm": "Algorithm",
+      "structure": "Structure",
+      "pattern": "Pattern",
+      "subcategory": "Category",
+      "category": "Category",
+      "access": "Access",
+      "search": "Search",
+      "insert": "Insert",
+      "delete": "Delete",
+      "space": "Space",
+      "useCase": "Use Case",
+      "intent": "Intent",
+      "applicability": "Applicability",
+      "timeBest": "Time (Best)",
+      "timeAverage": "Time (Average)",
+      "timeWorst": "Time (Worst)",
+      "timeComplexity": "Time Complexity"
+    },
+    "errors": {
+      "pageLoad": "Page load failed",
+      "refreshHint": "Please refresh the page and try again",
+      "refresh": "Refresh"
+    },
+    "installPrompt": {
+      "installAria": "Install CodePrism",
+      "install": "Install",
+      "installDesc": "Add to your home screen for offline access",
+      "notNow": "Not now"
+    },
+    "legend": {
+      "excellent": "Excellent",
+      "good": "Good",
+      "average": "Average",
+      "poor": "Poor"
+    },
+    "visualizerDemo": {
+      "title": "Visualizer Page",
+      "subtitle": "Core interactive interface — three-column layout with sidebar, canvas, and info panel",
+      "tabs": {
+        "structure": "Structure View",
+        "runtime": "Runtime",
+        "code": "Code"
+      },
+      "sidebar": {
+        "navTitle": "Content Navigation",
+        "creational": "Creational",
+        "structural": "Structural"
+      },
+      "result": {
+        "finalProduct": "Final Product:"
+      },
+      "step": {
+        "label": "Step {current}/{total}: {action}"
+      },
+      "codePanel": {
+        "implementationCode": "Implementation Code"
+      },
+      "buttons": {
+        "copy": "Copy",
+        "edit": "Edit"
+      },
+      "infoPanel": {
+        "description": "Description",
+        "complexity": "Complexity",
+        "timeComplexity": "Time Complexity",
+        "spaceComplexity": "Space Complexity",
+        "sandbox": "Sandbox Experiment",
+        "selectBase": "Select Base Coffee",
+        "addDecorators": "Add Decorators",
+        "decoratorDesc": "The Decorator pattern allows dynamically adding new functionality to an existing object without changing its structure. This pattern creates a wrapper class to wrap the original class."
+      }
+    },
+    "footer": {
+      "builtWith": "Built with ❤️ for learners",
+      "github": "GitHub"
+    },
+    "aria": {
+      "zoomOut": "Zoom out",
+      "zoomIn": "Zoom in",
+      "resetView": "Reset view",
+      "resetPosition": "Reset position",
+      "toggleNav": "Toggle navigation menu",
+      "contentNav": "Content navigation",
+      "breadcrumb": "Breadcrumb",
+      "switchTheme": "Switch to {theme} mode"
+    },
+    "codeEditor": {
+      "initFailed": "⚠️ Code editor initialization failed",
+      "loading": "Loading code editor..."
+    },
+    "uml": {
+      "renderFailed": "UML rendering failed"
+    },
+    "tableCanvas": {
+      "clickPlay": "Click play to start visualization"
+    },
+    "loading": {
+      "text": "Loading..."
+    }
+  },
+  "sidebar": {
+    "algorithm": "Algorithms",
+    "search": "Search",
+    "graph": "Graph",
+    "structure": "Data Structures",
+    "pattern": "Design Patterns"
+  },
+  "playback": {
+    "reset": "Reset",
+    "stepBack": "Step Back",
+    "play": "Play",
+    "pause": "Pause",
+    "stepForward": "Step Forward"
+  },
+  "progress": {
+    "learning": "Learning Progress",
+    "completed": "completed"
+  },
+  "swUpdate": {
+    "title": "New version available",
+    "body": "Reload to get the latest features and fixes.",
+    "update": "Update",
+    "dismiss": "Dismiss"
+  },
+  "pwa": {
+    "install": {
+      "title": "Install CodePrism",
+      "body": "Add to your home screen for one-tap access — works offline.",
+      "iosTitle": "Add to Home Screen",
+      "iosBody": "Tap the Share button, then choose “Add to Home Screen”.",
+      "button": "Install",
+      "dismiss": "Dismiss"
+    }
+  },
+  "analytics": {
+    "consent": {
+      "title": "Help improve CodePrism",
+      "body": "Share anonymous usage data to help us understand which lessons resonate and where learners get stuck.",
+      "toggleAria": "Toggle anonymous analytics",
+      "what": {
+        "collected": "What we collect: page views, lesson completions, achievement unlocks, theme preferences.",
+        "notCollected": "What we never collect: your name, email, IP address, or any personally identifiable information.",
+        "respect": "Respects your browser's Do-Not-Track setting. You can change this at any time."
+      }
+    }
+  },
+  "achievements": {
+    "badge": "Achievements",
+    "title": "Achievements",
+    "desc": "Unlock badges by completing lessons, mastering categories, and curating your favorites.",
+    "unlocked": "Unlocked",
+    "locked": "Locked",
+    "unlockedLabel": "✓ Unlocked",
+    "allUnlocked": "All achievements unlocked!",
+    "allUnlockedDesc": "You've completed every milestone CodePrism has to offer.",
+    "backHome": "Back to Home",
+    "dismiss": "Dismiss",
+    "toastUnlocked": "Achievement Unlocked",
+    "badges": {
+      "first-step":         { "name": "First Step",          "desc": "Complete your first lesson." },
+      "explorer":           { "name": "Explorer",            "desc": "Complete 10 lessons." },
+      "dedicated":          { "name": "Dedicated",           "desc": "Complete 30 lessons." },
+      "completionist":      { "name": "Completionist",       "desc": "Complete every lesson in the catalog." },
+      "pattern-explorer":   { "name": "Pattern Explorer",    "desc": "Complete 5 design patterns." },
+      "pattern-master":     { "name": "Pattern Master",      "desc": "Master all 23 GoF design patterns." },
+      "algorithm-explorer": { "name": "Algorithm Explorer",  "desc": "Complete 10 algorithms." },
+      "algorithm-master":   { "name": "Algorithm Master",    "desc": "Master all 21 algorithms." },
+      "structure-explorer": { "name": "Structure Explorer",  "desc": "Complete 5 data structures." },
+      "structure-master":   { "name": "Structure Master",    "desc": "Master all 16 data structures." },
+      "curator":            { "name": "Curator",             "desc": "Favorite 5 lessons." },
+      "collector":          { "name": "Collector",           "desc": "Favorite 15 lessons." }
+    }
+  },
+  "visualizer": {
+    "loading": "Preparing visualization data...",
+    "notFound": "Content not found",
+    "description": "Description",
+    "complexity": "Complexity",
+    "timeComplexity": "Time Complexity",
+    "spaceComplexity": "Space Complexity",
+    "runDemo": "Run Demo",
+    "uml": "UML",
+    "steps": "Execution Steps",
+    "current": "Current",
+    "step": "Step",
+    "speed": "Speed",
+    "navTitle": "Navigation",
+    "sidebar": {
+      "expand": "Expand sidebar",
+      "collapse": "Collapse sidebar"
+    },
+    "rightSidebar": {
+      "expand": "Expand right panel",
+      "collapse": "Collapse right panel"
+    },
+    "favorite": "Favorite",
+    "unfavorite": "Unfavorite",
+    "compare": "Compare",
+    "share": "Share",
+    "print": "Print",
+    "shareLinkCopied": "Link copied!",
+    "shareLinkFailed": "Copy failed",
+    "scenarios": {
+      "title": "Real-World Applications",
+      "empty": "No application scenarios yet for this topic.",
+      "showCode": "Show code",
+      "hideCode": "Hide code",
+      "showAll": "Show all ({count})",
+      "showLess": "Show less",
+      "domain": {
+        "ui-framework": "UI Framework",
+        "database": "Database",
+        "system": "Systems",
+        "ai-ml": "AI / ML",
+        "game-dev": "Game Dev",
+        "network": "Network",
+        "devtools": "DevTools",
+        "library": "Standard Library",
+        "business": "Business",
+        "concurrency": "Concurrency",
+        "graphics": "Graphics",
+        "data-pipeline": "Data Pipeline"
+      }
+    }
+  },
+  "arrayEditor": {
+    "title": "Input Array",
+    "empty": "Empty array — add elements to start",
+    "placeholder": "Enter number...",
+    "add": "Add",
+    "shuffle": "Shuffle",
+    "clear": "Clear",
+    "error": {
+      "enterNumber": "Please enter a number",
+      "invalidNumber": "Please enter a valid number",
+      "maxElements": "Maximum {max} elements"
+    }
+  },
+  "command": {
+    "searchPlaceholder": "Search algorithms, patterns, data structures...",
+    "noResults": "No matching content found",
+    "startSearch": "Type to start searching",
+    "group": {
+      "algorithm": "Algorithms",
+      "pattern": "Design Patterns",
+      "structure": "Data Structures",
+      "search": "Search",
+      "graph": "Graph Algorithms"
+    }
+  },
+  "error": {
+    "pageLoad": "Page Load Failed",
+    "refreshHint": "Please refresh the page and try again",
+    "refresh": "Refresh Page",
+    "componentLoad": "Component Load Failed",
+    "unknownError": "An unknown error occurred",
+    "retry": "Retry",
+    "notFound": "Page Not Found",
+    "notFoundDesc": "The page you're looking for doesn't exist. It may have been removed or the address is incorrect.",
+    "backHome": "Back to Home",
+    "algoLoad": "Load Failed",
+    "algoLoadDesc": "Failed to load the algorithm list. Please try again later."
+  },
+  "breadcrumb": {
+    "home": "Home"
+  },
+  "lang": {
+    "switch": "中文",
+    "current": "English"
+  },
+  "content": {
+    "patterns": {
+      "abstract-factory": {
+        "title": "Abstract Factory Pattern",
+        "desc": "The Abstract Factory pattern provides an interface for creating families of related or dependent objects without specifying their concrete classes, allowing clients to interact with any product family.",
+        "tags": [
+          "Creational",
+          "Product Family",
+          "Consistency"
+        ],
+        "frames": {
+          "0": "System init: Create Application and GUIFactory",
+          "1": "Application requests Windows-style UI components",
+          "2": "✅ WindowsFactory created - produces Windows-style components",
+          "3": "Create Button - via factory method",
+          "4": "WindowsFactory.createButton() → WindowsButton",
+          "5": "✅ WindowsButton created",
+          "6": "Create Checkbox - also via factory",
+          "7": "WindowsFactory.createCheckbox() → WindowsCheckbox",
+          "8": "✅ WindowsCheckbox created",
+          "9": "Create Dropdown - final component",
+          "10": "WindowsFactory.createDropdown() → WindowsDropdown",
+          "11": "✅ WindowsDropdown created",
+          "12": "🖥️ Switch to MacFactory - all components become Mac-style",
+          "13": "✅ Abstract Factory: easily switch product families (Windows/Mac)"
+        },
+        "scenarios": {
+          "swing-laf": {
+            "title": "Swing Look-and-Feel",
+            "description": "Each Swing L&F (Metal, Windows, Motif, Nimbus) is a concrete factory creating a family of styled UI components."
+          },
+          "jdbc-driver-family": {
+            "title": "JDBC Driver Families",
+            "description": "Each database vendor provides a driver family (Connection, Statement, ResultSet) through a common JDBC interface."
+          },
+          "dotnet-db-provider": {
+            "title": ".NET DbProviderFactory",
+            "description": "DbProviderFactory creates vendor-specific Connection, Command, and DataAdapter objects while keeping client code DB-agnostic."
+          }
+        }
+      },
+      "adapter": {
+        "title": "Adapter Pattern",
+        "desc": "The Adapter pattern converts the interface of a class into another interface clients expect, enabling classes with incompatible interfaces to work together, much like a power adapter.",
+        "tags": [
+          "Structural",
+          "Interface Conversion",
+          "Compatibility"
+        ],
+        "frames": {
+          "0": "System init: ModernPrinter needs USB, OldPrinter only has parallel port",
+          "1": "ModernPrinter tries calling OldPrinter directly (incompatible interfaces)",
+          "2": "❌ Incompatible! OldPrinter has no USBPrint() method",
+          "3": "Create LegacyPrinterAdapter, wrapping OldPrinter",
+          "4": "✅ LegacyPrinterAdapter wraps OldPrinter",
+          "5": "ModernPrinter prints via Adapter",
+          "6": "Adapter implements USBPrint(), internally calls ParallelPrint()",
+          "7": "Adapter.translate() → OldPrinter.ParallelPrint()",
+          "8": "✅ Old printer works! Adapter converted the interface",
+          "9": "ModernPrinter prints via Adapter again",
+          "10": "✅ Adapter pattern: incompatible interfaces work together"
+        },
+        "scenarios": {
+          "slf4j-facade": {
+            "title": "SLF4J — The Universal Logging Facade",
+            "description": "SLF4J provides a single logging API that adapters bridge to Logback, Log4j, or java.util.logging, letting applications swap backends without code changes."
+          },
+          "java-io-streams": {
+            "title": "InputStreamReader — Adapting Byte Streams to Character Streams",
+            "description": "Java's InputStreamReader wraps a byte-oriented InputStream and exposes a char-oriented Reader interface, the classic adapter pattern in the JDK."
+          },
+          "stripe-sdk": {
+            "title": "Stripe SDK — Adapter for Multi-Provider Payment Gateways",
+            "description": "Stripe's SDK adapters abstract away differences across payment providers (Stripe, Square, PayPal) behind a unified checkout interface for e-commerce platforms."
+          }
+        }
+      },
+      "bridge": {
+        "title": "Bridge Pattern",
+        "desc": "The Bridge pattern decouples an abstraction from its implementation, allowing both to vary independently and avoiding the class explosion problem caused by multi-level inheritance through composition.",
+        "tags": [
+          "Structural",
+          "Composition",
+          "Independent Variation"
+        ],
+        "frames": {
+          "0": "System init: Shape and Color hierarchies separated",
+          "1": "Circle.setColor(Red) - shape and color decoupled via bridge",
+          "2": "ColorImplementor handles color selection",
+          "3": "✅ RedCircle created: Circle + Red",
+          "4": "Square.setColor(Blue) - create blue square",
+          "5": "ColorImplementor handles Blue color",
+          "6": "✅ BlueSquare created: Square + Blue",
+          "7": "🌟 Add new Triangle shape: no changes to color system needed",
+          "8": "✅ Bridge pattern: shapes and colors extend independently"
+        },
+        "scenarios": {
+          "jdbc-drivers": {
+            "title": "JDBC — Bridging Applications Across Databases",
+            "description": "JDBC defines a single connection/query abstraction that each database vendor (MySQL, PostgreSQL, H2) implements via a driver, letting applications switch databases without SQL code changes."
+          },
+          "graphics-api": {
+            "title": "OpenGL / DirectX — Abstracting GPU Hardware",
+            "description": "Graphics APIs like OpenGL, DirectX, and Vulkan separate the rendering abstraction from GPU-specific implementations, so games render identically on different hardware."
+          },
+          "logger-backends": {
+            "title": "Logging Frameworks — Decoupling API from Output",
+            "description": "Frameworks like SLF4J and Winston decouple the logging API (abstraction) from output destinations like files, databases, or cloud services (implementation)."
+          }
+        }
+      },
+      "builder": {
+        "title": "Builder Pattern",
+        "desc": "The Builder pattern separates the construction of a complex object from its representation, allowing the same construction process to create different representations step by step.",
+        "tags": [
+          "Creational",
+          "Step-by-Step Building",
+          "Representation Separation"
+        ],
+        "frames": {
+          "0": "System init: Create ConstructionDirector and HouseBuilder",
+          "1": "Director receives order, starts building house",
+          "2": "Step 1: Build foundation - buildFoundation()",
+          "3": "✅ Foundation complete: concrete poured",
+          "4": "Step 2: Build walls - buildWalls()",
+          "5": "✅ Walls complete: brick structure",
+          "6": "Step 3: Build roof - buildRoof()",
+          "7": "✅ Roof complete: tiles installed",
+          "8": "Step 4: Director calls getResult() to get house",
+          "9": "✅ House built! Builder pattern constructs complex objects step by step",
+          "10": "❄️ Switch to IglooBuilder (igloo)",
+          "11": "✅ Same Director + different Builder = different product (house vs igloo)"
+        },
+        "scenarios": {
+          "okhttp-request": {
+            "title": "OkHttp Request.Builder",
+            "description": "OkHttp's fluent Request.Builder constructs immutable HTTP requests step by step with method chaining."
+          },
+          "java-string-builder": {
+            "title": "StringBuilder / StringBuffer",
+            "description": "StringBuilder lets you incrementally build strings via append() calls without creating intermediate copies."
+          },
+          "lombok-builder": {
+            "title": "Lombok @Builder",
+            "description": "Lombok's @Builder annotation auto-generates a fluent builder for constructing complex POJOs with many optional fields."
+          }
+        }
+      },
+      "chain-of-responsibility": {
+        "title": "Chain of Responsibility Pattern",
+        "desc": "The Chain of Responsibility pattern passes requests along a chain of handlers until one handler processes it, allowing each handler to decide whether to handle the request or pass it on.",
+        "tags": [
+          "Behavioral",
+          "Chain",
+          "Decoupling"
+        ],
+        "frames": {
+          "0": "System init: Create support ticket escalation chain (Level1→Level2→Level3→Manager)",
+          "1": "🚨 High priority ticket arrives at Level1Support",
+          "2": "Level1 checks: canHandle(high) = false (only handles simple)",
+          "3": "Level1 cannot handle, passes to Level2Support",
+          "4": "Ticket forwarded to Level2Support",
+          "5": "Level2 checks: canHandle(high) = false (only handles technical)",
+          "6": "Level2 cannot handle, passes to Level3Support",
+          "7": "Ticket forwarded to Level3Support (expert team)",
+          "8": "Level3 checks: canHandle(high) = true (handles complex issues)",
+          "9": "✅ Level3 successfully resolves: system crash fixed",
+          "10": "🎉 Ticket resolved! Chain of Responsibility enables automatic request forwarding"
+        },
+        "scenarios": {
+          "servlet-filters": {
+            "title": "Java Servlet Filter Chain",
+            "description": "Servlet containers pass requests through a chain of Filter instances, each performing authentication, logging, or encoding before the next."
+          },
+          "express-middleware": {
+            "title": "Express.js Middleware Pipeline",
+            "description": "Express and Koa compose middleware functions that each call next() to forward the request down the pipeline or short-circuit."
+          },
+          "okhttp-interceptors": {
+            "title": "OkHttp Network Interceptors",
+            "description": "OkHttp and Retrofit chain interceptors for retries, auth token injection, and logging before the request reaches the wire."
+          }
+        }
+      },
+      "command": {
+        "title": "Command Pattern",
+        "desc": "The Command pattern encapsulates requests as objects, enabling parameterization, queuing, logging, and undo operations while decoupling the invoker from the receiver.",
+        "tags": [
+          "Behavioral",
+          "Undo",
+          "Queuing"
+        ],
+        "frames": {
+          "0": "System init: Create RemoteControl (Invoker), command objects, Light receiver",
+          "1": "Client creates LightOnCommand, specifying receiver Light",
+          "2": "✅ LightOnCommand created with execute() and undo() methods",
+          "3": "RemoteControl sets command: setCommand(LightOnCommand)",
+          "4": "✅ Command stored in remote, waiting for button press",
+          "5": "🎮 User presses button: invoker.buttonPressed() → execute()",
+          "6": "LightOnCommand.execute() → Light.turnOn()",
+          "7": "✅ Light turned ON! State: OFF → ON",
+          "8": "Command saved to history, supports undo",
+          "9": "✅ History: [LightOnCommand]. Undo available",
+          "10": "↩️ User presses undo button: invoker.undo()",
+          "11": "LightOnCommand.undo() → Light.turnOff()",
+          "12": "✅ Undo successful! State: ON → OFF. Command pattern supports undo/redo"
+        },
+        "scenarios": {
+          "gui-undo-redo": {
+            "title": "GUI Undo/Redo",
+            "description": "GUI editors (VSCode, Photoshop) wrap every user action as a Command, enabling undo/redo stacks and macro recording."
+          },
+          "db-transaction": {
+            "title": "Database Transaction",
+            "description": "Database engines model SQL transactions as Commands: BEGIN starts, COMMIT executes, ROLLBACK undoes — all chained as atomic units."
+          },
+          "job-queue": {
+            "title": "Background Job Queue",
+            "description": "Job queues (Sidekiq, Celery) serialize each background task into a Command object for retry-capable worker execution."
+          }
+        }
+      },
+      "composite": {
+        "title": "Composite Pattern",
+        "desc": "The Composite pattern composes objects into tree structures to represent part-whole hierarchies, allowing clients to treat individual objects and compositions uniformly.",
+        "tags": [
+          "Structural",
+          "Tree Structure",
+          "Consistency"
+        ],
+        "frames": {
+          "0": "System init: Create root directory (Root/) as container",
+          "1": "Root.add(Documents/) - add Documents subdirectory",
+          "2": "✅ Documents/ directory added to Root",
+          "3": "Root.add(Images/) - add Images subdirectory",
+          "4": "✅ Images/ directory added to Root",
+          "5": "Documents.add(report.txt) - add file to Documents",
+          "6": "✅ report.txt (2KB) added to Documents/",
+          "7": "Documents.add(notes.md) - add another file",
+          "8": "✅ notes.md (5KB) added to Documents/",
+          "9": "Images.add(photo.jpg) - add image file",
+          "10": "✅ photo.jpg (2MB) added to Images/",
+          "11": "Root.add(readme.txt) - add file directly to Root",
+          "12": "✅ readme.txt (1KB) added to Root/",
+          "13": "📊 Call getSize() to recursively calculate total size",
+          "14": "Traverse all children: Documents/(7KB) + Images/(2MB) + readme.txt(1KB)",
+          "15": "✅ Total: ~2MB. Composite pattern unifies file and directory handling!"
+        },
+        "scenarios": {
+          "dom-tree": {
+            "title": "DOM API — The Ultimate Composite Tree",
+            "description": "The W3C DOM treats every node uniformly: parent elements contain child elements or text nodes, and operations like querySelector traverse the hierarchy recursively."
+          },
+          "ast-nodes": {
+            "title": "Abstract Syntax Trees — Composing Expressions",
+            "description": "Compilers model code as an AST where expressions contain sub-expressions. Each node implements a common eval() interface, and evaluation recurses down the tree."
+          },
+          "organization-chart": {
+            "title": "Enterprise Org Charts — Roll-up Reporting",
+            "description": "Corporate hierarchies treat departments and employees uniformly — departments aggregate headcount and budget from child units, enabling recursive roll-up reports."
+          }
+        }
+      },
+      "decorator": {
+        "title": "Decorator Pattern",
+        "desc": "The Decorator pattern dynamically attaches responsibilities to objects by wrapping components in decorator objects, extending functionality without modifying existing classes, following the principle of composition over inheritance.",
+        "tags": [
+          "Structural",
+          "Composition",
+          "Dynamic Extension"
+        ],
+        "frames": {
+          "0": "System init: Create SimpleCoffee base component ($2.00)",
+          "1": "Wrap SimpleCoffee with MilkDecorator — adds +$0.50",
+          "2": "✅ MilkDecorator wrapped: Coffee → Coffee, Milk ($2.50)",
+          "3": "Wrap MilkDecorator with SugarDecorator — adds +$0.15",
+          "4": "✅ SugarDecorator wrapped: Coffee → Coffee, Milk, Sugar ($2.65)",
+          "5": "Wrap SugarDecorator with WhipDecorator — adds +$0.10",
+          "6": "✅ Decoration chain complete: Whip → Sugar → Milk → Coffee ($2.75)",
+          "7": "☕ Client calls totalCost = whip.cost()",
+          "8": "Whip.cost() → delegates to Sugar.cost()",
+          "9": "Sugar.cost() → delegates to Milk.cost()",
+          "10": "Milk.cost() → delegates to SimpleCoffee.cost()",
+          "11": "SimpleCoffee.cost() = $2.00 ✅ — returns to MilkDecorator",
+          "12": "MilkDecorator.cost() = $2.00 + $0.50 = $2.50 → returns up",
+          "13": "SugarDecorator.cost() = $2.50 + $0.15 = $2.65 → returns up",
+          "14": "WhipDecorator.cost() = $2.65 + $0.10 = $2.75 → returns to Client ✅",
+          "15": "🏁 Final: Whip → Sugar → Milk → Coffee = $2.75. Decorator chain dynamically composes responsibilities."
+        },
+        "scenarios": {
+          "java-io-streams": {
+            "title": "Java I/O Streams",
+            "description": "BufferedReader wraps InputStreamReader wraps FileInputStream, composing encoding and buffering behavior through nested decorators."
+          },
+          "react-hocs": {
+            "title": "React Higher-Order Components",
+            "description": "HOCs like withRouter and connect wrap components to inject props, adding cross-cutting concerns without modifying the original."
+          },
+          "python-decorators": {
+            "title": "Python Language Decorators",
+            "description": "@property, @lru_cache, and @staticmethod use the decorator syntax to augment functions and methods at definition time."
+          }
+        }
+      },
+      "facade": {
+        "title": "Facade Pattern",
+        "desc": "The Facade pattern provides a unified interface to a set of interfaces in a subsystem, defining a higher-level interface that makes the subsystem easier to use by hiding its complexity.",
+        "tags": [
+          "Structural",
+          "Simplified Interface",
+          "Subsystem Encapsulation"
+        ],
+        "frames": {
+          "0": "System init: Application needs to interact with multiple subsystems (CPU, Memory, Disk)",
+          "1": "⚠️ Calling subsystems directly requires understanding each complex interface",
+          "2": "❌ Client must coordinate CPU.freeze(), Memory.load(), Disk.read() steps",
+          "3": "Create ComputerFacade to simplify all subsystem interactions",
+          "4": "Facade.startComputer() → calls CPU.freeze()",
+          "5": "Facade continues with Memory.load()",
+          "6": "Facade continues with Disk.read()",
+          "7": "✅ Facade encapsulates all subsystem calls, client calls one method",
+          "8": "🎉 Facade pattern: client operates complex system through simple interface",
+          "9": "✅ Client code simplified: computerFacade.startComputer()"
+        },
+        "scenarios": {
+          "jdbc-jdbctemplate": {
+            "title": "JDBC & Spring JdbcTemplate",
+            "description": "JdbcTemplate wraps Connection, Statement, and ResultSet into a single query call, hiding verbose JDBC boilerplate."
+          },
+          "aws-sdk": {
+            "title": "Cloud SDK Facades",
+            "description": "AWS SDK, Google Cloud SDK, and Azure SDK each expose a simplified client that orchestrates complex HTTP signing, retries, and serialization."
+          },
+          "ffmpeg-cli": {
+            "title": "FFmpeg Command-Line Interface",
+            "description": "FFmpeg's CLI provides a one-line facade over hundreds of codec, muxer, and filter APIs for video processing."
+          }
+        }
+      },
+      "factory-method": {
+        "title": "Factory Method Pattern",
+        "desc": "The Factory Method pattern defines an interface for creating objects but lets subclasses decide which class to instantiate, deferring instantiation to subclasses.",
+        "tags": [
+          "Creational",
+          "Deferred Creation",
+          "Subclass Decision"
+        ],
+        "frames": {
+          "0": "System init: DocumentCreator and ReportCreator",
+          "1": "DocumentCreator.createDocument() called",
+          "2": "Factory method overridden to create Report",
+          "3": "ReportCreator calls factory method to create Report",
+          "4": "✅ Report created: quarterly report (15 pages)",
+          "5": "Factory method returns Report object to client",
+          "6": "✅ Factory Method: subclass decides which product to create",
+          "7": "Switch to InvoiceCreator - factory method returns different product",
+          "8": "✅ Same factory method + different subclass = different product (report vs invoice)"
+        },
+        "scenarios": {
+          "jdbc-driver-manager": {
+            "title": "JDBC DriverManager",
+            "description": "DriverManager.getConnection() delegates to database-specific drivers via the JDBC URL — each driver subclass implements the factory method."
+          },
+          "react-create-element": {
+            "title": "React.createElement()",
+            "description": "React's createElement acts as a factory method that produces different virtual DOM element types based on the tag argument."
+          },
+          "java-number-format": {
+            "title": "Java NumberFormat / Calendar",
+            "description": "NumberFormat.getXXXInstance() and Calendar.getInstance() let subclasses decide the concrete formatter or calendar to return."
+          }
+        }
+      },
+      "flyweight": {
+        "title": "Flyweight Pattern",
+        "desc": "The Flyweight pattern reduces memory usage by sharing fine-grained objects, separating intrinsic (shareable) and extrinsic (non-shareable) state with a factory managing the flyweight pool.",
+        "tags": [
+          "Structural",
+          "Sharing",
+          "Memory Optimization"
+        ],
+        "frames": {
+          "0": "System init: Create CharacterFactory and TextRenderer",
+          "1": "Render text 'ABACAB', first get character 'A'",
+          "2": "Factory checks cache: 'A' not found, create new flyweight",
+          "3": "✅ 'A' font data (Arial-12px-Bold) cached in factory",
+          "4": "Get character 'B' - factory cache check",
+          "5": "'B' not found, create new flyweight: Arial-12px-Bold",
+          "6": "✅ 'B' cached. Cache now: ['A', 'B']",
+          "7": "Get character 'A' second time - cache hit!",
+          "8": "🎯 Cache hit! Reuse 'A' flyweight directly, no new creation needed",
+          "9": "Get character 'C' - need new flyweight",
+          "10": "'C' not found, create new flyweight",
+          "11": "✅ 'C' cached. 3 characters share 1 font data",
+          "12": "✅ Text 'ABACAB' rendered! Memory saved: shared font data"
+        },
+        "scenarios": {
+          "java-integer-cache": {
+            "title": "Java Integer Cache Pool",
+            "description": "JVM caches Integer instances from -128 to 127, sharing identical flyweight objects to reduce heap allocation."
+          },
+          "font-glyph-cache": {
+            "title": "Browser Font Glyph Caching",
+            "description": "Browsers reuse rendered glyph bitmaps for each character-code and font pair, avoiding redundant rasterization."
+          },
+          "game-sprite-atlas": {
+            "title": "Game Engine Sprite Atlas",
+            "description": "Unity and Three.js share a single texture atlas across thousands of instances, varying only position and scale as extrinsic state."
+          }
+        }
+      },
+      "interpreter": {
+        "title": "Interpreter Pattern",
+        "desc": "The Interpreter pattern defines a grammatical representation for a language and provides an interpreter to process sentences, commonly used for SQL parsing and configuration languages.",
+        "tags": [
+          "Behavioral",
+          "Grammar",
+          "Interpretation"
+        ],
+        "frames": {
+          "0": "System init: Context stores variables (a=10, b=3), expression a + b * 2",
+          "1": "Interpreter parses expression: first get variable 'a' value",
+          "2": "Context.lookup('a') = 10",
+          "3": "Get variable 'b' value",
+          "4": "Context.lookup('b') = 3",
+          "5": "By operator precedence, compute b * 2 = 3 * 2 = 6 first",
+          "6": "✅ Multiplication complete: 3 * 2 = 6",
+          "7": "Compute a + (b * 2) = 10 + 6",
+          "8": "Expression interpreter returns final result",
+          "9": "✅ Interpreter pattern: a + b * 2 = 16",
+          "10": "🔄 Evaluate new expression: x - y = 5 - 2 = 3",
+          "11": "✅ Interpreter pattern: grammar parsing + semantic interpretation = result"
+        },
+        "scenarios": {
+          "sql-parser": {
+            "title": "SQL Parser",
+            "description": "SQL parsers decompose query strings into ASTs where each node is an Expression interpreting against a schema context to yield rows."
+          },
+          "regex-engine": {
+            "title": "Regular Expression Engine",
+            "description": "Regex engines compile patterns into expression trees: literal terminals, group non-terminals, and quantifiers interpret against input strings."
+          },
+          "spel-expression": {
+            "title": "Spring Expression Language",
+            "description": "Spring SpEL evaluates annotation expressions as ASTs at runtime for authorization, templating, and dynamic configuration."
+          }
+        }
+      },
+      "iterator": {
+        "title": "Iterator Pattern",
+        "desc": "The Iterator pattern provides a way to access elements of an aggregate object sequentially without exposing its underlying representation, decoupling traversal from aggregation.",
+        "tags": [
+          "Behavioral",
+          "Traversal",
+          "Aggregation"
+        ],
+        "scenarios": {
+          "java-iterable": {
+            "title": "Java Iterable<T> & C# IEnumerable",
+            "description": "Every Java collection implements Iterable, and every C# collection implements IEnumerable, enabling uniform for-each traversal across the entire standard library."
+          },
+          "react-iterator": {
+            "title": "React & Reactive Streams",
+            "description": "React's component lists (.map), Redux selectors, and RxJS pipelines all use iterator semantics to process data streams lazily, one element at a time."
+          },
+          "db-cursor": {
+            "title": "Database Cursors (MongoDB / JDBC)",
+            "description": "Database cursors stream query results without materializing the full result set, letting you iterate over millions of rows in constant memory."
+          }
+        }
+      },
+      "mediator": {
+        "title": "Mediator Pattern",
+        "desc": "The Mediator pattern defines an object that encapsulates how a set of objects interact, reducing coupling by preventing objects from referencing each other explicitly.",
+        "tags": [
+          "Behavioral",
+          "Decoupling",
+          "Communication"
+        ],
+        "scenarios": {
+          "redux-store": {
+            "title": "Redux / Zustand Store",
+            "description": "State stores like Redux act as mediators — components dispatch actions, the store coordinates updates and notifies every subscriber."
+          },
+          "executor-service": {
+            "title": "Thread Pool Executor",
+            "description": "Thread pool executors (Java ExecutorService, Go goroutines) mediate between task producers and worker threads, balancing load."
+          },
+          "air-traffic-control": {
+            "title": "Air Traffic Control",
+            "description": "Air traffic control systems coordinate aircraft through a central mediator managing takeoff, landing, and collision avoidance."
+          }
+        }
+      },
+      "memento": {
+        "title": "Memento Pattern",
+        "desc": "The Memento pattern captures an object's internal state without violating encapsulation and stores it externally, enabling restoration to a previously saved state.",
+        "tags": [
+          "Behavioral",
+          "Undo",
+          "State Preservation"
+        ],
+        "scenarios": {
+          "editor-undo": {
+            "title": "Text Editor Undo",
+            "description": "VSCode and Vim capture file snapshots after each change, stored in a history stack — Ctrl+Z restores the prior memento for infinite undo."
+          },
+          "db-rollback": {
+            "title": "Database Transaction Rollback",
+            "description": "Database transaction logs store before-images as mementos — ROLLBACK restores the snapshot, fully aborting the transaction."
+          },
+          "time-travel-debug": {
+            "title": "Time-Travel Debugging",
+            "description": "Redux DevTools snapshots app state after each action, letting developers rewind to any prior state and replay forward."
+          }
+        }
+      },
+      "observer": {
+        "title": "Observer Pattern",
+        "desc": "The Observer pattern defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.",
+        "tags": [
+          "Behavioral",
+          "Publish-Subscribe",
+          "Event-Driven"
+        ],
+        "frames": {
+          "0": "System init: Create WeatherStation (Subject) and two observers",
+          "1": "Register observers: Register PhoneDisplay and WindowDisplay on WeatherStation",
+          "2": "PhoneDisplay registered, registering WindowDisplay...",
+          "3": "✅ Both observers registered, waiting for state changes...",
+          "4": "🌡️ Weather update: WeatherStation.setTemperature(25°C)",
+          "5": "📱 Notify PhoneDisplay: update(25°C) — phone display updated",
+          "6": "✅ PhoneDisplay received 25°C and refreshed display",
+          "7": "🪟 Notify WindowDisplay: update(25°C) — window display receives update",
+          "8": "✅ WindowDisplay received 25°C and updated display",
+          "9": "✅ All observers updated to 25°C",
+          "10": "⏸️ All observers synced. Waiting for next weather update..."
+        },
+        "scenarios": {
+          "dom-events": {
+            "title": "DOM Events / RxJS",
+            "description": "The DOM's EventTarget is the canonical observer: elements register listeners and events broadcast to all subscribers."
+          },
+          "kafka-consumer": {
+            "title": "Kafka Consumer Groups",
+            "description": "Kafka topics act as subjects; consumer groups are observers. Each partition fans out messages in a pub-sub topology."
+          },
+          "redis-pubsub": {
+            "title": "Redis Pub/Sub",
+            "description": "Redis Pub/Sub decouples publishers from subscribers — messages on a channel broadcast to every connected listener."
+          }
+        }
+      },
+      "prototype": {
+        "title": "Prototype Pattern",
+        "desc": "The Prototype pattern creates new objects by copying an existing object (prototype) without knowing its concrete class, hiding the cloning process from clients.",
+        "tags": [
+          "Creational",
+          "Cloning",
+          "Copying"
+        ],
+        "frames": {
+          "0": "System init: Create Document prototype object",
+          "1": "Document ready as prototype for cloning",
+          "2": "✅ Document registered as prototype, calling clone() to create copies",
+          "3": "Clone first copy: Document.clone()",
+          "4": "Copy all fields: title, pages, author",
+          "5": "✅ Copy 1 created, content identical to original",
+          "6": "Clone second copy: Document.clone()",
+          "7": "Copy all fields to copy 2 again",
+          "8": "✅ Copy 2 created. Prototype pattern clones without knowing concrete class",
+          "9": "✏️ Modify copy 1 content, no effect on original or other copies",
+          "10": "✅ Prototype pattern: three independent objects, modifications don't affect each other"
+        },
+        "scenarios": {
+          "java-cloneable": {
+            "title": "Java Object.clone() — Prototype in the Standard Library",
+            "description": "Java's Cloneable marker interface and Object.clone() provide a language-level prototype mechanism. Kotlin's data class copy() and C#'s ICloneable extend the same idea."
+          },
+          "js-structured-clone": {
+            "title": "structuredClone() — Deep Cloning Across JavaScript Realms",
+            "description": "The HTML Standard's structuredClone() lets you deep-clone any serializable object across realms (iframes, workers), preventing mutation bugs in state-heavy applications."
+          },
+          "react-children-clone": {
+            "title": "React.cloneElement() — Immutable Element Prototyping",
+            "description": "React's cloneElement() creates modified copies of elements without mutating the original, powering patterns like injecting props from parent components."
+          }
+        }
+      },
+      "proxy": {
+        "title": "Proxy Pattern",
+        "desc": "The Proxy pattern provides a surrogate or placeholder for another object to control access to it, enabling lazy loading, caching, access control, and other intermediary functions.",
+        "tags": [
+          "Structural",
+          "Lazy Loading",
+          "Access Control"
+        ],
+        "frames": {
+          "0": "System init: Create ImageViewer (Client) and ImageProxy",
+          "1": "ImageViewer calls proxy.display() to request image display",
+          "2": "ImageProxy receives request, checks if image is loaded",
+          "3": "🖼️ Image not loaded, Proxy shows placeholder 'Loading...'",
+          "4": "Proxy pattern: lazy load real image, only load when needed",
+          "5": "ImageViewer requests loading full image",
+          "6": "ImageProxy creates RealImage instance (time-consuming operation)",
+          "7": "RealImage.loadFromDisk() - load image data from disk",
+          "8": "✅ Image loaded: 1920x1080 resolution",
+          "9": "ImageProxy displays RealImage to ImageViewer",
+          "10": "✅ Image displayed successfully! Proxy pattern enables lazy loading"
+        },
+        "scenarios": {
+          "hibernate-lazy-loading": {
+            "title": "Hibernate Lazy Loading Proxies",
+            "description": "Hibernate generates bytecode proxies for entities with LAZY associations, deferring SQL queries until first access."
+          },
+          "nginx-cdn": {
+            "title": "Reverse Proxy & CDN Layer",
+            "description": "Nginx and Cloudflare CDN act as transparent proxies, caching responses and load-balancing before reaching origin servers."
+          },
+          "vue3-reactivity": {
+            "title": "Vue 3 Reactivity Proxy",
+            "description": "Vue 3 wraps reactive state in ES Proxy objects to intercept property access and trigger dependency tracking automatically."
+          }
+        }
+      },
+      "singleton": {
+        "title": "Singleton Pattern",
+        "desc": "The Singleton pattern ensures a class has only one instance and provides a global point of access to it. It is suitable for shared resources such as database connections, loggers, and configuration management.",
+        "tags": [
+          "Creational",
+          "Global",
+          "Unique Instance"
+        ],
+        "frames": {
+          "0": "System init: Database class (private constructor)",
+          "1": "UserService calls Database.getInstance()",
+          "2": "Check if instance exists (first access, returns null)",
+          "3": "Instance is empty, create unique instance",
+          "4": "✅ First instance created, saved to static variable",
+          "5": "✅ dbInstance returned to UserService",
+          "6": "OrderService also calls Database.getInstance()",
+          "7": "Check if instance exists (already exists)",
+          "8": "🎯 Cache hit! Return existing dbInstance directly",
+          "9": "✅ Singleton: multiple services share the same database connection",
+          "10": "Verify: UserService and OrderService use the same instance",
+          "11": "✅ Singleton ensures only one database instance globally, saving resources"
+        },
+        "scenarios": {
+          "java-runtime": {
+            "title": "Java Runtime (java.lang.Runtime)",
+            "description": "Java's Runtime.getRuntime() returns the sole JVM process instance — a canonical Singleton used by ProcessBuilder and System.exit()."
+          },
+          "spring-bean": {
+            "title": "Spring Framework Default Bean Scope",
+            "description": "Spring IoC container treats beans without an explicit scope as singletons by default, sharing one instance across the entire ApplicationContext."
+          },
+          "log4j-logger": {
+            "title": "Logging Frameworks (Log4j / SLF4J)",
+            "description": "Java's logging facades maintain a single Logger per name, deduplicating output across classloaders and avoiding I/O contention."
+          }
+        }
+      },
+      "state": {
+        "title": "State Pattern",
+        "desc": "The State pattern allows an object to change its behavior when its internal state changes, appearing to modify its class and eliminating large conditional statements.",
+        "tags": [
+          "Behavioral",
+          "State Transition",
+          "Conditional Elimination"
+        ],
+        "scenarios": {
+          "tcp-state-machine": {
+            "title": "TCP Connection State Machine",
+            "description": "TCP connections use a state machine with states like ESTABLISHED, CLOSE_WAIT, and TIME_WAIT to manage reliable data transmission."
+          },
+          "react-use-state": {
+            "title": "React Component States",
+            "description": "React components model UI states (loading, success, error) through the State pattern, where each state drives the rendered output."
+          },
+          "order-workflow": {
+            "title": "E-commerce Order Workflow",
+            "description": "E-commerce order processing follows a state workflow: PENDING to PAID to SHIPPED to DELIVERED, with each stage restricting transitions."
+          }
+        }
+      },
+      "strategy": {
+        "title": "Strategy Pattern",
+        "desc": "The Strategy pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable, allowing algorithms to vary independently from clients.",
+        "tags": [
+          "Behavioral",
+          "Algorithm Replacement",
+          "Polymorphism"
+        ],
+        "scenarios": {
+          "java-comparator": {
+            "title": "Java Comparator Sorting",
+            "description": "Java's Comparator interface lets developers swap sorting strategies at runtime without modifying the collection being sorted."
+          },
+          "http-compression": {
+            "title": "HTTP Compression Negotiation",
+            "description": "HTTP servers negotiate compression (gzip, brotli, zstd) via the Strategy pattern, selecting an algorithm based on client Accept-Encoding."
+          }
+        }
+      },
+      "template-method": {
+        "title": "Template Method Pattern",
+        "desc": "The Template Method pattern defines the skeleton of an algorithm in a base class, deferring certain steps to subclasses without changing the algorithm's overall structure.",
+        "tags": [
+          "Behavioral",
+          "Inheritance",
+          "Algorithm Skeleton"
+        ],
+        "scenarios": {
+          "java-servlet": {
+            "title": "Java Servlet Lifecycle",
+            "description": "Java HttpServlet defines the service() template — subclasses override doGet/doPost while the request dispatch skeleton stays fixed."
+          },
+          "junit-lifecycle": {
+            "title": "JUnit 5 Test Lifecycle",
+            "description": "JUnit 5 test execution follows a template: @BeforeAll → @BeforeEach → @Test → @AfterEach → @AfterAll, with hooks for setup and teardown."
+          },
+          "spring-jdbc": {
+            "title": "Spring JdbcTemplate",
+            "description": "Spring's JdbcTemplate encapsulates JDBC boilerplate (connection, statement, result set) into a template, letting callers supply only the SQL."
+          }
+        }
+      },
+      "visitor": {
+        "title": "Visitor Pattern",
+        "desc": "The Visitor pattern represents an operation to be performed on elements of an object structure, allowing new operations to be defined without changing the classes of the elements.",
+        "tags": [
+          "Behavioral",
+          "Double Dispatch",
+          "Operation Separation"
+        ],
+        "scenarios": {
+          "java-annotation-processor": {
+            "title": "Java Annotation Processing",
+            "description": "Java annotation processing uses javax.lang.model.element.ElementVisitor to traverse source code elements like packages, types, and methods."
+          },
+          "files-walk-file-tree": {
+            "title": "File System Tree Walker",
+            "description": "Java NIO Files.walkFileTree applies the Visitor pattern — a FileVisitor callback receives each file/directory during a recursive traversal."
+          }
+        }
+      }
+    },
+    "algorithms": {
+      "a-star": {
+        "title": "A* Search Algorithm",
+        "desc": "A* search algorithm combines the optimality of Dijkstra's algorithm with the efficiency of greedy best-first search, using f(n) = g(n) + h(n) to evaluate nodes, where h(n) is a heuristic estimate to the goal. It guarantees finding the shortest path.",
+        "tags": {
+          "graph": "graph",
+          "shortest-path": "shortest-path",
+          "heuristic": "heuristic",
+          "search": "search"
+        },
+        "scenarios": {
+          "game-pathfinding": {
+            "title": "Real-Time Strategy Game Pathfinding",
+            "description": "Age of Empires, StarCraft, and Civilization use A* for unit navigation on tile-based maps, combining terrain cost with heuristic to goal."
+          },
+          "robotics-navigation": {
+            "title": "Autonomous Robot Navigation",
+            "description": "ROS Navigation Stack and Waymo use A* with occupancy grid maps for obstacle-aware path planning in dynamic environments."
+          },
+          "eta-estimation": {
+            "title": "GPS ETA Estimation",
+            "description": "Google Maps, Uber, and Lyft use A* with traffic-weighted heuristics to predict accurate arrival times across road networks."
+          }
+        }
+      },
+      "bellman-ford": {
+        "title": "Bellman-Ford Algorithm",
+        "desc": "Bellman-Ford algorithm finds the shortest paths from a source node to all other nodes by repeatedly relaxing all edges. After V-1 rounds of relaxation, it can detect negative weight cycles. Suitable for graphs containing negative weight edges.",
+        "tags": {
+          "graph": "graph",
+          "shortest-path": "shortest-path",
+          "dynamic-programming": "dynamic-programming",
+          "负权边": "negative-weight"
+        },
+        "scenarios": {
+          "arbitrage-detection": {
+            "title": "Currency Arbitrage Detection",
+            "description": "Bellman-Ford detects negative weight cycles in forex exchange rate graphs, identifying arbitrage opportunities where a circular trade yields profit."
+          },
+          "distance-vector-routing": {
+            "title": "Distance-Vector Routing Protocol",
+            "description": "RIP and IGRP use Bellman-Ford's iterative edge relaxation to propagate routing tables across network hops."
+          },
+          "apollo-guidance": {
+            "title": "Apollo Guidance Computer",
+            "description": "NASA's Apollo missions used Bellman-Ford-variant algorithms for trajectory optimization and navigation calculations in the Guidance Computer."
+          }
+        }
+      },
+      "bfs": {
+        "title": "BFS (Breadth-First Search)",
+        "desc": "Breadth-First Search (BFS) uses a queue to traverse the graph level by level, visiting all nodes closest to the starting point first, then expanding outward. Suitable for shortest path, level-order traversal, and connectivity detection.",
+        "tags": {
+          "graph": "graph",
+          "遍历": "traversal",
+          "队列": "queue",
+          "shortest-path": "shortest-path"
+        },
+        "scenarios": {
+          "social-network": {
+            "title": "Social Network Degrees of Separation",
+            "description": "LinkedIn, Facebook, and Twitter use BFS to find shortest connection chains between users."
+          },
+          "web-crawler": {
+            "title": "Web Crawler Discovery",
+            "description": "Googlebot, Scrapy, and Apache Nutch use BFS to discover and index pages by traversing link graphs."
+          },
+          "peer-to-peer": {
+            "title": "Peer-to-Peer Network Lookup",
+            "description": "BitTorrent DHT, IPFS, and Kademlia use BFS-like lookups to find nodes in distributed hash tables."
+          }
+        }
+      },
+      "binary-search": {
+        "title": "Binary Search",
+        "desc": "Binary Search quickly locates a target value in a sorted array by repeatedly halving the search range. Each comparison with the middle element reduces the search interval by half, with a time complexity of O(log n).",
+        "tags": {
+          "search": "search",
+          "binary": "binary",
+          "divide-and-conquer": "divide-and-conquer"
+        },
+        "scenarios": {
+          "v8-array-indexof": {
+            "title": "V8 Engine Binary Search Optimization",
+            "description": "V8 detects sorted arrays and optimizes Array.indexOf to use binary search internally for O(log n) lookups."
+          },
+          "git-bisect": {
+            "title": "Git Bisect Bug Finding",
+            "description": "Git bisect uses binary search over commit history to pinpoint the exact commit that introduced a regression."
+          },
+          "btree-index": {
+            "title": "B-tree Database Index Lookup",
+            "description": "PostgreSQL and InnoDB B-tree indexes perform binary search on each node page to locate keys in O(log n) time."
+          }
+        }
+      },
+      "bubble-sort": {
+        "title": "Bubble Sort",
+        "desc": "Bubble Sort is a simple sorting algorithm that repeatedly traverses the array, comparing adjacent elements and swapping them if they are in the wrong order. Each pass \"bubbles\" the largest element to the end.",
+        "tags": {
+          "sorting": "sorting",
+          "beginner": "beginner",
+          "stable": "stable"
+        },
+        "scenarios": {
+          "ntfs-small-segments": {
+            "title": "NTFS Small Segment Sorting",
+            "description": "NTFS uses bubble sort for small unsorted file segments under 16 entries where overhead of complex sorts isn't justified."
+          },
+          "nearly-sorted-reactivity": {
+            "title": "Nearly-Sorted UI Lists",
+            "description": "UI frameworks like React encounter nearly-sorted arrays in reconciliation — optimized bubble sort exits in O(n) with early termination."
+          },
+          "algorithm-visualization": {
+            "title": "Algorithm Visualization Tools",
+            "description": "Educational platforms like Visualgo and Sorting.at use bubble sort as the introductory sorting visualization."
+          }
+        }
+      },
+      "bucket-sort": {
+        "title": "Bucket Sort",
+        "desc": "Bucket Sort distributes elements into multiple buckets, sorts each bucket individually, then merges the results. Suitable for uniformly distributed data, with an average time complexity close to O(n).",
+        "tags": {
+          "sorting": "sorting",
+          "分布排序": "distribution"
+        },
+        "scenarios": {
+          "mapreduce-shuffle": {
+            "title": "MapReduce Shuffle & Partition",
+            "description": "Hadoop and Spark use bucket-based distribution in the shuffle phase, partitioning keys across reducers before per-bucket sorting."
+          },
+          "uniform-float-sorting": {
+            "title": "Uniform Float Distribution Sorting",
+            "description": "NumPy percentile and Scikit-learn quantile computations leverage bucket sort for uniformly distributed floating-point data."
+          },
+          "dns-record-distribution": {
+            "title": "DNS Record Bucket Distribution",
+            "description": "BIND9 zone sorting and dnsmasq query caches use bucket-based approaches for DNS record organization."
+          }
+        }
+      },
+      "cocktail-sort": {
+        "title": "Cocktail Shaker Sort",
+        "desc": "Cocktail Sort is a variation of Bubble Sort that traverses the array bidirectionally in each pass -- first left to right, then right to left -- placing elements in their correct positions faster.",
+        "tags": {
+          "sorting": "sorting",
+          "beginner": "beginner",
+          "冒泡排序变体": "bubble-variant"
+        },
+        "scenarios": {
+          "desktop-widget-sorting": {
+            "title": "Desktop Widget Bidirectional Sort",
+            "description": "WPF ListBox and Qt QListView use bidirectional passes for sorting small UI element collections efficiently."
+          },
+          "teaching-bidirectional": {
+            "title": "Bidirectional Sort Education",
+            "description": "Algorithm textbooks compare cocktail sort against bubble sort to teach bidirectional optimization concepts."
+          },
+          "small-callback-sort": {
+            "title": "Small Collection Callback Sort",
+            "description": "Underscore.js sortBy and Lodash orderBy handle small arrays where bidirectional passes reduce worst-case swaps."
+          }
+        }
+      },
+      "comb-sort": {
+        "title": "Comb Sort",
+        "desc": "Comb Sort is an improvement over Bubble Sort that uses a shrink factor of 1.3 to gradually reduce the comparison gap, eliminating small values stuck at the end of the array (turtles).",
+        "tags": {
+          "sorting": "sorting",
+          "进阶": "advanced",
+          "冒泡排序改进": "bubble-improvement"
+        },
+        "scenarios": {
+          "legacy-rendering-sort": {
+            "title": "Legacy 3D Engine Sorting",
+            "description": "OGRE 3D and Irrlicht engine used comb sort for draw call sorting where quicksort overhead was undesirable."
+          },
+          "real-time-game-entities": {
+            "title": "Real-Time Game Entity Z-Sort",
+            "description": "Unity ECS and Godot draw order use comb sort's gap-shrinking to quickly eliminate turtles in entity lists."
+          },
+          "embedded-iot-sorting": {
+            "title": "Embedded IoT Sensor Sorting",
+            "description": "Arduino and ESP-IDF sensor queues use comb sort for its simplicity and O(1) space with near-quick-sort performance."
+          }
+        }
+      },
+      "counting-sort": {
+        "title": "Counting Sort",
+        "desc": "Counting Sort is a non-comparison-based sorting algorithm that counts occurrences of each value and uses prefix sums to determine element positions. Time complexity is O(n+k), suitable for integers with a known range.",
+        "tags": {
+          "sorting": "sorting",
+          "非比较排序": "non-comparison",
+          "stable": "stable"
+        },
+        "scenarios": {
+          "radix-sort-subroutine": {
+            "title": "Radix Sort Stable Subroutine",
+            "description": "Counting sort is the core stable subroutine in radix sort, enabling O(n+k) digit-by-digit sorting."
+          },
+          "histogram-equalization": {
+            "title": "Image Histogram Equalization",
+            "description": "OpenCV equalizeHist and GPU shader pipelines use counting sort for pixel intensity histogram operations."
+          },
+          "database-statistics": {
+            "title": "Database Column Statistics",
+            "description": "PostgreSQL ANALYZE and MySQL histogram stats use counting-based approaches for distinct value estimation."
+          }
+        }
+      },
+      "dfs": {
+        "title": "DFS (Depth-First Search)",
+        "desc": "Depth-First Search (DFS) uses a stack (or recursion) to explore graph branches as deeply as possible, then backtracks. Suitable for topological sorting, connectivity detection, path finding, and similar scenarios.",
+        "tags": {
+          "graph": "graph",
+          "遍历": "traversal",
+          "recursion": "recursion",
+          "栈": "stack"
+        },
+        "scenarios": {
+          "garbage-collector": {
+            "title": "Garbage Collector Mark-Sweep",
+            "description": "V8 mark-sweep, Java G1, and Go tricolor use DFS to find unreachable objects for memory reclamation."
+          },
+          "compiler-ast": {
+            "title": "Compiler AST Traversal",
+            "description": "Babel, TypeScript compiler, and ESLint use DFS to traverse and transform abstract syntax trees."
+          },
+          "maze-solver": {
+            "title": "Game Maze Solver",
+            "description": "Unity NavMesh, Godot Pathfinding, and roguelike games use DFS to solve mazes and procedural dungeons."
+          }
+        }
+      },
+      "dijkstra": {
+        "title": "Dijkstra's Algorithm",
+        "desc": "Dijkstra's algorithm finds the shortest paths from a source node to all other nodes in a weighted graph. It uses a priority queue to select the unvisited node with the smallest current distance and progressively updates shortest distances through edge relaxation.",
+        "tags": {
+          "graph": "graph",
+          "shortest-path": "shortest-path",
+          "greedy": "greedy",
+          "priority-queue": "priority-queue"
+        },
+        "scenarios": {
+          "gps-navigation": {
+            "title": "GPS Navigation Shortest Route",
+            "description": "Google Maps, TomTom, and Waze use Dijkstra with traffic-weighted road graphs to find fastest routes."
+          },
+          "ospf-routing": {
+            "title": "OSPF Network Routing",
+            "description": "Cisco OSPF, Juniper IS-IS, and Linux Zebra use Dijkstra for shortest-path routing table computation."
+          },
+          "logistics-optimization": {
+            "title": "Last-Mile Delivery Logistics",
+            "description": "FedEx, UPS ORION, and Amazon Logistics use Dijkstra to optimize delivery routes and reduce fuel costs."
+          }
+        }
+      },
+      "edit-distance": {
+        "title": "Edit Distance (Levenshtein)",
+        "desc": "Edit Distance (Levenshtein Distance) computes the minimum number of operations required to transform one string into another, supporting insert, delete, and replace operations. Widely used in spell checking, DNA sequence comparison, and similar applications.",
+        "tags": {
+          "dynamic-programming": "dynamic-programming",
+          "string": "string",
+          "edit-distance": "edit-distance"
+        },
+        "scenarios": {
+          "spell-checker": {
+            "title": "Spell Checker",
+            "description": "Spell checkers suggest corrections by finding dictionary words within a Levenshtein distance threshold."
+          },
+          "fuzzy-search": {
+            "title": "Fuzzy Search",
+            "description": "Fuzzy search engines use Levenshtein distance to find similar records with configurable tolerance thresholds."
+          },
+          "dna-sequence-alignment": {
+            "title": "DNA Sequence Alignment",
+            "description": "DNA sequence alignment measures genetic similarity by computing minimum edit operations between nucleotide strings."
+          }
+        }
+      },
+      "exponential-search": {
+        "title": "Exponential Search",
+        "desc": "Exponential Search first determines the range containing the target through exponential growth (2^k), then performs binary search within that range. It is especially suitable for unbounded arrays or linked lists and other ordered data structures.",
+        "tags": {
+          "search": "search",
+          "进阶": "advanced",
+          "无界数组": "unbounded-array"
+        },
+        "scenarios": {
+          "unbounded-stream": {
+            "title": "Unbounded Stream Search",
+            "description": "Java Streams and Rust iterators use galloping/exponential search to find bounds on unbounded sorted data before binary searching."
+          },
+          "rotating-sorted-array": {
+            "title": "Rotating Sorted Array Search",
+            "description": "Arrays rotated at a pivot (like C++ std::rotate output) can be searched efficiently by first finding the rotation point."
+          },
+          "galloping-in-sort": {
+            "title": "Galloping in Timsort Merge",
+            "description": "Python's Timsort uses galloping mode (exponential search) during merge to skip long runs of unequal elements."
+          }
+        }
+      },
+      "fibonacci-search": {
+        "title": "Fibonacci Search",
+        "desc": "Fibonacci Search uses Fibonacci numbers to divide the search range, requiring only addition and subtraction operations without multiplication or division. It has certain advantages in scenarios with high access costs (such as disk I/O).",
+        "tags": {
+          "search": "search",
+          "高阶": "advanced",
+          "有序数组": "sorted-array"
+        },
+        "scenarios": {
+          "embedded-no-division": {
+            "title": "Embedded Systems Without Division",
+            "description": "Fibonacci search uses only addition and subtraction for index calculation, critical on MCUs without hardware division."
+          },
+          "memory-constrained": {
+            "title": "Memory-Constrained Game Console",
+            "description": "Classic game consoles with limited RAM use Fibonacci search to avoid expensive division operations on sorted lookup tables."
+          },
+          "search-engine-index": {
+            "title": "Search Engine Inverted Index",
+            "description": "Elasticsearch and Lucene use Fibonacci-like search strategies on sorted posting lists for efficient term lookups."
+          }
+        }
+      },
+      "fibonacci": {
+        "title": "Fibonacci Sequence",
+        "desc": "A dynamic programming solution for the Fibonacci sequence that avoids redundant computation through bottom-up tabulation, optimizing time complexity from O(2^n) to O(n).",
+        "tags": {
+          "dynamic-programming": "dynamic-programming",
+          "斐波那契": "fibonacci",
+          "记忆化": "memoization"
+        },
+        "scenarios": {
+          "trading-retracement": {
+            "title": "Fibonacci Retracement",
+            "description": "Fibonacci retracement levels (23.6%, 38.2%, 50%, 61.8%) identify support and resistance zones in technical analysis."
+          },
+          "l-system-fractals": {
+            "title": "L-System Fractals",
+            "description": "L-systems use Fibonacci branching rules to generate realistic plant structures and fractal trees in procedural generation."
+          },
+          "memoization-foundation": {
+            "title": "Memoization Foundation",
+            "description": "Fibonacci is the classic example for introducing memoization to avoid exponential recomputation."
+          }
+        }
+      },
+      "floyd-warshall": {
+        "title": "Floyd-Warshall Algorithm",
+        "desc": "Floyd-Warshall algorithm computes shortest paths between all pairs of nodes using dynamic programming. It iteratively tries each node as an intermediate node, progressively updating the distance matrix. Time complexity is O(V^3), suitable for dense graphs.",
+        "tags": {
+          "graph": "graph",
+          "shortest-path": "shortest-path",
+          "dynamic-programming": "dynamic-programming",
+          "全源最短路径": "all-pairs"
+        },
+        "scenarios": {
+          "transitive-closure": {
+            "title": "Transitive Closure in Database Systems",
+            "description": "Floyd-Warshall computes reachability between all entity pairs—used in SQL recursive CTEs, Neo4j graph queries, and access control matrices."
+          },
+          "vlsi-design": {
+            "title": "VLSI Routing Optimization",
+            "description": "Cadence and Synopsys EDA tools use all-pairs shortest paths to minimize wire length and signal delay across millions of chip gates."
+          },
+          "flight-route-planner": {
+            "title": "Airline Route Planning",
+            "description": "Sabre and Amadeus compute shortest paths between all airport pairs for multi-city flight booking and crew scheduling optimization."
+          }
+        }
+      },
+      "heap-sort": {
+        "title": "Heap Sort",
+        "desc": "Heap Sort utilizes a max-heap data structure, first building the heap then extracting the maximum element from the heap root one by one to the end of the array. Time complexity is O(n log n), and it is an in-place sorting algorithm.",
+        "tags": {
+          "sorting": "sorting",
+          "堆": "heap",
+          "选择排序": "selection-sort"
+        },
+        "scenarios": {
+          "os-process-scheduler": {
+            "title": "OS Process Priority Scheduling",
+            "description": "Linux CFS and Windows thread pool schedulers use heap-based priority queues to efficiently extract highest-priority tasks."
+          },
+          "top-k-queries": {
+            "title": "Top-K Query & Selection",
+            "description": "NumPy argpartition and Spark topK use heap operations to find the K largest or smallest elements in O(n log k)."
+          },
+          "k-way-merge": {
+            "title": "K-Way Merge in Data Pipelines",
+            "description": "Hadoop merge phase and Kafka log compaction use heap-based k-way merging for combining sorted streams."
+          }
+        }
+      },
+      "insertion-sort": {
+        "title": "Insertion Sort",
+        "desc": "Insertion Sort builds a sorted sequence by inserting unsorted elements one by one into their correct position. Similar to organizing playing cards in hand, it is simple to implement and efficient for small datasets.",
+        "tags": {
+          "sorting": "sorting",
+          "beginner": "beginner",
+          "stable": "stable"
+        },
+        "scenarios": {
+          "timsort-small-runs": {
+            "title": "Timsort Small Run Fallback",
+            "description": "Java's DualPivotQuicksort and V8's Timsort fall back to insertion sort for subarrays under 32-64 elements."
+          },
+          "online-card-sorting": {
+            "title": "Online Card & List Insertion",
+            "description": "Card games, Kanban boards, and Trello use insertion sort — each new item is placed into its correct position."
+          },
+          "nearly-sorted-collections": {
+            "title": "Nearly-Sorted Data Pipelines",
+            "description": "Kafka log compaction and LSM-tree merging produce nearly-sorted runs where insertion sort excels."
+          }
+        }
+      },
+      "interpolation-search": {
+        "title": "Interpolation Search",
+        "desc": "Interpolation Search estimates the position of the target value based on its proportional position in the array, rather than using a fixed midpoint. For large, uniformly distributed sorted arrays, it achieves an average time complexity of O(log log n).",
+        "tags": {
+          "search": "search",
+          "进阶": "advanced",
+          "有序数组": "sorted-array"
+        },
+        "scenarios": {
+          "phone-directory-lookup": {
+            "title": "Phone Directory Lookup",
+            "description": "Phone books and LDAP directories use interpolation to jump directly to a name based on its alphabetical position."
+          },
+          "uniform-dataset-analytics": {
+            "title": "Uniform Time-Series Analytics",
+            "description": "ClickHouse and InfluxDB use interpolation search on sorted, uniform timestamp segments for O(log log n) lookups."
+          },
+          "dictionary-attack": {
+            "title": "Password Dictionary Search",
+            "description": "Password cracking tools scan sorted wordlists with interpolation to estimate target position by word frequency."
+          }
+        }
+      },
+      "jump-search": {
+        "title": "Jump Search",
+        "desc": "Jump Search advances in steps of sqrt(n) to find a possible block, then performs a linear search within that block. It falls between binary search and linear search, suitable for scenarios like linked lists that do not support random access.",
+        "tags": {
+          "search": "search",
+          "进阶": "advanced",
+          "有序数组": "sorted-array"
+        },
+        "scenarios": {
+          "flash-memory-block": {
+            "title": "Flash Memory Block Read",
+            "description": "NAND flash reads in blocks — jump search skips to the target block then linear scans within, avoiding random access penalty."
+          },
+          "sorted-cache-index": {
+            "title": "Sorted Cache Index Lookup",
+            "description": "Redis sorted sets and LevelDB memtables use jump-style block scanning for efficient key lookups in sorted structures."
+          },
+          "embedded-sensor-search": {
+            "title": "Embedded Sensor Calibration",
+            "description": "Embedded firmware uses jump search on small sorted calibration tables for fast sensor value lookup."
+          }
+        }
+      },
+      "knapsack": {
+        "title": "0/1 Knapsack Problem",
+        "desc": "The classic 0/1 Knapsack problem uses dynamic programming to select items under a given capacity constraint to maximize total value. dp[i][w] represents the maximum value using the first i items with capacity w.",
+        "tags": {
+          "dynamic-programming": "dynamic-programming",
+          "背包问题": "knapsack",
+          "最优化": "optimization"
+        },
+        "scenarios": {
+          "cargo-loading": {
+            "title": "Cargo Loading Optimization",
+            "description": "Airlines and logistics companies pack cargo under weight/volume limits to maximize shipment value per flight."
+          },
+          "cloud-budget": {
+            "title": "Cloud Cost Optimization",
+            "description": "Cloud cost optimization selects services under a budget cap, each with a cost and performance gain."
+          },
+          "ai-planning": {
+            "title": "AI Resource Planning",
+            "description": "V8 register allocation uses knapsack-like decisions to select which variables fit in limited CPU registers."
+          }
+        }
+      },
+      "lcs": {
+        "title": "Longest Common Subsequence",
+        "desc": "The Longest Common Subsequence (LCS) problem finds the longest subsequence common to two sequences using dynamic programming. Widely used in file comparison, version control (diff algorithms), and bioinformatics.",
+        "tags": {
+          "dynamic-programming": "dynamic-programming",
+          "string": "string",
+          "subsequence": "subsequence"
+        },
+        "scenarios": {
+          "git-diff": {
+            "title": "Git Diff",
+            "description": "Git diff uses LCS to find the minimal edit script between two file versions."
+          },
+          "dna-alignment": {
+            "title": "DNA Sequence Alignment",
+            "description": "Bioinformatics tools align DNA sequences by finding the longest common subsequence of nucleotide bases."
+          },
+          "plagiarism-detection": {
+            "title": "Plagiarism Detection",
+            "description": "Plagiarism detectors find matching text passages across documents using longest common substring analysis."
+          }
+        }
+      },
+      "linear-search": {
+        "title": "Linear Search",
+        "desc": "Linear Search checks each element in the array one by one until the target value is found. It is the simplest search algorithm, suitable for unsorted or small datasets. Time complexity is O(n).",
+        "tags": {
+          "search": "search",
+          "beginner": "beginner",
+          "线性": "linear"
+        },
+        "scenarios": {
+          "small-array-optimization": {
+            "title": "Small Array Optimization in STL",
+            "description": "libstdc++ std::find uses linear scan for small ranges (<32 elements) where binary search overhead exceeds benefit."
+          },
+          "linked-list-traversal": {
+            "title": "Linked List Traversal",
+            "description": "Linked lists have no random access, so finding any element requires sequential traversal from the head node."
+          },
+          "debug-hex-search": {
+            "title": "Hex Dump Debug Inspection",
+            "description": "Debuggers and hex dump tools scan memory byte-by-byte to locate specific patterns or values in raw memory."
+          }
+        }
+      },
+      "lis": {
+        "title": "Longest Increasing Subsequence",
+        "desc": "The Longest Increasing Subsequence (LIS) problem finds the longest strictly increasing subsequence in an array using dynamic programming. dp[i] represents the length of the LIS ending at the i-th element. Commonly used in data analysis and stock prediction.",
+        "tags": {
+          "dynamic-programming": "dynamic-programming",
+          "subsequence": "subsequence",
+          "递增": "increasing"
+        },
+        "scenarios": {
+          "patience-sorting": {
+            "title": "Patience Sorting",
+            "description": "Patience sorting deals cards into piles following LIS rules, directly computing the longest increasing subsequence."
+          },
+          "job-scheduling": {
+            "title": "Job Scheduling",
+            "description": "Scheduling independent jobs with compatible time intervals maximizes throughput using LIS on sorted end times."
+          },
+          "building-bridges": {
+            "title": "Building Bridges",
+            "description": "Maximum non-crossing bridges across a river is solved by sorting one bank and finding LIS on the other."
+          }
+        }
+      },
+      "merge-sort": {
+        "title": "Merge Sort",
+        "desc": "Merge Sort uses a divide-and-conquer strategy, recursively splitting the array in half, sorting each half, then merging the two sorted subarrays. It has a stable time complexity of O(n log n) and is a stable external sorting algorithm.",
+        "tags": {
+          "sorting": "sorting",
+          "divide-and-conquer": "divide-and-conquer",
+          "recursion": "recursion"
+        },
+        "scenarios": {
+          "java-arrays-sort": {
+            "title": "Java Arrays.sort for Objects",
+            "description": "Java uses Timsort (merge + insertion) for Object sorting, guaranteeing stability so equal elements preserve their original order."
+          },
+          "postgres-in-memory-sort": {
+            "title": "PostgreSQL In-Memory Sort",
+            "description": "PostgreSQL uses merge sort for in-memory sorting of query results, maintaining order for ORDER BY operations."
+          },
+          "external-sort": {
+            "title": "External Merge Sort for Large Files",
+            "description": "Hadoop MapReduce and Spark use external merge sort to sort terabyte-scale datasets by merging pre-sorted chunks from disk."
+          }
+        }
+      },
+      "n-queens": {
+        "title": "N-Queens",
+        "desc": "The N-Queens problem uses a backtracking algorithm to place N queens on an NxN chessboard such that no two queens attack each other. Queens are placed row by row with conflict checking, and backtracking is used when a dead end is reached.",
+        "tags": {
+          "backtracking": "backtracking",
+          "n-queens": "n-queens",
+          "recursion": "recursion"
+        },
+        "scenarios": {
+          "chess-puzzle-generator": {
+            "title": "Chess Puzzle Generator",
+            "description": "Chess puzzle platforms generate constrained placement challenges similar to N-Queens for training tactical thinking."
+          },
+          "register-allocation": {
+            "title": "CPU Register Allocation",
+            "description": "Compilers solve N-Queens-like constraints when mapping variables to a limited set of CPU registers (n=8 for x86-64)."
+          },
+          "constraint-satisfaction": {
+            "title": "Constraint Satisfaction",
+            "description": "N-Queens is a special case of CSP, the foundation for SAT solvers and AI constraint planners."
+          }
+        }
+      },
+      "odd-even-sort": {
+        "title": "Odd-Even Sort",
+        "desc": "Odd-Even Sort (Brick Sort) alternately compares and swaps adjacent pairs at odd and even indices until the array is fully sorted. It is well-suited for parallel implementations.",
+        "tags": {
+          "sorting": "sorting",
+          "beginner": "beginner",
+          "并行排序": "parallel"
+        },
+        "scenarios": {
+          "gpu-parallel-sorting": {
+            "title": "GPU Parallel Sorting Networks",
+            "description": "CUDA and OpenCL use odd-even sorting's embarrassingly parallel phases for GPU-accelerated sort operations."
+          },
+          "sorting-network-hardware": {
+            "title": "FPGA Sorting Network Implementation",
+            "description": "FPGA and ASIC designs implement odd-even compare-exchange units for hardware-accelerated sorting."
+          },
+          "distributed-key-sort": {
+            "title": "Distributed Key-Value Sorting",
+            "description": "Hadoop TeraSort and MPI implementations use odd-even merge for distributed sorting across cluster nodes."
+          }
+        }
+      },
+      "prim": {
+        "title": "Prim's Algorithm",
+        "desc": "Prim's algorithm starts from a starting node and progressively expands the minimum spanning tree, each time selecting the minimum weight edge connecting a node inside the tree to a node outside. Suitable for network design, wiring optimization, and similar scenarios.",
+        "scenarios": {
+          "fiber-optic-network": {
+            "title": "Fiber Optic Network Design",
+            "description": "Verizon FiOS and Google Fiber use Prim's algorithm to find minimum-cost fiber cable layout connecting all neighborhoods."
+          },
+          "cluster-analysis": {
+            "title": "Single-Linkage Clustering",
+            "description": "Prim's MST forms the basis of single-linkage hierarchical clustering—used in scikit-learn and bioinformatics gene expression analysis."
+          },
+          "power-grid": {
+            "title": "Power Grid Distribution",
+            "description": "National Grid and Siemens use Prim's MST to design minimum-length high-voltage transmission lines connecting substations."
+          }
+        }
+      },
+      "kruskal": {
+        "title": "Kruskal's Algorithm",
+        "desc": "Kruskal's algorithm sorts all edges by weight and builds the minimum spanning tree by adding edges from smallest to largest, skipping those that would create cycles. Equivalent to finding a minimum spanning forest.",
+        "scenarios": {
+          "lan-wiring": {
+            "title": "Office LAN Cabling",
+            "description": "Structured cabling systems use Kruskal's algorithm to connect all office rooms with minimum Ethernet cable length."
+          },
+          "image-segmentation": {
+            "title": "Graph-Based Image Segmentation",
+            "description": "Felzenszwalb's algorithm uses Kruskal-style MST to segment images by merging similar pixels—implemented in OpenCV and Photoshop."
+          },
+          "phylogenetic-tree": {
+            "title": "Phylogenetic Tree Construction",
+            "description": "Bioinformatics tools like BLAST and IQ-TREE use MST algorithms to infer evolutionary relationships from genetic distance data."
+          }
+        }
+      },
+      "quick-sort": {
+        "title": "Quick Sort",
+        "desc": "Quick Sort uses a divide-and-conquer strategy by selecting a pivot and partitioning the array into elements less than and greater than the pivot, then recursively sorting each part. Average time complexity is O(n log n), making it one of the fastest general-purpose sorting algorithms in practice.",
+        "tags": {
+          "sorting": "sorting",
+          "divide-and-conquer": "divide-and-conquer",
+          "recursion": "recursion"
+        },
+        "scenarios": {
+          "c-qsort-libc": {
+            "title": "C Standard Library qsort",
+            "description": "glibc qsort combines quicksort with heapsort fallback, avoiding worst-case O(n²) on adversarial inputs via introsort."
+          },
+          "java-dual-pivot-primitives": {
+            "title": "Java DualPivotQuicksort",
+            "description": "OpenJDK's Arrays.sort for primitives uses dual-pivot quicksort, the fastest general-purpose sort for primitive arrays."
+          },
+          "database-in-memory-sort": {
+            "title": "Database In-Memory Sort Path",
+            "description": "PostgreSQL and MySQL use quicksort for in-memory sorting when data fits in memory, before falling back to external sort."
+          }
+        }
+      },
+      "radix-sort": {
+        "title": "Radix Sort",
+        "desc": "Radix Sort (LSD) sorts digit by digit from the least significant digit to the most significant digit, using counting sort as a stable subroutine in each pass. Time complexity is O(d·n), where d is the number of digits.",
+        "tags": {
+          "sorting": "sorting",
+          "非比较排序": "non-comparison",
+          "stable": "stable"
+        },
+        "scenarios": {
+          "unix-external-sort": {
+            "title": "Unix External Sort Command",
+            "description": "GNU sort and BSD sort historically used radix-based approaches for sorting large text files with limited memory."
+          },
+          "suffix-array-construction": {
+            "title": "Suffix Array & Text Indexing",
+            "description": "Elasticsearch BM25 and Lucene index construction use radix sort for building suffix arrays efficiently."
+          },
+          "database-integer-index": {
+            "title": "Database Integer Primary Key Sort",
+            "description": "SQLite autoincrement and MySQL InnoDB primary keys benefit from radix sort's O(dn) complexity on integer data."
+          }
+        }
+      },
+      "selection-sort": {
+        "title": "Selection Sort",
+        "desc": "Selection Sort repeatedly selects the minimum element from the unsorted portion and places it at the end of the sorted portion. Simple and intuitive, but requires O(n²) comparisons regardless of data distribution.",
+        "tags": {
+          "sorting": "sorting",
+          "beginner": "beginner",
+          "unstable": "unstable"
+        },
+        "scenarios": {
+          "flash-memory-minimal-writes": {
+            "title": "Flash Memory Minimal Writes",
+            "description": "Selection sort performs O(n) swaps, making it ideal for EEPROM and NOR flash where write cycles are limited."
+          },
+          "embedded-constrained-sort": {
+            "title": "Embedded Constrained Sorting",
+            "description": "Arduino sort.h and microcontroller routines use selection sort for its minimal code footprint and zero extra memory."
+          },
+          "educational-algorithm": {
+            "title": "CS Education Standard",
+            "description": "CS50, MIT 6.006, and Princeton Algorithms teach selection sort as the simplest O(n²) sort."
+          }
+        }
+      },
+      "shell-sort": {
+        "title": "Shell Sort",
+        "desc": "Shell Sort is an improved version of Insertion Sort that allows swapping elements at a certain gap, quickly bringing the array close to sorted order. It uses the Knuth sequence (3h+1) as the gap sequence and finishes with a standard insertion sort at gap=1.",
+        "tags": {
+          "sorting": "sorting",
+          "进阶": "advanced",
+          "插入排序改进": "insertion-improvement"
+        },
+        "scenarios": {
+          "uclibc-embedded-libc": {
+            "title": "uClibc Embedded qsort",
+            "description": "uClibc and musl libc use shell sort with Knuth gap sequence as a lightweight qsort fallback for constrained systems."
+          },
+          "embedded-database-index": {
+            "title": "Embedded Database Index Sorting",
+            "description": "SQLite in-memory sorts and LevelDB memtable operations use shell sort for small index segments."
+          },
+          "network-packet-buffer": {
+            "title": "Network Packet Buffer Sorting",
+            "description": "Linux kernel inet_frag_queue and BSD mbuf sorting use shell sort for reassembling small packet fragments."
+          }
+        }
+      },
+      "sliding-window": {
+        "title": "Sliding Window",
+        "desc": "The Sliding Window technique is used to solve subarray/substring problems on arrays and strings. By maintaining a window, it avoids nested loops, optimizing time complexity from O(n^2) to O(n).",
+        "tags": {
+          "sliding-window": "sliding-window",
+          "two-pointers": "two-pointers",
+          "subarray": "subarray"
+        },
+        "scenarios": {
+          "rate-limiting": {
+            "title": "Network Rate Limiting",
+            "description": "Network rate limiters count requests in a sliding time window, dropping excess traffic to prevent abuse."
+          },
+          "stock-moving-avg": {
+            "title": "Stock Moving Average",
+            "description": "Moving average and maximum profit calculations use sliding windows over price time series data."
+          },
+          "log-analysis": {
+            "title": "Log Windowed Aggregation",
+            "description": "ELK-style log analysis uses sliding windows to compute rolling error rates and metric aggregations."
+          }
+        }
+      },
+      "ternary-search": {
+        "title": "Ternary Search",
+        "desc": "Ternary Search divides a sorted array into three segments using two midpoints, eliminating 1/3 of the search range each time. Although it requires more comparisons than binary search, it is useful for finding the extremum of a unimodal function.",
+        "tags": {
+          "search": "search",
+          "进阶": "advanced",
+          "有序数组": "sorted-array"
+        },
+        "scenarios": {
+          "unimodal-optimization": {
+            "title": "Unimodal Function Optimization",
+            "description": "Ternary search finds the peak/valley of unimodal functions, used for hyperparameter tuning in ML model optimization."
+          },
+          "game-physics-tuning": {
+            "title": "Game Physics Parameter Tuning",
+            "description": "Game engines use ternary search to find optimal physics parameters (friction, gravity) by testing unimodal cost functions."
+          },
+          "signal-peak-detection": {
+            "title": "Signal Peak Detection",
+            "description": "Signal processing tools use ternary search to locate peaks in sensor readings and frequency spectrum data."
+          }
+        }
+      },
+      "topological-sort": {
+        "title": "Topological Sort",
+        "desc": "Topological Sort arranges the nodes of a directed acyclic graph (DAG) into a linear sequence such that for every directed edge (u, v), u comes before v. Commonly used in task scheduling, compilation dependencies, and course prerequisites.",
+        "tags": {
+          "graph": "graph",
+          "有向无环图": "DAG",
+          "sorting": "sorting",
+          "入度": "in-degree"
+        },
+        "scenarios": {
+          "build-systems": {
+            "title": "Build System Dependency Resolution",
+            "description": "Make, Maven, Webpack, and Bazel use topological sort to order compilation units so dependencies build before their dependents."
+          },
+          "package-managers": {
+            "title": "Package Manager Dependency Resolution",
+            "description": "npm, pip, and Cargo resolve dependency DAGs via topological sort to determine correct install and update order."
+          },
+          "course-prerequisites": {
+            "title": "Course Prerequisite Scheduling",
+            "description": "Universities use topological sort on prerequisite DAGs to plan valid degree sequences and semester course offerings."
+          }
+        }
+      },
+      "two-pointers": {
+        "title": "Two Pointers",
+        "desc": "The Two Pointers technique uses two pointers moving from both ends of an array toward the center to efficiently find a target sum in a sorted array. Time complexity is O(n), space complexity is O(1).",
+        "tags": {
+          "two-pointers": "two-pointers",
+          "有序数组": "sorted-array",
+          "两数之和": "two-sum"
+        },
+        "scenarios": {
+          "container-with-water": {
+            "title": "Container With Most Water",
+            "description": "Find two lines that together with the x-axis form a container holding the most water."
+          },
+          "merge-sorted-arrays": {
+            "title": "Merge Sorted Arrays",
+            "description": "Database engines merge-sort result sets by advancing pointers through two sorted cursors simultaneously."
+          },
+          "cycle-detection": {
+            "title": "Floyd's Cycle Detection",
+            "description": "The tortoise-and-hare algorithm detects infinite loops in linked structures using two-speed pointers."
+          }
+        }
+      }
+    },
+    "structures": {
+      "avl-tree": {
+        "title": "AVL Tree",
+        "desc": "An AVL tree is a self-balancing binary search tree where the height difference (balance factor) between the two subtrees of any node is at most 1. It maintains balance through rotations after insert and delete operations.",
+        "tags": [
+          "Data Structure",
+          "AVL Tree",
+          "Balanced BST"
+        ],
+        "scenarios": {
+          "in-memory-sorted-set": {
+            "title": "In-Memory Sorted Set",
+            "description": "Redis internal sorted sets and LevelDB table caches use strictly balanced trees for fast ordered access."
+          },
+          "database-index-avl": {
+            "title": "Database Index (Read-Heavy)",
+            "description": "AVL trees guarantee O(log n) lookups with strict balance, ideal for read-heavy in-memory indexes."
+          },
+          "lookup-heavy": {
+            "title": "Lookup-Heavy Workloads",
+            "description": "Java TreeMap and C++ std::map variants use balanced BSTs when strict worst-case guarantee matters."
+          }
+        }
+      },
+      "bloom-filter": {
+        "title": "Bloom Filter",
+        "desc": "A Bloom filter is a space-efficient probabilistic data structure used to test whether an element is a member of a set. It may produce false positives (reporting an element exists when it does not) but never false negatives.",
+        "tags": [
+          "Probabilistic",
+          "Set",
+          "Hash",
+          "Space-efficient"
+        ],
+        "scenarios": {
+          "medium-read": {
+            "title": "Have You Read This Article",
+            "description": "Medium uses Bloom filters to show read articles — false positives are acceptable, false negatives are impossible."
+          },
+          "db-query-optimization": {
+            "title": "Database Query Optimization",
+            "description": "Cassandra and RocksDB use Bloom filters to skip disk lookups for keys that definitely don't exist."
+          },
+          "url-dedup": {
+            "title": "Web Crawler URL Deduplication",
+            "description": "Apache Nutch and Scrapy use Bloom filters to avoid revisiting millions of already-crawled URLs."
+          }
+        }
+      },
+      "bst": {
+        "title": "Binary Search Tree",
+        "desc": "A Binary Search Tree (BST) is an ordered binary tree: all nodes in the left subtree are less than the root, and all nodes in the right subtree are greater. It supports efficient insertion, search, and deletion operations.",
+        "tags": [
+          "Tree",
+          "Recursive",
+          "Ordered"
+        ],
+        "scenarios": {
+          "database-index": {
+            "title": "Database Index",
+            "description": "PostgreSQL and MySQL InnoDB use B-tree variants as indexes, enabling O(log n) lookups instead of full table scans."
+          },
+          "filesystem-index": {
+            "title": "Filesystem Index",
+            "description": "Linux ext4, NTFS, and APFS use tree-based indexes to locate files by path in logarithmic time."
+          },
+          "autocomplete": {
+            "title": "Autocomplete Suggestions",
+            "description": "IDEs like Eclipse JDT and VS Code use BST-based structures for sorted symbol completion."
+          }
+        }
+      },
+      "fenwick-tree": {
+        "title": "Binary Indexed Tree",
+        "desc": "A Fenwick Tree (Binary Indexed Tree) is an efficient data structure for prefix sum queries and point updates. It uses least-significant-bit encoding so that each position stores the cumulative sum of a specific range. Operations are O(log n), space is O(n).",
+        "tags": [
+          "Data Structure",
+          "Fenwick Tree",
+          "BIT"
+        ],
+        "scenarios": {
+          "prefix-sum": {
+            "title": "Prefix Sum Queries",
+            "description": "Fenwick trees provide O(log n) prefix sums, useful in competitive programming and algorithmic trading."
+          },
+          "bit-range-update": {
+            "title": "BIT Range Updates",
+            "description": "PostgreSQL and ClickHouse use Binary Indexed Trees for efficient prefix-based range updates."
+          },
+          "competitive-bit": {
+            "title": "Competitive Programming BIT",
+            "description": "The Fenwick Tree is simpler than segment trees for prefix sum use cases, popular in competitive programming."
+          }
+        }
+      },
+      "graph-bfs": {
+        "title": "Graph — Breadth-First Search",
+        "desc": "Breadth-First Search (BFS) is a graph traversal algorithm that visits nodes level by level using a queue. It visits all neighbors of the starting node first, then their neighbors, making it ideal for finding shortest paths.",
+        "tags": [
+          "Graph",
+          "BFS",
+          "Traversal",
+          "Queue"
+        ],
+        "scenarios": {
+          "social-network": {
+            "title": "Social Network BFS",
+            "description": "LinkedIn and Facebook use BFS to find degrees of connection and 'people you may know' suggestions."
+          },
+          "road-network": {
+            "title": "Road Network Navigation",
+            "description": "Google Maps and OpenStreetMap use BFS on road graphs for shortest path in unweighted networks."
+          },
+          "dependency-resolution": {
+            "title": "Package Dependency Resolution",
+            "description": "npm, Maven, and pip use BFS on dependency graphs to determine installation order."
+          }
+        }
+      },
+      "hash-table": {
+        "title": "Hash Table",
+        "desc": "A hash table maps keys to storage locations via a hash function, supporting average O(1) insertion, lookup, and deletion. Chaining resolves hash collisions by maintaining a linked list at each bucket.",
+        "tags": [
+          "Hash",
+          "Chaining"
+        ],
+        "scenarios": {
+          "python-dict": {
+            "title": "Python dict / Java HashMap",
+            "description": "Python dict and Java HashMap are hash tables providing O(1) average-case key-value lookup."
+          },
+          "redis-store": {
+            "title": "Redis Key-Value Store",
+            "description": "Redis and Memcached use hash tables as their core data structure for O(1) key-based access."
+          },
+          "compiler-symbol-table": {
+            "title": "Compiler Symbol Table",
+            "description": "GCC, Clang, and the TypeScript compiler use hash tables for fast identifier-to-metadata lookup."
+          }
+        }
+      },
+      "heap": {
+        "title": "Heap",
+        "desc": "A heap is a special complete binary tree where each node's value is less than or equal to (min-heap) or greater than or equal to (max-heap) its children's values. Heaps are commonly used to implement priority queues, supporting efficient insertion and extract-min/max operations.",
+        "tags": [
+          "Data Structure",
+          "Heap",
+          "Priority Queue"
+        ],
+        "scenarios": {
+          "priority-queue": {
+            "title": "Priority Queue",
+            "description": "Java PriorityQueue and Python heapq use heaps for O(log n) insert and O(1) peek at the minimum element."
+          },
+          "dijkstra": {
+            "title": "Dijkstra's Shortest Path",
+            "description": "Google Maps and OSRM use min-heaps in Dijkstra's algorithm to find shortest routes efficiently."
+          },
+          "top-k": {
+            "title": "Top-K Queries",
+            "description": "Apache Spark and Elasticsearch use heaps to efficiently find the top-K elements in large datasets."
+          }
+        }
+      },
+      "linked-list": {
+        "title": "Linked List",
+        "desc": "A linked list is a linear data structure composed of a sequence of nodes, each containing data and a pointer to the next node. It supports O(1) head/tail insertion and O(n) search and deletion operations.",
+        "tags": [
+          "Linked List",
+          "Linear",
+          "Pointer"
+        ],
+        "scenarios": {
+          "lru-cache-impl": {
+            "title": "LRU Cache Implementation",
+            "description": "Doubly-linked lists power O(1) move-to-front eviction in LRU caches, used by Java LinkedHashMap."
+          },
+          "hash-chaining": {
+            "title": "Hash Table Chaining",
+            "description": "When hash collisions occur, linked lists chain colliding entries in Java HashMap, Go map, and Python dict."
+          },
+          "undo-redo": {
+            "title": "Text Editor Undo/Redo",
+            "description": "VS Code, Vim, and Google Docs use linked lists to track edit history for undo/redo operations."
+          }
+        }
+      },
+      "lru-cache": {
+        "title": "LRU Cache",
+        "desc": "An LRU (Least Recently Used) cache is a fixed-capacity caching strategy implemented with a doubly linked list and a hash table. On access or insertion, data is moved to the most-recently-used end; when full, the least-recently-used element is evicted.",
+        "tags": [
+          "LRU",
+          "Cache",
+          "Hash Table",
+          "Doubly Linked List",
+          "O(1)"
+        ],
+        "scenarios": {
+          "memcached-redis": {
+            "title": "Memcached / Redis Eviction",
+            "description": "Redis maxmemory-policy allkeys-lru and Memcached use LRU eviction for O(1) cache management."
+          },
+          "os-page-replace": {
+            "title": "OS Page Replacement",
+            "description": "Linux kernel and Windows memory manager use LRU-based algorithms for virtual memory page eviction."
+          },
+          "cdn-edge-cache": {
+            "title": "CDN Edge Caching",
+            "description": "Cloudflare, AWS CloudFront, and Varnish use LRU caches at edge nodes for content delivery."
+          }
+        }
+      },
+      "queue": {
+        "title": "Queue",
+        "desc": "A queue is a First-In-First-Out (FIFO) linear data structure. Elements are enqueued at the rear and dequeued from the front, commonly used in task scheduling, breadth-first search, and similar scenarios.",
+        "tags": [
+          "Queue",
+          "FIFO",
+          "Linear"
+        ],
+        "scenarios": {
+          "bfs-traversal": {
+            "title": "BFS Traversal",
+            "description": "Linux kernel scheduler and OS page scanners use queues for breadth-first traversal of processes."
+          },
+          "job-queue": {
+            "title": "Job Queue (Sidekiq, Celery)",
+            "description": "Sidekiq uses Redis lists as FIFO job queues; Celery uses RabbitMQ for distributed task processing."
+          },
+          "message-queue": {
+            "title": "Message Queue (Kafka, RabbitMQ)",
+            "description": "Apache Kafka and RabbitMQ are distributed message queues that decouple producers and consumers."
+          }
+        }
+      },
+      "red-black-tree": {
+        "title": "Red-Black Tree",
+        "desc": "A red-black tree is a self-balancing binary search tree that maintains approximate balance through node coloring (red/black) and rotation operations, guaranteeing O(log n) time complexity for insert, search, and delete operations.",
+        "tags": [
+          "Data Structure",
+          "Red-Black Tree",
+          "Balanced BST",
+          "Self-balancing"
+        ],
+        "scenarios": {
+          "java-tree-map": {
+            "title": "Java TreeMap / C++ std::map",
+            "description": "Java TreeMap and C++ std::map use Red-Black Trees for O(log n) sorted key-value storage."
+          },
+          "linux-cfs": {
+            "title": "Linux CFS Scheduler",
+            "description": "The Linux kernel's Completely Fair Scheduler uses a Red-Black Tree to track process virtual runtime."
+          },
+          "epoll": {
+            "title": "Linux epoll",
+            "description": "Linux epoll and nginx use Red-Black Trees internally for efficient file descriptor management."
+          }
+        }
+      },
+      "segment-tree": {
+        "title": "Segment Tree",
+        "desc": "A segment tree is a binary tree used for efficient range queries and point updates. Each node stores aggregate information (sum, min/max) for a specific interval of the array. Build is O(n), and query/update are both O(log n).",
+        "tags": [
+          "Data Structure",
+          "Segment Tree",
+          "Range Tree"
+        ],
+        "scenarios": {
+          "database-range": {
+            "title": "Database Range Queries",
+            "description": "PostgreSQL and ClickHouse use segment-tree-like structures for efficient range aggregation queries."
+          },
+          "competitive-prog": {
+            "title": "Competitive Programming",
+            "description": "Segment trees are a staple of competitive programming for O(log n) range sum/min/max queries."
+          },
+          "interval-tree": {
+            "title": "Interval Trees (Graphics)",
+            "description": "GPU rendering and collision detection engines use interval trees for spatial overlap queries."
+          }
+        }
+      },
+      "skip-list": {
+        "title": "Skip List",
+        "desc": "A skip list is a multi-level linked list structure that achieves binary-search-like efficiency through randomized node heights. Upper levels serve as express lanes that skip intermediate nodes, giving average search/insert/delete complexity of O(log n).",
+        "tags": [
+          "Skip List",
+          "Multi-level List",
+          "Express Lane",
+          "O(log n)"
+        ],
+        "scenarios": {
+          "redis-sorted-sets": {
+            "title": "Redis Sorted Sets",
+            "description": "Redis ZADD and LevelDB memtable use skip lists for O(log n) sorted insertion and range queries."
+          },
+          "leveldb-memtable": {
+            "title": "LevelDB Memtable",
+            "description": "LevelDB and RocksDB use concurrent skip lists as their in-memory sorted buffer before flushing to disk."
+          },
+          "hbase-region": {
+            "title": "Apache HBase Region Store",
+            "description": "HBase and Cassandra use skip lists for maintaining sorted data in memory with simpler locking than RBTs."
+          }
+        }
+      },
+      "stack": {
+        "title": "Stack",
+        "desc": "A stack is a Last-In-First-Out (LIFO) linear data structure. Elements can only be pushed onto and popped from the top, similar to how plates are stacked and unstacked.",
+        "tags": [
+          "Stack",
+          "LIFO",
+          "Linear"
+        ],
+        "scenarios": {
+          "call-stack": {
+            "title": "Function Call Stack",
+            "description": "V8 engine, JVM, and Go runtime use a call stack to track nested function invocations."
+          },
+          "expression-eval": {
+            "title": "Expression Evaluation",
+            "description": "Compilers like the JavaScript parser use stacks for infix-to-postfix conversion and evaluation."
+          },
+          "browser-back": {
+            "title": "Browser Back Button",
+            "description": "Chrome, Firefox, and Safari maintain a navigation stack to power the back/forward button."
+          }
+        }
+      },
+      "trie": {
+        "title": "Trie (Prefix Tree)",
+        "desc": "A Trie (prefix tree) is a tree-shaped data structure that stores strings character by character, enabling efficient prefix matching and lookup. Insertion and search both run in O(m) time, where m is the string length.",
+        "tags": [
+          "Data Structure",
+          "Trie",
+          "Prefix Tree",
+          "String Matching"
+        ],
+        "scenarios": {
+          "autocomplete": {
+            "title": "Search Autocomplete",
+            "description": "Google Search and VS Code IntelliSense use tries for O(m) prefix-based autocomplete suggestions."
+          },
+          "ip-routing": {
+            "title": "IP Routing Tables",
+            "description": "Linux routing tables and BGP routers use tries for longest-prefix-match packet forwarding."
+          },
+          "spell-checker": {
+            "title": "Spell Checker",
+            "description": "Hunspell, Aspell, and browser spell checkers use tries for fast dictionary word lookup."
+          }
+        }
+      },
+      "union-find": {
+        "title": "Union-Find (Disjoint Set Union)",
+        "desc": "Union-Find (DSU) is a data structure that tracks elements partitioned into disjoint sets. It supports MakeSet, Find (with path compression), and Union (with union by rank) operations, all with amortized time complexity O(α(n)), where α is the inverse Ackermann function.",
+        "tags": [
+          "Data Structure",
+          "Union-Find",
+          "DSU",
+          "Path Compression"
+        ],
+        "scenarios": {
+          "kruskal-mst": {
+            "title": "Kruskal's MST Algorithm",
+            "description": "Union-Find enables O(α(n)) cycle detection in Kruskal's algorithm for minimum spanning trees."
+          },
+          "network-connectivity": {
+            "title": "Network Connectivity",
+            "description": "OSPF and routing protocols use Union-Find to dynamically track network component connectivity."
+          },
+          "social-network": {
+            "title": "Social Network Friend-of-Friend",
+            "description": "LinkedIn and Facebook use Union-Find variants for friend suggestions and community detection."
+          }
+        }
+      }
+    }
+  },
+  "offline": {
+    "title": "You're offline",
+    "desc": "It looks like you've lost your internet connection. Some features may be unavailable until you're back online.",
+    "connectionRestored": "Connection restored — click Retry to continue",
+    "status": "Waiting for network…",
+    "retry": "Retry",
+    "backHome": "Back to Home",
+    "tipsTitle": "While you're offline",
+    "tip1": "• Pages you visited before are still available in your browser cache.",
+    "tip2": "• Bookmarked lessons will load once you're back online."
+  },
+  "commandPalette": {
+    "categoryLabels": {
+      "algorithm": "Algorithms",
+      "pattern": "Design Patterns",
+      "structure": "Data Structures",
+      "search": "Search",
+      "graph": "Graph Algorithms"
+    }
+  }
+}

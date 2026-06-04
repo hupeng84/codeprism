@@ -1,0 +1,2514 @@
+{
+  "nav": {
+    "home": "首页",
+    "patterns": "设计模式",
+    "structures": "数据结构",
+    "algorithms": "算法",
+    "compare": "对比",
+    "reference": "参考",
+    "achievements": "成就",
+    "search": "搜索"
+  },
+  "backToTop": "返回顶部",
+  "hero": {
+    "badge": "75+ 交互式教程",
+    "title": {
+      "1": "让抽象概念",
+      "2": "看得见"
+    },
+    "desc": "通过分步动画、同步代码高亮和交互沙盒，直观理解设计模式、数据结构和算法的运行原理。",
+    "cta": {
+      "start": "开始学习 →",
+      "browse": "浏览全部"
+    }
+  },
+  "stats": {
+    "tagline": "全面覆盖计算机科学基础知识",
+    "algorithms": {
+      "label": "算法",
+      "sublabel": "排序、搜索、图论与动态规划"
+    },
+    "patterns": {
+      "label": "设计模式",
+      "sublabel": "23 种 GoF 模式"
+    },
+    "structures": {
+      "label": "数据结构",
+      "sublabel": "从数组到图"
+    },
+    "visualizers": {
+      "label": "可视化",
+      "sublabel": "交互式演示"
+    }
+  },
+  "howItWorks": {
+    "title": "如何学习",
+    "subtitle": "三个步骤掌握计算机科学核心概念",
+    "steps": {
+      "visualize": {
+        "title": "可视化",
+        "desc": "观看 UML 图解和动画，让抽象概念变得直观可见"
+      },
+      "interact": {
+        "title": "交互",
+        "desc": "通过播放控制逐步运行可视化内容"
+      },
+      "understand": {
+        "title": "理解",
+        "desc": "阅读同步代码解释，在沙盒中实验"
+      }
+    }
+  },
+  "categories": {
+    "viewSubcategories": "查看子分类 ({count})",
+    "patterns": {
+      "title": "设计模式",
+      "desc": "23 种 GoF 设计模式，通过 UML 类图 + 运行时对象交互 + 代码同步三重视角可视化。",
+      "meta": "23 个模式 · 3 种难度"
+    },
+    "structures": {
+      "title": "数据结构",
+      "desc": "从数组到图，每种结构均支持插入/删除/搜索操作的可视化分步演示。",
+      "meta": "16 种结构 · 可交互操作"
+    },
+    "algorithms": {
+      "title": "算法",
+      "desc": "排序、搜索、图算法、动态规划，逐帧播放 + 代码行同步高亮 + 变量追踪。",
+      "meta": "59+ 个算法 · 速度可调"
+    }
+  },
+  "featured": {
+    "tags": {
+      "sorting": "排序",
+      "behavioral": "行为型",
+      "tree": "树",
+      "search": "搜索",
+      "structural": "结构型",
+      "dp": "DP",
+      "graph": "图",
+      "structure": "结构"
+    },
+    "badge": {
+      "beginner": "初阶",
+      "intermediate": "中阶",
+      "advanced": "高阶"
+    },
+    "title": "精选可视化",
+    "subtitle": "探索交互式教程，感受每一步的动画演示",
+    "viewAll": "查看全部",
+    "items": {
+      "bubbleSort": {
+        "title": "冒泡排序",
+        "desc": "观看冒泡排序如何将最大元素一步步'冒泡'到末尾。"
+      },
+      "observer": {
+        "title": "观察者模式",
+        "desc": "学习 Subject-Observer 一对多通知机制，观察消息如何从发布者流向所有订阅者。"
+      },
+      "bst": {
+        "title": "二叉搜索树",
+        "desc": "探索 BST 的插入和搜索操作，直观展示节点遍历过程。"
+      },
+      "quickSort": {
+        "title": "快速排序",
+        "desc": "掌握分治排序思想，理解 pivot 元素归位的过程。"
+      },
+      "heapSort": {
+        "title": "堆排序",
+        "desc": "理解堆数据结构及堆化操作，掌握优先级队列原理。"
+      },
+      "mergeSort": {
+        "title": "归并排序",
+        "desc": "观看归并排序如何分解数组并将其合并为有序结果。"
+      },
+      "binarySearch": {
+        "title": "二分查找",
+        "desc": "在对数时间内于有序数组中查找目标值。"
+      },
+      "decorator": {
+        "title": "装饰器模式",
+        "desc": "学习装饰器如何动态地为对象添加职责。"
+      },
+      "knapsack": {
+        "title": "背包问题",
+        "desc": "解决经典的动态规划优化问题。"
+      },
+      "astar": {
+        "title": "A* 搜索",
+        "desc": "通过启发式引导的图搜索找到最短路径。"
+      },
+      "lru": {
+        "title": "LRU 缓存",
+        "desc": "理解最近最少使用策略的缓存淘汰机制。"
+      },
+      "hashTable": {
+        "title": "哈希表",
+        "desc": "了解哈希如何实现 O(1) 平均情况下的数据检索。"
+      }
+    }
+  },
+  "footer": {
+    "desc": "交互式可视化教程平台 — 让抽象的计算概念变得直观可见。",
+    "content": "内容",
+    "features": "功能",
+    "about": "关于",
+    "patterns": "设计模式",
+    "structures": "数据结构",
+    "algorithms": "算法",
+    "complexity": "复杂度参考",
+    "compareMode": "对比模式",
+    "sandbox": "沙盒实验",
+    "progress": "进度追踪",
+    "shortcuts": "键盘快捷键",
+    "aboutProject": "项目介绍",
+    "feedback": "反馈"
+  },
+  "algorithms": {
+    "sorting": {
+      "title": "排序算法",
+      "desc": "从冒泡排序到快速排序，可视化理解每种排序算法的分区、交换和合并过程。",
+      "badge": "排序"
+    },
+    "search": {
+      "title": "搜索算法",
+      "desc": "从线性搜索到二分搜索，可视化理解每种搜索算法的查找策略和性能差异。",
+      "badge": "搜索"
+    },
+    "graph": {
+      "title": "图算法",
+      "desc": "BFS、DFS、最短路径、最小生成树，可视化理解图遍历和图算法的执行过程。",
+      "badge": "图算法"
+    }
+  },
+  "patterns": {
+    "title": "设计模式",
+    "desc": "23 种 GoF 设计模式，通过 UML 类图 + 运行时对象交互 + 代码同步三重视角可视化。",
+    "badge": "设计模式"
+  },
+  "structures": {
+    "title": "数据结构",
+    "desc": "从数组到图，每种结构均支持插入/删除/搜索操作的可视化分步演示。",
+    "badge": "数据结构"
+  },
+  "compare": {
+    "badge": "↔️ 对比模式",
+    "title": "对比模式",
+    "desc": "选择两个主题并排运行，直观比较效率、结构与行为差异。",
+    "algorithms": "排序算法",
+    "searches": "搜索算法",
+    "graphs": "图算法",
+    "patterns": "设计模式",
+    "structures": "数据结构",
+    "leftLabel": "左侧",
+    "rightLabel": "右侧",
+    "selectDiff": "请选择两个不同的主题进行对比",
+    "selected": "已选择",
+    "start": "开始对比 →",
+    "sync": {
+      "title": "同步播放",
+      "desc": "两个面板同时播放，速度可控",
+      "label": "同步播放",
+      "on": "开启",
+      "off": "关闭",
+      "hint": {
+        "on": "播放/暂停/步进同时控制两个面板",
+        "off": "每个面板独立控制"
+      }
+    },
+    "complexity": {
+      "title": "复杂度对比",
+      "desc": "时间/空间复杂度并排展示"
+    },
+    "code": {
+      "title": "代码高亮",
+      "desc": "步骤同步代码行高亮"
+    },
+    "breadcrumb": "对比模式",
+    "info": "信息",
+    "timeComplexity": "时间复杂度",
+    "spaceComplexity": "空间复杂度",
+    "complexityCompare": "复杂度对比",
+    "metric": "指标"
+  },
+  "reference": {
+    "badge": "📚 参考指南",
+    "title": "参考",
+    "desc": "所有算法和数据结构的完整时间/空间复杂度概览",
+    "searchPlaceholder": "搜索算法和数据结构...",
+    "noResults": "未找到匹配结果",
+    "filterTabs": {
+      "all": "全部",
+      "sorting": "排序",
+      "searching": "搜索",
+      "dataStructures": "数据结构",
+      "graphAlgorithms": "图算法",
+    "patterns": "设计模式"
+    },
+    "tableHeaders": {
+      "algorithm": "算法",
+      "structure": "结构",
+      "pattern": "模式",
+      "subcategory": "子类别",
+      "category": "类别",
+      "access": "访问",
+      "search": "搜索",
+      "insert": "插入",
+      "delete": "删除",
+      "space": "空间",
+      "useCase": "使用场景",
+      "intent": "意图",
+      "applicability": "适用场景",
+      "timeBest": "最优时间",
+      "timeAverage": "平均时间",
+      "timeWorst": "最差时间",
+      "timeComplexity": "时间复杂度"
+    },
+    "errors": {
+      "pageLoad": "页面加载失败",
+      "refreshHint": "请刷新页面重试",
+      "refresh": "刷新"
+    },
+    "installPrompt": {
+      "installAria": "安装 CodePrism",
+      "install": "安装",
+      "installDesc": "添加到主屏幕以实现离线访问",
+      "notNow": "暂不"
+    },
+    "legend": {
+      "excellent": "优秀",
+      "good": "良好",
+      "average": "一般",
+      "poor": "较差"
+    },
+    "visualizerDemo": {
+      "title": "可视化页面",
+      "subtitle": "核心交互界面 — 三栏布局，左右信息 + 中间画布",
+      "tabs": {
+        "structure": "结构视图",
+        "runtime": "运行时",
+        "code": "代码"
+      },
+      "sidebar": {
+        "navTitle": "内容导航",
+        "creational": "创建型",
+        "structural": "结构型"
+      },
+      "result": {
+        "finalProduct": "最终产品:"
+      },
+      "step": {
+        "label": "第 {current}/{total} 步: {action}"
+      },
+      "codePanel": {
+        "implementationCode": "实现代码"
+      },
+      "buttons": {
+        "copy": "复制",
+        "edit": "编辑"
+      },
+      "infoPanel": {
+        "description": "描述",
+        "complexity": "复杂度",
+        "timeComplexity": "时间复杂度",
+        "spaceComplexity": "空间复杂度",
+        "sandbox": "沙盒实验",
+        "selectBase": "选择基础咖啡",
+        "addDecorators": "添加装饰",
+        "decoratorDesc": "装饰器模式允许向一个现有对象动态添加新功能，同时不改变其结构。这种模式创建了一个包装类，用来包裹原始类。"
+      }
+    },
+    "footer": {
+      "builtWith": "为学习者而造 ❤️",
+      "github": "GitHub"
+    },
+    "aria": {
+      "zoomOut": "缩小",
+      "zoomIn": "放大",
+      "resetView": "重置视图",
+      "resetPosition": "重置位置",
+      "toggleNav": "切换导航菜单",
+      "contentNav": "内容导航",
+      "breadcrumb": "面包屑导航",
+      "switchTheme": "切换到 {theme} 模式"
+    },
+    "codeEditor": {
+      "initFailed": "⚠️ 代码编辑器初始化失败",
+      "loading": "加载代码编辑器..."
+    },
+    "uml": {
+      "renderFailed": "UML 渲染失败"
+    },
+    "tableCanvas": {
+      "clickPlay": "点击播放开始可视化"
+    },
+    "loading": {
+      "text": "加载中..."
+    }
+  },
+  "sidebar": {
+    "algorithm": "算法",
+    "search": "搜索",
+    "graph": "图",
+    "structure": "数据结构",
+    "pattern": "设计模式"
+  },
+  "playback": {
+    "reset": "重置",
+    "stepBack": "上一步",
+    "play": "播放",
+    "pause": "暂停",
+    "stepForward": "下一步"
+  },
+  "progress": {
+    "learning": "学习进度",
+    "completed": "已完成"
+  },
+  "swUpdate": {
+    "title": "新版本可用",
+    "body": "重新加载以获取最新功能和修复。",
+    "update": "更新",
+    "dismiss": "关闭"
+  },
+  "pwa": {
+    "install": {
+      "title": "安装 CodePrism",
+      "body": "添加到主屏幕，一键访问，支持离线使用。",
+      "iosTitle": "添加到主屏幕",
+      "iosBody": "点击底部分享按钮，然后选择「添加到主屏幕」。",
+      "button": "安装",
+      "dismiss": "关闭"
+    }
+  },
+  "analytics": {
+    "consent": {
+      "title": "帮助改进 CodePrism",
+      "body": "分享匿名使用数据，帮助我们了解哪些课程有共鸣、哪些地方让学习者卡住。",
+      "toggleAria": "切换匿名分析",
+      "what": {
+        "collected": "我们收集：页面访问、课程完成、成就解锁、主题偏好。",
+        "notCollected": "绝不收集：姓名、邮箱、IP 地址或任何可识别个人身份的信息。",
+        "respect": "尊重浏览器的「请勿跟踪」设置，可随时更改。"
+      }
+    }
+  },
+  "achievements": {
+    "badge": "成就",
+    "title": "成就墙",
+    "desc": "通过完成课程、掌握分类和收藏内容解锁徽章。",
+    "unlocked": "已解锁",
+    "locked": "未解锁",
+    "unlockedLabel": "✓ 已解锁",
+    "allUnlocked": "所有成就已解锁！",
+    "allUnlockedDesc": "你已达成 CodePrism 提供的全部里程碑。",
+    "backHome": "返回首页",
+    "dismiss": "关闭",
+    "toastUnlocked": "成就解锁",
+    "badges": {
+      "first-step":         { "name": "初出茅庐",   "desc": "完成第一篇课程。" },
+      "explorer":           { "name": "探索者",     "desc": "完成 10 篇课程。" },
+      "dedicated":          { "name": "笃学者",     "desc": "完成 30 篇课程。" },
+      "completionist":      { "name": "完美主义",   "desc": "完成目录中的全部课程。" },
+      "pattern-explorer":   { "name": "模式探索者", "desc": "完成 5 个设计模式。" },
+      "pattern-master":     { "name": "模式大师",   "desc": "掌握全部 23 个 GoF 设计模式。" },
+      "algorithm-explorer": { "name": "算法探索者", "desc": "完成 10 个算法。" },
+      "algorithm-master":   { "name": "算法大师",   "desc": "掌握全部 21 个算法。" },
+      "structure-explorer": { "name": "结构探索者", "desc": "完成 5 个数据结构。" },
+      "structure-master":   { "name": "结构大师",   "desc": "掌握全部 16 个数据结构。" },
+      "curator":            { "name": "收藏家",     "desc": "收藏 5 篇课程。" },
+      "collector":          { "name": "收藏大师",   "desc": "收藏 15 篇课程。" }
+    }
+  },
+  "visualizer": {
+    "loading": "正在准备可视化数据...",
+    "notFound": "内容未找到",
+    "description": "描述",
+    "complexity": "复杂度",
+    "timeComplexity": "时间复杂度",
+    "spaceComplexity": "空间复杂度",
+    "runDemo": "运行演示",
+    "uml": "UML",
+    "steps": "执行步骤",
+    "current": "当前",
+    "step": "步骤",
+    "speed": "速度",
+    "navTitle": "导航",
+    "sidebar": {
+      "expand": "展开侧边栏",
+      "collapse": "收起侧边栏"
+    },
+    "rightSidebar": {
+      "expand": "展开右侧栏",
+      "collapse": "收起右侧栏"
+    },
+    "favorite": "收藏",
+    "unfavorite": "取消收藏",
+    "compare": "对比",
+    "share": "分享",
+    "print": "打印",
+    "shareLinkCopied": "链接已复制！",
+    "shareLinkFailed": "复制失败",
+    "scenarios": {
+      "title": "实际应用场景",
+      "empty": "该主题暂无应用场景。",
+      "showCode": "查看代码",
+      "hideCode": "收起代码",
+      "showAll": "展开全部（{count}）",
+      "showLess": "收起",
+      "domain": {
+        "ui-framework": "前端框架",
+        "database": "数据库",
+        "system": "系统编程",
+        "ai-ml": "AI / 机器学习",
+        "game-dev": "游戏开发",
+        "network": "网络协议",
+        "devtools": "开发工具",
+        "library": "标准库",
+        "business": "业务应用",
+        "concurrency": "并发",
+        "graphics": "图形渲染",
+        "data-pipeline": "数据流水线"
+      }
+    }
+  },
+  "arrayEditor": {
+    "title": "输入数组",
+    "empty": "空数组 — 添加元素开始",
+    "placeholder": "输入数字...",
+    "add": "添加",
+    "shuffle": "打乱",
+    "clear": "清空",
+    "error": {
+      "enterNumber": "请输入一个数字",
+      "invalidNumber": "请输入有效的数字",
+      "maxElements": "最多 {max} 个元素"
+    }
+  },
+  "command": {
+    "searchPlaceholder": "搜索算法、模式、数据结构...",
+    "noResults": "未找到匹配内容",
+    "startSearch": "输入关键词开始搜索",
+    "group": {
+      "algorithm": "算法",
+      "pattern": "设计模式",
+      "structure": "数据结构",
+      "search": "搜索",
+      "graph": "图算法"
+    }
+  },
+  "error": {
+    "pageLoad": "页面加载失败",
+    "refreshHint": "请刷新页面重试",
+    "refresh": "刷新页面",
+    "componentLoad": "组件加载失败",
+    "unknownError": "发生了未知错误",
+    "retry": "重试",
+    "notFound": "页面未找到",
+    "notFoundDesc": "您访问的页面不存在，可能已被移除或地址有误。",
+    "backHome": "返回首页",
+    "algoLoad": "加载失败",
+    "algoLoadDesc": "算法列表加载失败，请稍后重试。"
+  },
+  "breadcrumb": {
+    "home": "首页"
+  },
+  "lang": {
+    "switch": "English",
+    "current": "中文"
+  },
+  "content": {
+    "patterns": {
+      "abstract-factory": {
+        "title": "抽象工厂模式",
+        "desc": "抽象工厂模式提供一个创建一系列相关或相互依赖对象的接口，而无需指定它们具体的类。它使客户端可以与多个产品系列中任一个进行交互。",
+        "tags": [
+          "创建型",
+          "产品系列",
+          "一致性"
+        ],
+        "frames": {
+          "0": "系统初始化: 创建 Application 和 GUIFactory",
+          "1": "Application 请求创建 Windows 风格的 UI 组件",
+          "2": "✅ WindowsFactory 已创建 - 专门生产 Windows 风格组件",
+          "3": "创建 Button - 通过工厂方法",
+          "4": "WindowsFactory.createButton() → WindowsButton",
+          "5": "✅ WindowsButton 创建完成",
+          "6": "创建 Checkbox - 同样通过工厂",
+          "7": "WindowsFactory.createCheckbox() → WindowsCheckbox",
+          "8": "✅ WindowsCheckbox 创建完成",
+          "9": "创建 Dropdown - 最后一个组件",
+          "10": "WindowsFactory.createDropdown() → WindowsDropdown",
+          "11": "✅ WindowsDropdown 创建完成",
+          "12": "🖥️ 切换到 MacFactory - 所有组件自动变为 Mac 风格",
+          "13": "✅ 抽象工厂模式：轻松切换产品系列（Windows/Mac）"
+        },
+        "scenarios": {
+          "swing-laf": {
+            "title": "Swing 外观与感觉",
+            "description": "每种 Swing L&F（Metal、Windows、Motif、Nimbus）是一个具体工厂，创建整套风格一致的 UI 组件。"
+          },
+          "jdbc-driver-family": {
+            "title": "JDBC 驱动族",
+            "description": "每个数据库厂商通过统一 JDBC 接口提供整套驱动（Connection、Statement、ResultSet）。"
+          },
+          "dotnet-db-provider": {
+            "title": ".NET DbProviderFactory",
+            "description": "DbProviderFactory 创建供应商特定的 Connection、Command 和 DataAdapter 对象，客户端代码无需关心具体数据库。"
+          }
+        }
+      },
+      "adapter": {
+        "title": "适配器模式",
+        "desc": "适配器模式将一个类的接口转换成客户端期望的另一个接口，使原本接口不兼容的类可以一起工作。它像电源适配器一样，将一种接口转换为另一种接口。",
+        "tags": [
+          "结构型",
+          "接口转换",
+          "兼容性"
+        ],
+        "frames": {
+          "0": "系统初始化: ModernPrinter 需要 USB 接口，OldPrinter 只有并口",
+          "1": "ModernPrinter 尝试直接调用 OldPrinter（接口不兼容）",
+          "2": "❌ 接口不兼容！OldPrinter 没有 USBPrint() 方法",
+          "3": "创建 LegacyPrinterAdapter，包装 OldPrinter",
+          "4": "✅ LegacyPrinterAdapter 包装了 OldPrinter",
+          "5": "ModernPrinter 通过 Adapter 打印",
+          "6": "Adapter 实现 USBPrint() 方法，内部调用 ParallelPrint()",
+          "7": "Adapter.translate() → OldPrinter.ParallelPrint()",
+          "8": "✅ 旧打印机终于工作！适配器转换了接口",
+          "9": "ModernPrinter 再次通过 Adapter 打印",
+          "10": "✅ 适配器模式：让不兼容的接口可以一起工作"
+        },
+        "scenarios": {
+          "slf4j-facade": {
+            "title": "SLF4J — 通用日志门面",
+            "description": "SLF4J 提供统一的日志 API，通过适配器桥接 Logback、Log4j 或 java.util.logging，应用无需改代码即可切换后端。"
+          },
+          "java-io-streams": {
+            "title": "InputStreamReader — 字节流到字符流的适配",
+            "description": "Java 的 InputStreamReader 包装面向字节的 InputStream，暴露面向字符的 Reader 接口——JDK 中的经典适配器模式。"
+          },
+          "stripe-sdk": {
+            "title": "Stripe SDK — 多支付提供商适配器",
+            "description": "Stripe SDK 适配器在统一结账接口背后，抽象 Stripe、Square、PayPal 等支付提供商的差异。"
+          }
+        }
+      },
+      "bridge": {
+        "title": "桥接模式",
+        "desc": "桥接模式将抽象部分与它的实现部分分离，使它们都可以独立地变化。它避免了多层继承带来的类爆炸问题，通过组合代替继承。",
+        "tags": [
+          "结构型",
+          "组合",
+          "独立变化"
+        ],
+        "frames": {
+          "0": "系统初始化: Shape（形状）和 Color（颜色）分离",
+          "1": "Circle.setColor(Red) - 形状与颜色通过桥接分离",
+          "2": "ColorImplementor 处理颜色选择",
+          "3": "✅ RedCircle 创建完成：Circle + Red",
+          "4": "Square.setColor(Blue) - 创建蓝色正方形",
+          "5": "ColorImplementor 处理 Blue 颜色",
+          "6": "✅ BlueSquare 创建完成：Square + Blue",
+          "7": "🌟 添加新形状 Triangle：无需修改颜色系统",
+          "8": "✅ 桥接模式：形状和颜色可以独立扩展，互不影响"
+        },
+        "scenarios": {
+          "jdbc-drivers": {
+            "title": "JDBC — 跨数据库桥接",
+            "description": "JDBC 定义统一的连接/查询抽象，各数据库厂商（MySQL、PostgreSQL、H2）通过驱动实现，应用可切换数据库而无需改动 SQL 代码。"
+          },
+          "graphics-api": {
+            "title": "OpenGL / DirectX — 抽象 GPU 硬件",
+            "description": "OpenGL、DirectX、Vulkan 等图形 API 将渲染抽象与 GPU 实现分离，游戏在不同硬件上渲染一致。"
+          },
+          "logger-backends": {
+            "title": "日志框架 — API 与输出解耦",
+            "description": "SLF4J、Winston 等框架将日志 API（抽象）与文件、数据库、云服务（实现）等输出目的地解耦。"
+          }
+        }
+      },
+      "builder": {
+        "title": "建造者模式",
+        "desc": "建造者模式将一个复杂对象的构建与它的表示分离，使得同样的构建过程可以创建不同的表示。它允许分步骤创建复杂对象。",
+        "tags": [
+          "创建型",
+          "分步构建",
+          "表示分离"
+        ],
+        "frames": {
+          "0": "系统初始化: 创建 ConstructionDirector 和 HouseBuilder",
+          "1": "Director 收到订单，开始构建房屋",
+          "2": "第一步: 构建地基 - buildFoundation()",
+          "3": "✅ 地基完成: 混凝土浇筑",
+          "4": "第二步: 构建墙壁 - buildWalls()",
+          "5": "✅ 墙壁完成: 砖墙结构",
+          "6": "第三步: 构建屋顶 - buildRoof()",
+          "7": "✅ 屋顶完成: 瓦片覆盖",
+          "8": "第四步: Director 调用 getResult() 获取房屋",
+          "9": "✅ 房屋构建完成！Builder 模式分步构建复杂对象",
+          "10": "❄️ 切换到 IglooBuilder（冰屋）",
+          "11": "✅ 同一 Director + 不同 Builder = 不同产品（房屋 vs 冰屋）"
+        },
+        "scenarios": {
+          "okhttp-request": {
+            "title": "OkHttp Request.Builder",
+            "description": "OkHttp 的流式 Request.Builder 通过方法链逐步构建不可变的 HTTP 请求。"
+          },
+          "java-string-builder": {
+            "title": "StringBuilder / StringBuffer",
+            "description": "StringBuilder 通过 append() 调用增量构建字符串，避免创建中间副本。"
+          },
+          "lombok-builder": {
+            "title": "Lombok @Builder",
+            "description": "Lombok 的 @Builder 注解自动生成流式构建器，用于构建含大量可选字段的复杂 POJO。"
+          }
+        }
+      },
+      "chain-of-responsibility": {
+        "title": "责任链模式",
+        "desc": "责任链模式将请求沿着处理者链传递，直到有一个处理者处理它为止。每个处理者都可以决定处理请求或将其传递给下一个处理者。",
+        "tags": [
+          "行为型",
+          "传递链",
+          "解耦"
+        ],
+        "frames": {
+          "0": "系统初始化: 创建支持工单和 Level1/Level2/Level3/Manager 处理链",
+          "1": "🚨 高优先级工单到达 Level1Support",
+          "2": "Level1 检查能否处理: canHandle(high) = false（只处理 simple）",
+          "3": "Level1 无法处理，传递给 Level2Support",
+          "4": "工单传递给 Level2Support",
+          "5": "Level2 检查: canHandle(high) = false（只处理 technical）",
+          "6": "Level2 无法处理，传递给 Level3Support",
+          "7": "工单传递给 Level3Support（专家团队）",
+          "8": "Level3 检查: canHandle(high) = true（处理复杂问题）",
+          "9": "✅ Level3 成功处理工单：系统崩溃问题已修复",
+          "10": "🎉 工单已解决！责任链模式实现了请求的自动传递和处理"
+        },
+        "scenarios": {
+          "servlet-filters": {
+            "title": "Java Servlet 过滤器链",
+            "description": "Servlet 容器将请求传递给 Filter 实例链，每个过滤器在传递前执行身份验证、日志记录或编码。"
+          },
+          "express-middleware": {
+            "title": "Express.js 中间件管道",
+            "description": "Express 和 Koa 组合中间件函数，每个函数调用 next() 将请求转发到管道下游或短路处理。"
+          },
+          "okhttp-interceptors": {
+            "title": "OkHttp 网络拦截器",
+            "description": "OkHttp 和 Retrofit 链式调用拦截器进行重试、身份令牌注入和日志记录，然后请求才到达网络层。"
+          }
+        }
+      },
+      "command": {
+        "title": "命令模式",
+        "desc": "命令模式将请求封装为对象，使你可以参数化、队列化、记录请求，以及支持撤销操作。这种模式分离了发起请求的对象和执行请求的对象。",
+        "tags": [
+          "行为型",
+          "撤销",
+          "队列化"
+        ],
+        "frames": {
+          "0": "系统初始化: 创建遥控器 (Invoker)、命令对象、灯光接收器",
+          "1": "Client 创建 LightOnCommand，指定接收者 Light",
+          "2": "✅ LightOnCommand 已创建，包含 execute() 和 undo() 方法",
+          "3": "遥控器设置命令: setCommand(LightOnCommand)",
+          "4": "✅ 命令已存储到遥控器，等待按下按钮",
+          "5": "🎮 用户按下按钮: invoker.buttonPressed() → execute()",
+          "6": "LightOnCommand.execute() → Light.turnOn()",
+          "7": "✅ 灯光已打开！Light 状态: OFF → ON",
+          "8": "命令已保存到历史记录，支持撤销操作",
+          "9": "✅ 历史记录: [LightOnCommand]。可执行撤销（undo）",
+          "10": "↩️ 用户按下撤销按钮: invoker.undo()",
+          "11": "LightOnCommand.undo() → Light.turnOff()",
+          "12": "✅ 撤销成功！Light 状态: ON → OFF。命令模式支持撤销/重做"
+        },
+        "scenarios": {
+          "gui-undo-redo": {
+            "title": "GUI 撤销/重做",
+            "description": "GUI 编辑器（VSCode、Photoshop）将每次操作封装为命令对象，支持撤销/重做与宏录制。"
+          },
+          "db-transaction": {
+            "title": "数据库事务",
+            "description": "数据库引擎将 SQL 事务建模为命令对象，BEGIN/COMMIT/ROLLBACK 构成原子操作链。"
+          },
+          "job-queue": {
+            "title": "后台任务队列",
+            "description": "任务队列（Sidekiq、Celery）将后台作业序列化为命令对象，由工作进程可靠执行。"
+          }
+        }
+      },
+      "composite": {
+        "title": "组合模式",
+        "desc": "组合模式将对象组合成树形结构以表示'部分-整体'的层次关系。组合模式使得用户对单个对象和组合对象的使用具有一致性。",
+        "tags": [
+          "结构型",
+          "树形结构",
+          "一致性"
+        ],
+        "frames": {
+          "0": "系统初始化: 创建根目录 (Root/) 作为容器",
+          "1": "Root.add(Documents/) - 添加 Documents 子目录",
+          "2": "✅ Documents/ 目录已添加到 Root",
+          "3": "Root.add(Images/) - 添加 Images 子目录",
+          "4": "✅ Images/ 目录已添加到 Root",
+          "5": "Documents.add(report.txt) - 添加文件到 Documents",
+          "6": "✅ report.txt (2KB) 已添加到 Documents/",
+          "7": "Documents.add(notes.md) - 添加另一个文件",
+          "8": "✅ notes.md (5KB) 已添加到 Documents/",
+          "9": "Images.add(photo.jpg) - 添加图片文件",
+          "10": "✅ photo.jpg (2MB) 已添加到 Images/",
+          "11": "Root.add(readme.txt) - 根目录直接添加文件",
+          "12": "✅ readme.txt (1KB) 已添加到 Root/",
+          "13": "📊 调用 getSize() 递归计算总大小",
+          "14": "遍历所有子节点: Documents/(7KB) + Images/(2MB) + readme.txt(1KB)",
+          "15": "✅ 总大小: ~2MB。组合模式统一处理文件和目录！"
+        },
+        "scenarios": {
+          "dom-tree": {
+            "title": "DOM API — 终极组合树",
+            "description": "W3C DOM 统一处理所有节点：父元素包含子元素或文本节点，querySelector 等操作递归遍历层级。"
+          },
+          "ast-nodes": {
+            "title": "抽象语法树 — 组合表达式",
+            "description": "编译器将代码建模为 AST，表达式包含子表达式。每个节点实现统一的 eval() 接口，求值递归向下传播。"
+          },
+          "organization-chart": {
+            "title": "企业组织架构 — 逐级汇总",
+            "description": "企业层级将部门和员工统一对待——部门从子单元汇总人数和预算，实现递归报表。"
+          }
+        }
+      },
+      "decorator": {
+        "title": "装饰器模式",
+        "desc": "装饰器模式动态地将责任附加到对象上。通过将组件包裹在装饰器对象中，可以在不修改原有类的情况下扩展功能，遵循组合优于继承的设计原则。",
+        "tags": [
+          "结构型",
+          "组合",
+          "动态扩展"
+        ],
+        "frames": {
+          "0": "系统初始化: 创建 SimpleCoffee 基本组件（$2.00）",
+          "1": "用 MilkDecorator 包裹 SimpleCoffee — 添加 +$0.50",
+          "2": "✅ MilkDecorator 已包裹: Coffee → Coffee, Milk ($2.50)",
+          "3": "用 SugarDecorator 包裹 MilkDecorator — 添加 +$0.15",
+          "4": "✅ SugarDecorator 已包裹: Coffee → Coffee, Milk, Sugar ($2.65)",
+          "5": "用 WhipDecorator 包裹 SugarDecorator — 添加 +$0.10",
+          "6": "✅ 装饰链完成: Whip → Sugar → Milk → Coffee ($2.75)",
+          "7": "☕ Client 调用 totalCost = whip.cost()",
+          "8": "Whip.cost() → 委托给 Sugar.cost()",
+          "9": "Sugar.cost() → 委托给 Milk.cost()",
+          "10": "Milk.cost() → 委托给 SimpleCoffee.cost()",
+          "11": "SimpleCoffee.cost() = $2.00 ✅ — 返回给 MilkDecorator",
+          "12": "MilkDecorator.cost() = $2.00 + $0.50 = $2.50 → 向上返回",
+          "13": "SugarDecorator.cost() = $2.50 + $0.15 = $2.65 → 向上返回",
+          "14": "WhipDecorator.cost() = $2.65 + $0.10 = $2.75 → 返回给 Client ✅",
+          "15": "🏁 最终: Whip → Sugar → Milk → Coffee = $2.75。装饰器链动态组合职责。"
+        },
+        "scenarios": {
+          "java-io-streams": {
+            "title": "Java I/O 流",
+            "description": "BufferedReader 包装 InputStreamReader 再包装 FileInputStream，通过嵌套装饰器组合编码与缓冲行为。"
+          },
+          "react-hocs": {
+            "title": "React 高阶组件",
+            "description": "withRouter 和 connect 等 HOC 包装组件以注入 props，在不修改原始组件的情况下添加横切关注点。"
+          },
+          "python-decorators": {
+            "title": "Python 语言装饰器",
+            "description": "@property、@lru_cache 和 @staticmethod 在函数和方法定义时使用装饰器语法增强其行为。"
+          }
+        }
+      },
+      "facade": {
+        "title": "外观模式",
+        "desc": "外观模式为子系统中的一组接口提供一个统一的接口。外观模式定义了一个高层接口，使子系统更易于使用。它隐藏了系统的复杂性。",
+        "tags": [
+          "结构型",
+          "简化接口",
+          "子系统封装"
+        ],
+        "frames": {
+          "0": "系统初始化: Application 需要与多个子系统交互（CPU、Memory、Disk）",
+          "1": "⚠️ 直接调用子系统需要了解每个子系统的复杂接口",
+          "2": "❌ 客户端需要协调 CPU.freeze()、Memory.load()、Disk.read() 等多个步骤",
+          "3": "创建 ComputerFacade 简化所有子系统交互",
+          "4": "Facade.startComputer() → 调用 CPU.freeze()",
+          "5": "Facade 继续调用 Memory.load()",
+          "6": "Facade 继续调用 Disk.read()",
+          "7": "✅ Facade 封装了所有子系统调用，客户端只需调用一个方法",
+          "8": "🎉 Facade 模式：客户端通过简单接口操作复杂系统",
+          "9": "✅ 客户端代码变得简洁：computerFacade.startComputer()"
+        },
+        "scenarios": {
+          "jdbc-jdbctemplate": {
+            "title": "JDBC 与 Spring JdbcTemplate",
+            "description": "JdbcTemplate 将 Connection、Statement 和 ResultSet 封装为单次查询调用，隐藏冗长的 JDBC 样板代码。"
+          },
+          "aws-sdk": {
+            "title": "云 SDK 外观",
+            "description": "AWS SDK、Google Cloud SDK 和 Azure SDK 各自提供简化客户端，编排复杂的 HTTP 签名、重试和序列化。"
+          },
+          "ffmpeg-cli": {
+            "title": "FFmpeg 命令行界面",
+            "description": "FFmpeg CLI 以一行命令封装数百种编解码器、复用器和滤镜 API，用于视频处理。"
+          }
+        }
+      },
+      "factory-method": {
+        "title": "工厂方法模式",
+        "desc": "工厂方法模式定义了一个创建对象的接口，但由子类决定要实例化哪一个类。工厂方法使一个类的实例化延迟到其子类。",
+        "tags": [
+          "创建型",
+          "延迟创建",
+          "子类决定"
+        ],
+        "frames": {
+          "0": "系统初始化: DocumentCreator 和 ReportCreator",
+          "1": "DocumentCreator.createDocument() 被调用",
+          "2": "工厂方法被重写为创建 Report",
+          "3": "ReportCreator 调用 factory method 创建 Report",
+          "4": "✅ Report 创建完成: 季度报告（15页）",
+          "5": "工厂方法返回 Report 对象给客户端",
+          "6": "✅ 工厂方法模式：子类决定创建什么产品",
+          "7": "切换到 InvoiceCreator - 工厂方法返回不同产品",
+          "8": "✅ 同一工厂方法 + 不同子类 = 不同产品（报告 vs 发票）"
+        },
+        "scenarios": {
+          "jdbc-driver-manager": {
+            "title": "JDBC 驱动管理器",
+            "description": "DriverManager.getConnection() 根据 JDBC URL 委托给对应数据库驱动——每个驱动子类实现工厂方法。"
+          },
+          "react-create-element": {
+            "title": "React.createElement()",
+            "description": "React 的 createElement 充当工厂方法，根据标签参数创建不同的虚拟 DOM 元素类型。"
+          },
+          "java-number-format": {
+            "title": "Java NumberFormat / Calendar",
+            "description": "NumberFormat.getXXXInstance() 和 Calendar.getInstance() 让子类决定返回的具体格式化器或日历实现。"
+          }
+        }
+      },
+      "flyweight": {
+        "title": "享元模式",
+        "desc": "享元模式通过共享大量细粒度的对象来减少内存使用。对象分为内部状态（可共享）和外部状态（不可共享），工厂负责管理享元池。",
+        "tags": [
+          "结构型",
+          "共享",
+          "内存优化"
+        ],
+        "frames": {
+          "0": "系统初始化: 创建 CharacterFactory 和 TextRenderer",
+          "1": "渲染文本 'ABACAB'，首先获取字符 'A'",
+          "2": "工厂检查缓存: 'A' 不存在，创建新的享元对象",
+          "3": "✅ 'A' 的字体数据 (Arial-12px-Bold) 已缓存到工厂",
+          "4": "获取字符 'B' - 工厂缓存检查",
+          "5": "'B' 不存在，创建新的享元: Arial-12px-Bold",
+          "6": "✅ 'B' 已缓存。现在缓存: ['A', 'B']",
+          "7": "获取字符 'A' 第二次 - 缓存命中！",
+          "8": "🎯 缓存命中！直接复用 'A' 的享元对象，无需创建新的",
+          "9": "获取字符 'C' - 需要创建新的享元",
+          "10": "'C' 不存在，创建新的享元对象",
+          "11": "✅ 'C' 已缓存。共 3 个字符共享 1 份字体数据",
+          "12": "✅ 文本 'ABACAB' 渲染完成！内存节省: 共享字体数据"
+        },
+        "scenarios": {
+          "java-integer-cache": {
+            "title": "Java Integer 缓存池",
+            "description": "JVM 缓存 -128 到 127 的 Integer 实例，共享相同的享元对象以减少堆分配。"
+          },
+          "font-glyph-cache": {
+            "title": "浏览器字体字形缓存",
+            "description": "浏览器为每个字符码和字体组合复用已渲染的字形位图，避免重复光栅化。"
+          },
+          "game-sprite-atlas": {
+            "title": "游戏引擎精灵图集",
+            "description": "Unity 和 Three.js 在数千个实例间共享同一纹理图集，仅将位置和缩放作为外部状态变化。"
+          }
+        }
+      },
+      "interpreter": {
+        "title": "解释器模式",
+        "desc": "解释器模式定义一个语言的文法表示，并解释该语言中的句子。它将问题分解为语法规则和解释器，常用于 SQL 解析、配置语言等场景。",
+        "tags": [
+          "行为型",
+          "文法",
+          "解释"
+        ],
+        "frames": {
+          "0": "系统初始化: Context 保存变量 (a=10, b=3)，表达式 a + b * 2",
+          "1": "解释器解析表达式: 首先获取变量 'a' 的值",
+          "2": "Context.lookup('a') = 10",
+          "3": "获取变量 'b' 的值",
+          "4": "Context.lookup('b') = 3",
+          "5": "按照运算符优先级，先计算 b * 2 = 3 * 2 = 6",
+          "6": "✅ 乘法计算完成: 3 * 2 = 6",
+          "7": "计算 a + (b * 2) = 10 + 6",
+          "8": "表达式解释器返回最终结果",
+          "9": "✅ 解释器模式：a + b * 2 = 16",
+          "10": "🔄 评估新表达式: x - y = 5 - 2 = 3",
+          "11": "✅ 解释器模式：语法分析 + 语义解释 = 结果"
+        },
+        "scenarios": {
+          "sql-parser": {
+            "title": "SQL 解析器",
+            "description": "SQL 解析器将查询字符串分解为 AST，每个节点作为表达式对数据库上下文求值。"
+          },
+          "regex-engine": {
+            "title": "正则表达式引擎",
+            "description": "正则引擎将模式编译为表达式树，逐节点对输入字符串进行匹配解释。"
+          },
+          "spel-expression": {
+            "title": "Spring 表达式语言",
+            "description": "Spring SpEL 在运行时解析注解表达式为 AST，用于鉴权、模板和动态配置。"
+          }
+        }
+      },
+      "iterator": {
+        "title": "迭代器模式",
+        "desc": "迭代器模式提供一种方法顺序访问一个聚合对象中的各个元素，而又不需暴露该对象的内部表示。它使遍历与聚合解耦。",
+        "tags": [
+          "行为型",
+          "遍历",
+          "聚合"
+        ],
+        "scenarios": {
+          "java-iterable": {
+            "title": "Java Iterable<T> 与 C# IEnumerable",
+            "description": "Java 集合全部实现 Iterable，C# 集合全部实现 IEnumerable，使得 for-each 循环能够以统一的方式遍历整个标准库。"
+          },
+          "react-iterator": {
+            "title": "React 与响应式流",
+            "description": "React 组件列表（.map）、Redux 选择器、RxJS 流水线都使用迭代器语义，以惰性方式逐元素处理数据流。"
+          },
+          "db-cursor": {
+            "title": "数据库游标（MongoDB / JDBC）",
+            "description": "数据库游标以流式方式返回查询结果，无需将全部结果集载入内存，可让百万行数据在常数内存下被遍历。"
+          }
+        }
+      },
+      "mediator": {
+        "title": "中介者模式",
+        "desc": "中介者模式定义了一个对象，该对象封装了一组对象如何交互。它使对象之间不再显式地相互引用，从而使其耦合度降低。",
+        "tags": [
+          "行为型",
+          "解耦",
+          "通信"
+        ],
+        "scenarios": {
+          "redux-store": {
+            "title": "Redux / Zustand 状态管理",
+            "description": "Redux 等状态库充当中介者——组件派发动作，Store 协调更新并通知所有订阅者。"
+          },
+          "executor-service": {
+            "title": "线程池执行器",
+            "description": "线程池执行器（Java ExecutorService、Go goroutines）协调任务生产者与工作线程，平衡负载。"
+          },
+          "air-traffic-control": {
+            "title": "空中交通管制",
+            "description": "空中交通管制系统通过中央中介者协调飞机起降、航线与避碰。"
+          }
+        }
+      },
+      "memento": {
+        "title": "备忘录模式",
+        "desc": "备忘录模式在不破坏封装性的前提下，捕获一个对象的内部状态，并在该对象之外保存这个状态。这样以后就可将该对象恢复到原先保存的状态。",
+        "tags": [
+          "行为型",
+          "撤销",
+          "状态保存"
+        ],
+        "scenarios": {
+          "editor-undo": {
+            "title": "文本编辑器撤销",
+            "description": "VSCode 和 Vim 每次变更后保存文件快照至历史栈，Ctrl+Z 恢复至上一备忘录。"
+          },
+          "db-rollback": {
+            "title": "数据库事务回滚",
+            "description": "数据库事务日志存储变更前镜像作为备忘录，ROLLBACK 恢复快照回滚事务。"
+          },
+          "time-travel-debug": {
+            "title": "时间旅行调试",
+            "description": "Redux DevTools 在每次操作后快照应用状态，支持回放至任意历史状态。"
+          }
+        }
+      },
+      "observer": {
+        "title": "观察者模式",
+        "desc": "观察者模式定义了一种一对多的依赖关系，让多个观察者对象同时监听某一个主题对象。当主题状态发生变化时，会通知所有观察者，使它们能够自动更新。",
+        "tags": [
+          "行为型",
+          "发布-订阅",
+          "事件驱动"
+        ],
+        "frames": {
+          "0": "系统初始化: 创建 WeatherStation (Subject) 和两个观察者",
+          "1": "注册观察者: 将 PhoneDisplay 和 WindowDisplay 注册到 WeatherStation",
+          "2": "PhoneDisplay 已注册, 正在注册 WindowDisplay...",
+          "3": "✅ 两个观察者已注册完毕, 等待状态变更...",
+          "4": "🌡️ 天气更新: WeatherStation.setTemperature(25°C)",
+          "5": "📱 通知 PhoneDisplay: update(25°C) — 手机显示屏已更新",
+          "6": "✅ PhoneDisplay 已接收 25°C 并刷新显示",
+          "7": "🪟 通知 WindowDisplay: update(25°C) — 窗口显示屏接收更新",
+          "8": "✅ WindowDisplay 已接收 25°C 并更新显示",
+          "9": "✅ 所有观察者已更新为 25°C",
+          "10": "⏸️ 所有观察者已同步。等待下一次天气更新..."
+        },
+        "scenarios": {
+          "dom-events": {
+            "title": "DOM 事件 / RxJS",
+            "description": "DOM 的 EventTarget 是经典观察者：元素注册监听器，事件广播至所有订阅者。"
+          },
+          "kafka-consumer": {
+            "title": "Kafka 消费者组",
+            "description": "Kafka 主题作为主体，消费者组为观察者，每个分区以发布-订阅拓扑分发消息。"
+          },
+          "redis-pubsub": {
+            "title": "Redis 发布/订阅",
+            "description": "Redis Pub/Sub 解耦发布者与订阅者，频道消息广播至全部已连接监听器。"
+          }
+        }
+      },
+      "prototype": {
+        "title": "原型模式",
+        "desc": "原型模式通过复制现有对象（原型）来创建新对象，而无需知道具体类。它允许动态地添加或删除原型，且复制过程对客户端隐藏。",
+        "tags": [
+          "创建型",
+          "克隆",
+          "复制"
+        ],
+        "frames": {
+          "0": "系统初始化: 创建 Document 原型对象",
+          "1": "Document 作为原型，准备被克隆",
+          "2": "✅ Document 已注册为原型，调用 clone() 方法创建副本",
+          "3": "克隆第一个副本: Document.clone()",
+          "4": "复制所有字段: title, pages, author",
+          "5": "✅ 副本 1 创建完成，内容与原始文档相同",
+          "6": "克隆第二个副本: Document.clone()",
+          "7": "再次复制所有字段到副本 2",
+          "8": "✅ 副本 2 创建完成。原型模式无需知道具体类即可克隆",
+          "9": "✏️ 修改副本1内容，不影响原始文档和其他副本",
+          "10": "✅ 原型模式：三个独立对象，修改互不影响"
+        },
+        "scenarios": {
+          "java-cloneable": {
+            "title": "Java Object.clone() — 标准库中的原型模式",
+            "description": "Java 的 Cloneable 接口和 Object.clone() 提供语言级的原型克隆机制。Kotlin data class copy() 和 C# ICloneable 沿用相同思路。"
+          },
+          "js-structured-clone": {
+            "title": "structuredClone() — JavaScript 跨 Realm 深拷贝",
+            "description": "HTML 标准的 structuredClone() 可在跨 Realm（iframe、Worker）深度克隆任意可序列化对象，避免状态密集型应用中的变更 bug。"
+          },
+          "react-children-clone": {
+            "title": "React.cloneElement() — 不可变元素原型",
+            "description": "React 的 cloneElement() 创建元素的修改副本而不改变原对象，支撑父组件注入 props 等模式。"
+          }
+        }
+      },
+      "proxy": {
+        "title": "代理模式",
+        "desc": "代理模式为其他对象提供一种代理以控制对这个对象的访问。代理可以在客户端和目标对象之间起到中介作用，可以延迟加载、缓存访问控制等。",
+        "tags": [
+          "结构型",
+          "懒加载",
+          "访问控制"
+        ],
+        "frames": {
+          "0": "系统初始化: 创建 ImageViewer (Client) 和 ImageProxy",
+          "1": "ImageViewer 调用 proxy.display() 请求显示图片",
+          "2": "ImageProxy 收到请求，检查图片是否已加载",
+          "3": "🖼️ 图片未加载，Proxy 显示占位符 'Loading...'",
+          "4": "代理模式：延迟加载真实图片，只在需要时才加载",
+          "5": "ImageViewer 请求加载完整图片",
+          "6": "ImageProxy 创建 RealImage 实例 (耗时操作)",
+          "7": "RealImage.loadFromDisk() - 从磁盘加载图片数据",
+          "8": "✅ 图片加载完成: 1920x1080 分辨率",
+          "9": "ImageProxy 将 RealImage 显示给 ImageViewer",
+          "10": "✅ 图片已成功显示！代理模式实现了懒加载"
+        },
+        "scenarios": {
+          "hibernate-lazy-loading": {
+            "title": "Hibernate 懒加载代理",
+            "description": "Hibernate 为带 LAZY 关联的实体生成字节码代理，将 SQL 查询延迟到首次访问时触发。"
+          },
+          "nginx-cdn": {
+            "title": "反向代理与 CDN 层",
+            "description": "Nginx 和 Cloudflare CDN 充当透明代理，在请求到达源服务器之前缓存响应并负载均衡。"
+          },
+          "vue3-reactivity": {
+            "title": "Vue 3 响应式代理",
+            "description": "Vue 3 将响应式状态包装在 ES Proxy 对象中，自动拦截属性访问并触发依赖追踪。"
+          }
+        }
+      },
+      "singleton": {
+        "title": "单例模式",
+        "desc": "单例模式确保一个类只有一个实例，并提供一个全局访问点。它适用于共享资源（如数据库连接）、日志记录器、配置管理等场景。",
+        "tags": [
+          "创建型",
+          "全局",
+          "唯一实例"
+        ],
+        "frames": {
+          "0": "系统初始化: Database 类（构造函数私有）",
+          "1": "UserService 调用 Database.getInstance()",
+          "2": "检查实例是否存在（第一次访问，返回 null）",
+          "3": "实例为空，创建唯一实例",
+          "4": "✅ 第一次创建实例，保存到静态变量",
+          "5": "✅ dbInstance 返回给 UserService",
+          "6": "OrderService 也调用 Database.getInstance()",
+          "7": "检查实例是否存在（已存在）",
+          "8": "🎯 缓存命中！直接返回已有的 dbInstance",
+          "9": "✅ 单例模式：多个服务共享同一个数据库连接",
+          "10": "验证: UserService 和 OrderService 使用的是同一个实例",
+          "11": "✅ 单例模式确保全局只有一个数据库实例，节省资源"
+        },
+        "scenarios": {
+          "java-runtime": {
+            "title": "Java Runtime (java.lang.Runtime)",
+            "description": "Java 的 Runtime.getRuntime() 返回唯一的 JVM 进程实例——ProcessBuilder 和 System.exit() 都使用此经典单例。"
+          },
+          "spring-bean": {
+            "title": "Spring 框架默认 Bean 作用域",
+            "description": "Spring IoC 容器默认将未指定作用域的 Bean 视为单例，整个 ApplicationContext 共享同一实例。"
+          },
+          "log4j-logger": {
+            "title": "日志框架（Log4j / SLF4J）",
+            "description": "Java 日志门面为每个名称维护唯一 Logger，跨类加载器去重输出并避免 I/O 争用。"
+          }
+        }
+      },
+      "state": {
+        "title": "状态模式",
+        "desc": "状态模式允许对象在内部状态发生改变时改变它的行为，看起来好像修改了它的类。它消除庞大的条件分支语句。",
+        "tags": [
+          "行为型",
+          "状态转移",
+          "条件消除"
+        ],
+        "scenarios": {
+          "tcp-state-machine": {
+            "title": "TCP 连接状态机",
+            "description": "TCP 连接使用状态机管理可靠传输，包含 ESTABLISHED、CLOSE_WAIT 和 TIME_WAIT 等状态。"
+          },
+          "react-use-state": {
+            "title": "React 组件状态",
+            "description": "React 组件通过状态模式管理 loading、success、error 等 UI 状态，每个状态驱动不同的渲染输出。"
+          },
+          "order-workflow": {
+            "title": "电商订单工作流",
+            "description": "电商订单处理遵循状态工作流：PENDING → PAID → SHIPPED → DELIVERED，每个阶段限制状态转换。"
+          }
+        }
+      },
+      "strategy": {
+        "title": "策略模式",
+        "desc": "策略模式定义了一系列的算法，并将每一个算法封装起来，使它们可以相互替换。策略模式使算法可以独立于使用它的客户端而变化。",
+        "tags": [
+          "行为型",
+          "算法替换",
+          "多态"
+        ],
+        "scenarios": {
+          "java-comparator": {
+            "title": "Java Comparator 排序",
+            "description": "Java 的 Comparator 接口允许开发者运行时切换排序策略，无需修改被排序的集合。"
+          },
+          "http-compression": {
+            "title": "HTTP 压缩协商",
+            "description": "HTTP 服务器通过策略模式协商压缩算法（gzip、brotli、zstd），根据客户端 Accept-Encoding 选择。"
+          }
+        }
+      },
+      "template-method": {
+        "title": "模板方法模式",
+        "desc": "模板方法模式定义一个操作中的算法的骨架，而将一些步骤延迟到子类中。模板方法使得子类可以不改变一个算法的结构即可重定义该算法的某些特定步骤。",
+        "tags": [
+          "行为型",
+          "继承",
+          "算法骨架"
+        ],
+        "scenarios": {
+          "java-servlet": {
+            "title": "Java Servlet 生命周期",
+            "description": "Java HttpServlet 定义 service() 模板，子类重写 doGet/doPost，请求分派骨架保持不变。"
+          },
+          "junit-lifecycle": {
+            "title": "JUnit 5 测试生命周期",
+            "description": "JUnit 5 测试执行遵循模板：@BeforeAll → @BeforeEach → @Test → @AfterEach → @AfterAll，提供设置和清理钩子。"
+          },
+          "spring-jdbc": {
+            "title": "Spring JdbcTemplate",
+            "description": "Spring 的 JdbcTemplate 将 JDBC 样板代码（连接、语句、结果集）封装为模板，调用者只需提供 SQL。"
+          }
+        }
+      },
+      "visitor": {
+        "title": "访问者模式",
+        "desc": "访问者模式表示一个作用于某对象结构中的各元素的操作。它使你可以在不改变各元素的类的前提下定义作用于这些元素的新操作。",
+        "tags": [
+          "行为型",
+          "双重分派",
+          "操作分离"
+        ],
+        "scenarios": {
+          "java-annotation-processor": {
+            "title": "Java 注解处理",
+            "description": "Java 注解处理使用 javax.lang.model.element.ElementVisitor 遍历包、类型、方法等源码元素。"
+          },
+          "files-walk-file-tree": {
+            "title": "文件系统遍历",
+            "description": "Java NIO Files.walkFileTree 应用访问者模式，FileVisitor 回调在递归遍历中接收每个文件/目录。"
+          }
+        }
+      }
+    },
+    "algorithms": {
+      "a-star": {
+        "title": "A*搜索算法",
+        "desc": "A*搜索算法结合了Dijkstra算法的最优性和贪心最佳优先搜索的效率，使用 f(n) = g(n) + h(n) 评估节点，其中 h(n) 是到目标的启发式估计。保证找到最短路径。",
+        "tags": {
+          "graph": "图",
+          "shortest-path": "最短路径",
+          "heuristic": "启发式",
+          "search": "搜索"
+        },
+        "scenarios": {
+          "game-pathfinding": {
+            "title": "即时战略游戏寻路",
+            "description": "《帝国时代》《星际争霸》使用A*结合地形代价与启发式进行单位导航。"
+          },
+          "robotics-navigation": {
+            "title": "自主机器人导航",
+            "description": "ROS导航栈和Waymo使用A*在占用栅格地图中规划无碰撞路径。"
+          },
+          "eta-estimation": {
+            "title": "GPS预计到达时间",
+            "description": "Google Maps和Uber使用加权启发式A*预测道路网络的准确到达时间。"
+          }
+        }
+      },
+      "bellman-ford": {
+        "title": "Bellman-Ford算法",
+        "desc": "Bellman-Ford算法通过重复松弛所有边来找到从源节点到所有其他节点的最短路径。经过V-1轮松弛后可检测负权环。适用于包含负权边的图。",
+        "tags": {
+          "graph": "图",
+          "shortest-path": "最短路径",
+          "dynamic-programming": "动态规划",
+          "负权边": "负权边"
+        },
+        "scenarios": {
+          "arbitrage-detection": {
+            "title": "货币套利检测",
+            "description": "Bellman-Ford检测外汇汇率图中的负权环，识别循环交易获利机会。"
+          },
+          "distance-vector-routing": {
+            "title": "距离矢量路由协议",
+            "description": "RIP和IGRP使用Bellman-Ford的边松弛迭代在网络跳间传播路由表。"
+          },
+          "apollo-guidance": {
+            "title": "阿波罗导航计算机",
+            "description": "NASA阿波罗任务使用Bellman-Ford变体算法进行轨道优化和导航计算。"
+          }
+        }
+      },
+      "bfs": {
+        "title": "广度优先搜索",
+        "desc": "广度优先搜索（BFS）使用队列逐层遍历图，先访问距离起点最近的所有节点，再向外扩展。适用于最短路径、层级遍历和连通性检测。",
+        "tags": {
+          "graph": "图",
+          "遍历": "遍历",
+          "队列": "队列",
+          "shortest-path": "最短路径"
+        },
+        "scenarios": {
+          "social-network": {
+            "title": "社交网络连接度",
+            "description": "LinkedIn、Facebook和Twitter使用BFS查找用户之间的最短连接链。"
+          },
+          "web-crawler": {
+            "title": "网络爬虫发现",
+            "description": "Googlebot、Scrapy和Apache Nutch使用BFS遍历链接图来发现和索引页面。"
+          },
+          "peer-to-peer": {
+            "title": "对等网络查找",
+            "description": "BitTorrent DHT、IPFS和Kademlia使用类BFS查找在分布式哈希表中定位节点。"
+          }
+        }
+      },
+      "binary-search": {
+        "title": "二分搜索",
+        "desc": "二分搜索在有序数组中通过不断将搜索范围减半来快速定位目标值。每次比较中间元素，将搜索区间缩小一半，时间复杂度 O(log n)。",
+        "tags": {
+          "search": "搜索",
+          "binary": "二分",
+          "divide-and-conquer": "分治"
+        },
+        "scenarios": {
+          "v8-array-indexof": {
+            "title": "V8 引擎二分查找优化",
+            "description": "V8 检测有序数组并优化 Array.indexOf，内部使用二分查找实现 O(log n) 查找。"
+          },
+          "git-bisect": {
+            "title": "Git Bisect 定位 Bug",
+            "description": "Git bisect 在提交历史上使用二分查找，精确定位引入回归的提交。"
+          },
+          "btree-index": {
+            "title": "B-tree 数据库索引查找",
+            "description": "PostgreSQL 和 InnoDB 的 B-tree 索引在每个节点页上执行二分查找，以 O(log n) 时间定位键。"
+          }
+        }
+      },
+      "bubble-sort": {
+        "title": "冒泡排序",
+        "desc": "冒泡排序是一种简单的排序算法，重复遍历数组，比较相邻元素并交换顺序错误的元素。每轮遍历将最大的元素\"冒泡\"到末尾。",
+        "tags": {
+          "sorting": "排序",
+          "beginner": "入门",
+          "stable": "稳定排序"
+        },
+        "scenarios": {
+          "ntfs-small-segments": {
+            "title": "NTFS 小文件段排序",
+            "description": "NTFS对小于16条的无序文件段使用冒泡排序，避免复杂排序的额外开销。"
+          },
+          "nearly-sorted-reactivity": {
+            "title": "近乎有序的UI列表",
+            "description": "React等UI框架在协调时遇到近乎有序的数组，优化冒泡排序可通过提前终止在O(n)内完成。"
+          },
+          "algorithm-visualization": {
+            "title": "算法可视化工具",
+            "description": "Visualgo和Sorting.at等教育平台使用冒泡排序作为入门排序可视化。"
+          }
+        }
+      },
+      "bucket-sort": {
+        "title": "桶排序",
+        "desc": "桶排序将元素分散到多个桶中，每个桶内单独排序后合并。适用于均匀分布的数据，平均时间复杂度接近 O(n)。",
+        "tags": {
+          "sorting": "排序",
+          "分布排序": "分布排序"
+        },
+        "scenarios": {
+          "mapreduce-shuffle": {
+            "title": "MapReduce Shuffle 与分区",
+            "description": "Hadoop和Spark在shuffle阶段使用基于桶的分布，将键分区到reducer后在桶内排序。"
+          },
+          "uniform-float-sorting": {
+            "title": "均匀浮点分布排序",
+            "description": "NumPy百分位数和Scikit-learn分位数计算利用桶排序处理均匀分布的浮点数据。"
+          },
+          "dns-record-distribution": {
+            "title": "DNS记录桶分布",
+            "description": "BIND9区域排序和dnsmasq查询缓存使用基于桶的方法组织DNS记录。"
+          }
+        }
+      },
+      "cocktail-sort": {
+        "title": "鸡尾酒排序",
+        "desc": "鸡尾酒排序是冒泡排序的变体，通过在每轮中先从左到右、再从右到左双向遍历，能更快地将元素放到正确位置。",
+        "tags": {
+          "sorting": "排序",
+          "beginner": "入门",
+          "冒泡排序变体": "冒泡排序变体"
+        },
+        "scenarios": {
+          "desktop-widget-sorting": {
+            "title": "桌面组件双向排序",
+            "description": "WPF ListBox和Qt QListView使用双向遍历高效排序小型UI元素集合。"
+          },
+          "teaching-bidirectional": {
+            "title": "双向排序教学",
+            "description": "算法教科书将鸡尾酒排序与冒泡排序对比，教授双向优化概念。"
+          },
+          "small-callback-sort": {
+            "title": "小型集合回调排序",
+            "description": "Underscore.js sortBy和Lodash orderBy处理小数组，双向遍历减少最坏情况交换次数。"
+          }
+        }
+      },
+      "comb-sort": {
+        "title": "梳排序",
+        "desc": "梳排序是冒泡排序的改进，使用收缩因子 1.3 逐步缩小比较间隔，消除数组尾部的小值（turtles）。",
+        "tags": {
+          "sorting": "排序",
+          "进阶": "进阶",
+          "冒泡排序改进": "冒泡排序改进"
+        },
+        "scenarios": {
+          "legacy-rendering-sort": {
+            "title": "遗留3D引擎排序",
+            "description": "OGRE 3D和Irrlicht引擎使用梳排序进行绘制调用排序，避免快速排序的额外开销。"
+          },
+          "real-time-game-entities": {
+            "title": "实时游戏实体Z轴排序",
+            "description": "Unity ECS和Godot绘制顺序使用梳排序的间隔缩减快速消除实体列表中的小值滞后。"
+          },
+          "embedded-iot-sorting": {
+            "title": "嵌入式物联网传感器排序",
+            "description": "Arduino和ESP-IDF传感器队列使用梳排序，实现O(1)空间和接近快速排序的性能。"
+          }
+        }
+      },
+      "counting-sort": {
+        "title": "计数排序",
+        "desc": "计数排序是一种非比较排序，通过统计每个值出现的次数，利用前缀和确定元素位置。时间复杂度 O(n+k)，适用于整数且范围已知的情况。",
+        "tags": {
+          "sorting": "排序",
+          "非比较排序": "非比较排序",
+          "stable": "稳定排序"
+        },
+        "scenarios": {
+          "radix-sort-subroutine": {
+            "title": "基数排序稳定子程序",
+            "description": "计数排序是基数排序的核心稳定子程序，实现O(n+k)逐位排序。"
+          },
+          "histogram-equalization": {
+            "title": "图像直方图均衡化",
+            "description": "OpenCV equalizeHist和GPU着色器管线使用计数排序处理像素强度直方图。"
+          },
+          "database-statistics": {
+            "title": "数据库列统计",
+            "description": "PostgreSQL ANALYZE和MySQL直方图统计使用基于计数的方法估算不同值。"
+          }
+        }
+      },
+      "dfs": {
+        "title": "深度优先搜索",
+        "desc": "深度优先搜索（DFS）使用栈（或递归）尽可能深地探索图的分支，然后回溯。适用于拓扑排序、连通性检测、路径查找等场景。",
+        "tags": {
+          "graph": "图",
+          "遍历": "遍历",
+          "recursion": "递归",
+          "栈": "栈"
+        },
+        "scenarios": {
+          "garbage-collector": {
+            "title": "垃圾回收器标记清除",
+            "description": "V8 mark-sweep、Java G1和Go三色标记使用DFS查找不可达对象以回收内存。"
+          },
+          "compiler-ast": {
+            "title": "编译器AST遍历",
+            "description": "Babel、TypeScript编译器和ESLint使用DFS遍历和转换抽象语法树。"
+          },
+          "maze-solver": {
+            "title": "游戏迷宫求解",
+            "description": "Unity NavMesh、Godot寻路和Roguelike游戏使用DFS求解迷宫和程序生成地下城。"
+          }
+        }
+      },
+      "dijkstra": {
+        "title": "Dijkstra算法",
+        "desc": "Dijkstra算法用于在带权图中找到从源节点到所有其他节点的最短路径。使用优先队列选择当前距离最小的未访问节点，通过边松弛逐步更新最短距离。",
+        "tags": {
+          "graph": "图",
+          "shortest-path": "最短路径",
+          "greedy": "贪心",
+          "priority-queue": "优先队列"
+        },
+        "scenarios": {
+          "gps-navigation": {
+            "title": "GPS导航最短路线",
+            "description": "Google Maps、TomTom和Waze使用Dijkstra结合交通权重的道路图查找最快路线。"
+          },
+          "ospf-routing": {
+            "title": "OSPF网络路由",
+            "description": "Cisco OSPF、Juniper IS-IS和Linux Zebra使用Dijkstra计算最短路径路由表。"
+          },
+          "logistics-optimization": {
+            "title": "最后一公里配送物流",
+            "description": "FedEx、UPS ORION和Amazon Logistics使用Dijkstra优化配送路线并降低燃油成本。"
+          }
+        }
+      },
+      "edit-distance": {
+        "title": "编辑距离",
+        "desc": "编辑距离（Levenshtein距离）计算将一个字符串转换为另一个字符串所需的最少操作次数，支持插入、删除、替换三种操作。广泛应用于拼写纠正、DNA序列比较等。",
+        "tags": {
+          "dynamic-programming": "动态规划",
+          "string": "字符串",
+          "edit-distance": "编辑距离"
+        },
+        "scenarios": {
+          "spell-checker": {
+            "title": "拼写检查器",
+            "description": "拼写检查器通过在编辑距离阈值内查找字典单词来建议更正。"
+          },
+          "fuzzy-search": {
+            "title": "模糊搜索",
+            "description": "模糊搜索引擎使用Levenshtein距离查找具有可配置容差阈值的相似记录。"
+          },
+          "dna-sequence-alignment": {
+            "title": "DNA序列比对",
+            "description": "DNA序列比对通过计算核苷酸字符串之间的最小编辑操作来衡量遗传相似性。"
+          }
+        }
+      },
+      "exponential-search": {
+        "title": "指数搜索",
+        "desc": "指数搜索先通过指数增长确定目标所在的区间（2^k），然后在区间内进行二分搜索。特别适合无界数组或链表等有序数据结构。",
+        "tags": {
+          "search": "搜索",
+          "进阶": "进阶",
+          "无界数组": "无界数组"
+        },
+        "scenarios": {
+          "unbounded-stream": {
+            "title": "无界流搜索",
+            "description": "Java Streams 和 Rust 迭代器使用指数搜索在无界有序数据上找到边界，然后进行二分查找。"
+          },
+          "rotating-sorted-array": {
+            "title": "旋转有序数组搜索",
+            "description": "围绕枢轴旋转的数组可以通过先找到旋转点来高效搜索。"
+          },
+          "galloping-in-sort": {
+            "title": "Timsort 合并中的加速模式",
+            "description": "Python 的 Timsort 在合并时使用加速模式（指数搜索）跳过长段不等元素。"
+          }
+        }
+      },
+      "fibonacci-search": {
+        "title": "斐波那契搜索",
+        "desc": "斐波那契搜索使用斐波那契数分割搜索范围，只需加减运算无需乘除法。在访问成本高昂的场景（如磁盘 I/O）中有一定优势。",
+        "tags": {
+          "search": "搜索",
+          "高阶": "高阶",
+          "有序数组": "有序数组"
+        },
+        "scenarios": {
+          "embedded-no-division": {
+            "title": "无除法器的嵌入式系统",
+            "description": "斐波那契搜索仅使用加减法计算索引，在没有硬件除法器的微控制器上至关重要。"
+          },
+          "memory-constrained": {
+            "title": "内存受限的游戏主机",
+            "description": "内存有限的经典游戏主机使用斐波那契搜索，避免排序查找表上的昂贵除法运算。"
+          },
+          "search-engine-index": {
+            "title": "搜索引擎倒排索引",
+            "description": "Elasticsearch 和 Lucene 在排序的倒排列表上使用类斐波那契搜索策略，实现高效术语查找。"
+          }
+        }
+      },
+      "fibonacci": {
+        "title": "斐波那契数列",
+        "desc": "斐波那契数列的动态规划解法，通过自底向上填表避免重复计算，时间复杂度从 O(2^n) 优化到 O(n)。",
+        "tags": {
+          "dynamic-programming": "动态规划",
+          "斐波那契": "斐波那契",
+          "记忆化": "记忆化"
+        },
+        "scenarios": {
+          "trading-retracement": {
+            "title": "斐波那契回撤",
+            "description": "斐波那契回撤水平用于识别技术分析中的支撑和阻力区域。"
+          },
+          "l-system-fractals": {
+            "title": "L系统分形",
+            "description": "L系统利用斐波那契分支规则生成逼真的植物结构和分形树。"
+          },
+          "memoization-foundation": {
+            "title": "记忆化基础",
+            "description": "斐波那契是引入记忆化以避免指数级重复计算的经典示例。"
+          }
+        }
+      },
+      "floyd-warshall": {
+        "title": "Floyd-Warshall算法",
+        "desc": "Floyd-Warshall算法通过动态规划计算所有节点对之间的最短路径。依次尝试每个节点作为中间节点，逐步更新距离矩阵。时间复杂度 O(V³)，适用于稠密图。",
+        "tags": {
+          "graph": "图",
+          "shortest-path": "最短路径",
+          "dynamic-programming": "动态规划",
+          "全源最短路径": "全源最短路径"
+        },
+        "scenarios": {
+          "transitive-closure": {
+            "title": "数据库传递闭包",
+            "description": "Floyd-Warshall计算所有实体对的可达性，用于SQL递归CTE和图查询。"
+          },
+          "vlsi-design": {
+            "title": "超大规模集成电路布线",
+            "description": "Cadence和Synopsys使用全源最短路最小化芯片布线长度和信号延迟。"
+          },
+          "flight-route-planner": {
+            "title": "航线规划",
+            "description": "Sabre和Amadeus计算机场间最短路，优化多城市航班预订与机组调度。"
+          }
+        }
+      },
+      "heap-sort": {
+        "title": "堆排序",
+        "desc": "堆排序利用最大堆数据结构，先构建堆再将堆顶最大值逐个提取到数组末尾。时间复杂度 O(n log n)，且为原地排序。",
+        "tags": {
+          "sorting": "排序",
+          "堆": "堆",
+          "选择排序": "选择排序"
+        },
+        "scenarios": {
+          "os-process-scheduler": {
+            "title": "操作系统进程优先级调度",
+            "description": "Linux CFS和Windows线程池调度器使用基于堆的优先级队列高效提取最高优先级任务。"
+          },
+          "top-k-queries": {
+            "title": "Top-K 查询与选择",
+            "description": "NumPy argpartition和Spark topK使用堆操作以O(n log k)找到K个最大或最小元素。"
+          },
+          "k-way-merge": {
+            "title": "数据管道K路归并",
+            "description": "Hadoop合并阶段和Kafka日志压缩使用基于堆的K路归并合并有序流。"
+          }
+        }
+      },
+      "insertion-sort": {
+        "title": "插入排序",
+        "desc": "插入排序通过构建有序序列，将未排序数据逐个插入已排序序列的合适位置。类比打牌时整理手牌的方式，实现简单且对小规模数据效率高。",
+        "tags": {
+          "sorting": "排序",
+          "beginner": "入门",
+          "stable": "稳定排序"
+        },
+        "scenarios": {
+          "timsort-small-runs": {
+            "title": "Timsort 小段回退",
+            "description": "Java的DualPivotQuicksort和V8的Timsort对32-64个元素的子数组回退使用插入排序。"
+          },
+          "online-card-sorting": {
+            "title": "在线卡片与列表插入",
+            "description": "纸牌游戏、看板和Trello使用插入排序，将每个新项目插入正确位置。"
+          },
+          "nearly-sorted-collections": {
+            "title": "近乎有序的数据管道",
+            "description": "Kafka日志压缩和LSM树合并产生近乎有序的段，插入排序在此表现优异。"
+          }
+        }
+      },
+      "interpolation-search": {
+        "title": "插值搜索",
+        "desc": "插值搜索根据目标值在数组中的比例估算位置，而非固定的中点。对于均匀分布的大规模有序数组，平均可达 O(log log n)。",
+        "tags": {
+          "search": "搜索",
+          "进阶": "进阶",
+          "有序数组": "有序数组"
+        },
+        "scenarios": {
+          "phone-directory-lookup": {
+            "title": "电话簿查找",
+            "description": "电话簿和 LDAP 目录使用插值搜索，根据名字的字母位置直接跳转查找。"
+          },
+          "uniform-dataset-analytics": {
+            "title": "均匀时间序列分析",
+            "description": "ClickHouse 和 InfluxDB 在排序均匀的时间戳段上使用插值搜索，实现 O(log log n) 查找。"
+          },
+          "dictionary-attack": {
+            "title": "密码字典搜索",
+            "description": "密码破解工具在排序的字典中使用插值搜索，按词频估算目标位置。"
+          }
+        }
+      },
+      "jump-search": {
+        "title": "跳跃搜索",
+        "desc": "跳跃搜索以 √n 为步长跳跃前进找到可能的块，然后在块内进行线性搜索。介于二分搜索和线性搜索之间，适合链表等不支持随机访问的场景。",
+        "tags": {
+          "search": "搜索",
+          "进阶": "进阶",
+          "有序数组": "有序数组"
+        },
+        "scenarios": {
+          "flash-memory-block": {
+            "title": "闪存块读取",
+            "description": "NAND 闪存按块读取——跳跃搜索跳到目标块然后线性扫描，避免随机访问的性能损失。"
+          },
+          "sorted-cache-index": {
+            "title": "有序缓存索引查找",
+            "description": "Redis 有序集合和 LevelDB memtable 使用块式跳跃扫描，高效查找有序结构中的键。"
+          },
+          "embedded-sensor-search": {
+            "title": "嵌入式传感器校准",
+            "description": "嵌入式固件在小型有序校准表上使用跳跃搜索，快速查找传感器值。"
+          }
+        }
+      },
+      "knapsack": {
+        "title": "0/1 背包问题",
+        "desc": "经典的0/1背包问题，通过动态规划在给定容量限制下选择物品使总价值最大。dp[i][w]表示前i个物品在容量w下的最大价值。",
+        "tags": {
+          "dynamic-programming": "动态规划",
+          "背包问题": "背包问题",
+          "最优化": "最优化"
+        },
+        "scenarios": {
+          "cargo-loading": {
+            "title": "货物装载优化",
+            "description": "航空公司在重量和体积限制下装载货物，以最大化每次航班的运输价值。"
+          },
+          "cloud-budget": {
+            "title": "云成本优化",
+            "description": "云成本优化在预算上限下选择服务，每个服务都有成本和性能收益。"
+          },
+          "ai-planning": {
+            "title": "AI资源规划",
+            "description": "V8寄存器分配使用类似背包问题的决策来选择适合有限CPU寄存器的变量。"
+          }
+        }
+      },
+      "lcs": {
+        "title": "最长公共子序列",
+        "desc": "最长公共子序列（LCS）问题，通过动态规划找到两个序列的最长公共子序列。广泛应用于文件比较、版本控制（diff算法）和生物信息学。",
+        "tags": {
+          "dynamic-programming": "动态规划",
+          "string": "字符串",
+          "subsequence": "子序列"
+        },
+        "scenarios": {
+          "git-diff": {
+            "title": "Git差异比对",
+            "description": "Git diff使用LCS算法找到两个文件版本之间的最小编辑脚本。"
+          },
+          "dna-alignment": {
+            "title": "DNA序列比对",
+            "description": "生物信息学工具通过寻找核苷酸碱基的最长公共子序列来比对DNA序列。"
+          },
+          "plagiarism-detection": {
+            "title": "抄袭检测",
+            "description": "抄袭检测器使用最长公共子串分析在文档间查找匹配的文本段落。"
+          }
+        }
+      },
+      "linear-search": {
+        "title": "线性搜索",
+        "desc": "线性搜索逐个检查数组中的每个元素直到找到目标值。是最简单的搜索算法，适用于未排序或小规模数据集。时间复杂度 O(n)。",
+        "tags": {
+          "search": "搜索",
+          "beginner": "入门",
+          "线性": "线性"
+        },
+        "scenarios": {
+          "small-array-optimization": {
+            "title": "STL 小数组优化",
+            "description": "libstdc++ 的 std::find 对小范围（<32 元素）使用线性扫描，因为二分查找的开销超过收益。"
+          },
+          "linked-list-traversal": {
+            "title": "链表遍历",
+            "description": "链表不支持随机访问，查找任何元素都必须从头节点开始顺序遍历。"
+          },
+          "debug-hex-search": {
+            "title": "十六进制调试检查",
+            "description": "调试器和十六进制转储工具逐字节扫描内存，定位原始内存中的特定模式或值。"
+          }
+        }
+      },
+      "lis": {
+        "title": "最长递增子序列",
+        "desc": "最长递增子序列（LIS）问题，通过动态规划找到数组中最长的严格递增子序列。dp[i]表示以第i个元素结尾的LIS长度。常用于数据分析和股票预测。",
+        "tags": {
+          "dynamic-programming": "动态规划",
+          "subsequence": "子序列",
+          "递增": "递增"
+        },
+        "scenarios": {
+          "patience-sorting": {
+            "title": "耐心排序",
+            "description": "耐心排序按照LIS规则将纸牌分成若干堆，直接计算最长递增子序列。"
+          },
+          "job-scheduling": {
+            "title": "作业调度",
+            "description": "调度具有兼容时间间隔的独立作业，利用排序后的结束时间的LIS来最大化吞吐量。"
+          },
+          "building-bridges": {
+            "title": "建桥问题",
+            "description": "河流上最大数量的非交叉桥梁，通过对一侧河岸排序并求另一侧的LIS来解决。"
+          }
+        }
+      },
+      "merge-sort": {
+        "title": "归并排序",
+        "desc": "归并排序采用分治策略，将数组递归地一分为二，分别排序后再合并两个有序子数组。时间复杂度稳定 O(n log n)，是一种稳定的外部排序算法。",
+        "tags": {
+          "sorting": "排序",
+          "divide-and-conquer": "分治",
+          "recursion": "递归"
+        },
+        "scenarios": {
+          "java-arrays-sort": {
+            "title": "Java Arrays.sort 对象排序",
+            "description": "Java 对对象使用 Timsort（归并+插入），保证稳定排序，相等元素保持原始顺序。"
+          },
+          "postgres-in-memory-sort": {
+            "title": "PostgreSQL 内存排序",
+            "description": "PostgreSQL 使用归并排序对查询结果进行内存排序，支持 ORDER BY 保持顺序。"
+          },
+          "external-sort": {
+            "title": "大文件外部归并排序",
+            "description": "Hadoop MapReduce 和 Spark 使用外部归并排序，通过合并磁盘上的预排序块来处理 TB 级数据。"
+          }
+        }
+      },
+      "n-queens": {
+        "title": "N皇后",
+        "desc": "N皇后问题使用回溯算法在 N×N 棋盘上放置 N 个皇后，使得它们互不攻击。通过逐行放置并检查冲突，遇到死路时回溯尝试其他位置。",
+        "tags": {
+          "backtracking": "回溯",
+          "n-queens": "N皇后",
+          "recursion": "递归"
+        },
+        "scenarios": {
+          "chess-puzzle-generator": {
+            "title": "象棋谜题生成器",
+            "description": "国际象棋谜题平台生成类似N皇后问题的约束放置挑战来训练战术思维。"
+          },
+          "register-allocation": {
+            "title": "CPU寄存器分配",
+            "description": "编译器在将变量映射到有限的CPU寄存器时求解类似N皇后问题的约束。"
+          },
+          "constraint-satisfaction": {
+            "title": "约束满足问题",
+            "description": "N皇后问题是CSP的特例，是SAT求解器和AI约束规划器的基础。"
+          }
+        }
+      },
+      "odd-even-sort": {
+        "title": "奇偶排序",
+        "desc": "奇偶排序（砖排序）交替比较并交换奇数和偶数索引的相邻对，直到数组完全有序。适合并行化实现。",
+        "tags": {
+          "sorting": "排序",
+          "beginner": "入门",
+          "并行排序": "并行排序"
+        },
+        "scenarios": {
+          "gpu-parallel-sorting": {
+            "title": "GPU并行排序网络",
+            "description": "CUDA和OpenCL利用奇偶排序的天然并行阶段实现GPU加速排序操作。"
+          },
+          "sorting-network-hardware": {
+            "title": "FPGA排序网络实现",
+            "description": "FPGA和ASIC设计实现奇偶比较交换单元用于硬件加速排序。"
+          },
+          "distributed-key-sort": {
+            "title": "分布式键值排序",
+            "description": "Hadoop TeraSort和MPI实现使用奇偶归并在集群节点间进行分布式排序。"
+          }
+        }
+      },
+      "prim": {
+        "title": "Prim算法",
+        "desc": "Prim算法从一个起始节点开始，逐步扩展最小生成树，每次选择连接树内和树外节点的最小权重边。适用于网络设计、布线优化等场景。",
+        "scenarios": {
+          "fiber-optic-network": {
+            "title": "光纤网络设计",
+            "description": "Verizon FiOS和Google Fiber使用Prim算法寻找连接所有社区的最小成本光纤布线方案。"
+          },
+          "cluster-analysis": {
+            "title": "单链接聚类",
+            "description": "Prim的MST是单链接层次聚类的基础，被scikit-learn和生物信息学基因表达分析使用。"
+          },
+          "power-grid": {
+            "title": "电网配电",
+            "description": "国家电网和西门子使用Prim的MST设计连接变电站的最短高压输电线路。"
+          }
+        }
+      },
+      "kruskal": {
+        "title": "Kruskal算法",
+        "desc": "Kruskal算法将所有边按权重排序，从最小到最大逐条添加，跳过会产生环的边。等价于求最小生成森林。",
+        "scenarios": {
+          "lan-wiring": {
+            "title": "办公室局域网布线",
+            "description": "结构化布线系统使用Kruskal算法以最短以太网线缆连接所有办公室。"
+          },
+          "image-segmentation": {
+            "title": "基于图的图像分割",
+            "description": "Felzenszwalb算法使用Kruskal风格MST合并相似像素实现图像分割。"
+          },
+          "phylogenetic-tree": {
+            "title": "系统发育树构建",
+            "description": "BLAST和IQ-TREE等生物信息学工具使用MST算法从遗传距离推断进化关系。"
+          }
+        }
+      },
+      "quick-sort": {
+        "title": "快速排序",
+        "desc": "快速排序采用分治策略，通过选择 pivot 将数组分为小于和大于 pivot 的两部分，递归排序。平均时间复杂度 O(n log n)，是实际应用中最快的通用排序算法之一。",
+        "tags": {
+          "sorting": "排序",
+          "divide-and-conquer": "分治",
+          "recursion": "递归"
+        },
+        "scenarios": {
+          "c-qsort-libc": {
+            "title": "C标准库 qsort",
+            "description": "glibc qsort结合快速排序与堆排序回退，通过内省排序避免对抗输入的O(n²)最坏情况。"
+          },
+          "java-dual-pivot-primitives": {
+            "title": "Java 双轴快速排序",
+            "description": "OpenJDK的Arrays.sort对基本类型使用双轴快速排序，是基本类型数组最快的通用排序。"
+          },
+          "database-in-memory-sort": {
+            "title": "数据库内存排序路径",
+            "description": "PostgreSQL和MySQL在数据可放入内存时使用快速排序，在回退到外部排序之前。"
+          }
+        }
+      },
+      "radix-sort": {
+        "title": "基数排序",
+        "desc": "基数排序（LSD）按位进行排序，从最低有效位到最高有效位，每轮使用计数排序作为稳定子程序。时间复杂度 O(d·n)，d 为位数。",
+        "tags": {
+          "sorting": "排序",
+          "非比较排序": "非比较排序",
+          "stable": "稳定排序"
+        },
+        "scenarios": {
+          "unix-external-sort": {
+            "title": "Unix外部排序命令",
+            "description": "GNU sort和BSD sort历史上使用基于基数的方法在有限内存下排序大文本文件。"
+          },
+          "suffix-array-construction": {
+            "title": "后缀数组与文本索引",
+            "description": "Elasticsearch BM25和Lucene索引构建使用基数排序高效构建后缀数组。"
+          },
+          "database-integer-index": {
+            "title": "数据库整数主键排序",
+            "description": "SQLite自增和MySQL InnoDB主键受益于基数排序在整数数据上的O(dn)复杂度。"
+          }
+        }
+      },
+      "selection-sort": {
+        "title": "选择排序",
+        "desc": "选择排序每次从未排序部分选出最小元素，放到已排序部分的末尾。实现简单直观，但无论数据分布如何都需要 O(n²) 次比较。",
+        "tags": {
+          "sorting": "排序",
+          "beginner": "入门",
+          "unstable": "不稳定排序"
+        },
+        "scenarios": {
+          "flash-memory-minimal-writes": {
+            "title": "闪存最小写入排序",
+            "description": "选择排序仅执行O(n)次交换，适合写入周期有限的EEPROM和NOR闪存。"
+          },
+          "embedded-constrained-sort": {
+            "title": "嵌入式受限排序",
+            "description": "Arduino sort.h和微控制器排序例程使用选择排序，代码体积最小且无需额外内存。"
+          },
+          "educational-algorithm": {
+            "title": "计算机科学教育标准",
+            "description": "CS50、MIT 6.006和普林斯顿算法课程将选择排序作为最简单的O(n²)排序教授。"
+          }
+        }
+      },
+      "shell-sort": {
+        "title": "希尔排序",
+        "desc": "希尔排序是插入排序的改进版，通过允许交换相距一定间隔的元素，使数组快速接近有序状态。使用 Knuth 序列（3h+1）作为间隔，最终以 gap=1 完成标准插入排序。",
+        "tags": {
+          "sorting": "排序",
+          "进阶": "进阶",
+          "插入排序改进": "插入排序改进"
+        },
+        "scenarios": {
+          "uclibc-embedded-libc": {
+            "title": "uClibc 嵌入式 qsort",
+            "description": "uClibc和musl libc使用Knuth间隔序列的希尔排序作为轻量级qsort回退。"
+          },
+          "embedded-database-index": {
+            "title": "嵌入式数据库索引排序",
+            "description": "SQLite内存排序和LevelDB memtable操作对小索引段使用希尔排序。"
+          },
+          "network-packet-buffer": {
+            "title": "网络数据包缓冲排序",
+            "description": "Linux内核inet_frag_queue和BSD mbuf排序使用希尔排序重组小数据包片段。"
+          }
+        }
+      },
+      "sliding-window": {
+        "title": "滑动窗口",
+        "desc": "滑动窗口技术用于解决数组/字符串的子数组/子串问题。通过维护一个窗口，避免嵌套循环，将时间复杂度从 O(n²) 优化到 O(n)。",
+        "tags": {
+          "sliding-window": "滑动窗口",
+          "two-pointers": "双指针",
+          "subarray": "子数组"
+        },
+        "scenarios": {
+          "rate-limiting": {
+            "title": "网络速率限制",
+            "description": "网络速率限制器在滑动时间窗口内计算请求，丢弃多余流量以防止滥用。"
+          },
+          "stock-moving-avg": {
+            "title": "股票移动平均",
+            "description": "移动平均和最大利润计算在价格时间序列数据上使用滑动窗口。"
+          },
+          "log-analysis": {
+            "title": "日志窗口聚合",
+            "description": "ELK风格的日志分析使用滑动窗口计算滚动错误率和指标聚合。"
+          }
+        }
+      },
+      "ternary-search": {
+        "title": "三分搜索",
+        "desc": "三分搜索通过两个中点的将有序数组分成三段，每次排除 1/3 的搜索范围。虽然比较次数多于二分搜索，但在寻找单峰函数极值时很有用。",
+        "tags": {
+          "search": "搜索",
+          "进阶": "进阶",
+          "有序数组": "有序数组"
+        },
+        "scenarios": {
+          "unimodal-optimization": {
+            "title": "单峰函数优化",
+            "description": "三分搜索找到单峰函数的峰值/谷值，用于机器学习模型优化中的超参数调优。"
+          },
+          "game-physics-tuning": {
+            "title": "游戏物理参数调优",
+            "description": "游戏引擎使用三分搜索，通过测试单峰代价函数找到最佳物理参数（摩擦力、重力）。"
+          },
+          "signal-peak-detection": {
+            "title": "信号峰值检测",
+            "description": "信号处理工具使用三分搜索定位传感器读数和频谱数据中的峰值。"
+          }
+        }
+      },
+      "topological-sort": {
+        "title": "拓扑排序",
+        "desc": "拓扑排序将有向无环图（DAG）的节点排成线性序列，使得所有有向边 (u, v) 中 u 都排在 v 前面。常用于任务调度、编译依赖和课程安排。",
+        "tags": {
+          "graph": "图",
+          "有向无环图": "有向无环图",
+          "sorting": "排序",
+          "入度": "入度"
+        },
+        "scenarios": {
+          "build-systems": {
+            "title": "构建系统依赖解析",
+            "description": "Make、Maven、Webpack用拓扑排序确定编译顺序，确保依赖先构建。"
+          },
+          "package-managers": {
+            "title": "包管理器依赖解析",
+            "description": "npm、pip和Cargo通过拓扑排序解析依赖DAG以确定安装顺序。"
+          },
+          "course-prerequisites": {
+            "title": "课程先修安排",
+            "description": "大学在先修课程DAG上使用拓扑排序规划有效的学位课程序列。"
+          }
+        }
+      },
+      "two-pointers": {
+        "title": "双指针",
+        "desc": "双指针技术利用两个指针从数组两端向中间移动，在有序数组中高效查找目标和。时间复杂度 O(n)，空间复杂度 O(1)。",
+        "tags": {
+          "two-pointers": "双指针",
+          "有序数组": "有序数组",
+          "两数之和": "两数之和"
+        },
+        "scenarios": {
+          "container-with-water": {
+            "title": "盛最多水的容器",
+            "description": "找到两条线与x轴围成能容纳最多水的容器。"
+          },
+          "merge-sorted-arrays": {
+            "title": "合并有序数组",
+            "description": "数据库引擎通过同时推进两个有序游标的指针来合并排序结果集。"
+          },
+          "cycle-detection": {
+            "title": "Floyd循环检测",
+            "description": "龟兔算法使用双速指针检测链表结构中的无限循环。"
+          }
+        }
+      }
+    },
+    "structures": {
+      "avl-tree": {
+        "title": "AVL 树 (平衡二叉搜索树)",
+        "desc": "AVL 树是一种自平衡的二叉搜索树，任何节点的两个子树高度差（平衡因子）最多为 1。插入和删除操作后通过旋转来维持平衡。",
+        "tags": [
+          "数据结构",
+          "AVL树",
+          "平衡二叉树"
+        ],
+        "scenarios": {
+          "in-memory-sorted-set": {
+            "title": "内存有序集合",
+            "description": "Redis内部有序集合和LevelDB表缓存使用严格平衡树实现快速有序访问。"
+          },
+          "database-index-avl": {
+            "title": "数据库索引（读密集）",
+            "description": "AVL树以严格平衡保证O(log n)查找，适合读密集的内存索引。"
+          },
+          "lookup-heavy": {
+            "title": "查找密集型负载",
+            "description": "Java TreeMap在需要严格最坏情况保证时使用平衡BST。"
+          }
+        }
+      },
+      "bloom-filter": {
+        "title": "布隆过滤器 (Bloom Filter)",
+        "desc": "布隆过滤器是一种空间高效的概率型数据结构，用于测试元素是否为集合的成员。可能产生假阳性（存在但报告为不存在为假阴性，不可能发生），但不会产生假阴性。",
+        "tags": [
+          "概率",
+          "集合",
+          "哈希",
+          "空间优化"
+        ],
+        "scenarios": {
+          "medium-read": {
+            "title": "你读过这篇文章吗",
+            "description": "Medium使用布隆过滤器显示已读文章，假阳性可接受，假阴性不可能出现。"
+          },
+          "db-query-optimization": {
+            "title": "数据库查询优化",
+            "description": "Cassandra和RocksDB使用布隆过滤器跳过不存在键的磁盘查找。"
+          },
+          "url-dedup": {
+            "title": "网络爬虫URL去重",
+            "description": "Apache Nutch和Scrapy使用布隆过滤器避免重复访问已爬取的URL。"
+          }
+        }
+      },
+      "bst": {
+        "title": "二叉搜索树",
+        "desc": "二叉搜索树（BST）是一种节点有序的二叉树：左子树所有 nodes 小于根节点，右子树所有节点大于根节点。支持高效的插入、搜索和删除操作。",
+        "tags": [
+          "树",
+          "递归",
+          "有序"
+        ],
+        "scenarios": {
+          "database-index": {
+            "title": "数据库索引",
+            "description": "PostgreSQL和MySQL InnoDB使用B树变体作为索引，实现O(log n)查找。"
+          },
+          "filesystem-index": {
+            "title": "文件系统索引",
+            "description": "Linux ext4、NTFS和APFS使用树形索引以对数时间定位文件。"
+          },
+          "autocomplete": {
+            "title": "自动补全建议",
+            "description": "IDE如Eclipse和VS Code使用BST结构实现排序符号补全。"
+          }
+        }
+      },
+      "fenwick-tree": {
+        "title": "树状数组 (Fenwick Tree / BIT)",
+        "desc": "Fenwick Tree（树状数组/BIT）是一种高效的前缀和查询和单点更新的数据结构。利用最低位编码，每个位置存储特定范围的累计和。操作 O(log n)，空间 O(n)。",
+        "tags": [
+          "数据结构",
+          "树状数组",
+          "Fenwick",
+          "BIT"
+        ],
+        "scenarios": {
+          "prefix-sum": {
+            "title": "前缀和查询",
+            "description": "树状数组提供O(log n)前缀和，适用于竞赛编程和算法交易。"
+          },
+          "bit-range-update": {
+            "title": "BIT范围更新",
+            "description": "PostgreSQL和ClickHouse使用树状数组进行高效前缀范围更新。"
+          },
+          "competitive-bit": {
+            "title": "竞赛编程BIT",
+            "description": "树状数组比线段树更简洁，是竞赛编程中前缀和查询的流行选择。"
+          }
+        }
+      },
+      "graph-bfs": {
+        "title": "图 — 广度优先搜索 (BFS)",
+        "desc": "广度优先搜索（BFS）是一种图遍历算法，使用队列按层次顺序访问节点。先访问起点的所有邻居，再访问邻居的邻居，适合寻找最短路径。",
+        "tags": [
+          "图",
+          "BFS",
+          "遍历",
+          "队列"
+        ],
+        "scenarios": {
+          "social-network": {
+            "title": "社交网络BFS",
+            "description": "LinkedIn和Facebook使用BFS查找连接度和「你可能认识的人」推荐。"
+          },
+          "road-network": {
+            "title": "道路网络导航",
+            "description": "Google Maps在道路图上使用BFS查找无权最短路径。"
+          },
+          "dependency-resolution": {
+            "title": "包依赖解析",
+            "description": "npm、Maven和pip在依赖图上使用BFS确定安装顺序。"
+          }
+        }
+      },
+      "hash-table": {
+        "title": "哈希表",
+        "desc": "哈希表（Hash Table）通过哈希函数将键映射到存储位置，支持平均 O(1) 的插入、查找和删除操作。链地址法通过在每个桶维护链表来解决哈希冲突。",
+        "tags": [
+          "哈希",
+          "散列",
+          "链地址法"
+        ],
+        "scenarios": {
+          "python-dict": {
+            "title": "Python字典 / Java HashMap",
+            "description": "Python字典和Java HashMap是提供O(1)平均查找的哈希表。"
+          },
+          "redis-store": {
+            "title": "Redis键值存储",
+            "description": "Redis和Memcached使用哈希表作为核心数据结构实现O(1)键访问。"
+          },
+          "compiler-symbol-table": {
+            "title": "编译器符号表",
+            "description": "GCC、Clang和TypeScript编译器使用哈希表进行快速标识符查找。"
+          }
+        }
+      },
+      "heap": {
+        "title": "堆 (Heap)",
+        "desc": "堆（Heap）是一种特殊的完全二叉树，其中每个节点的值都小于等于（最小堆）或大于等于（最大堆）其子节点的值。堆常用于实现优先队列，支持高效的插入和提取最值操作。",
+        "tags": [
+          "数据结构",
+          "堆",
+          "优先队列"
+        ],
+        "scenarios": {
+          "priority-queue": {
+            "title": "优先队列",
+            "description": "Java PriorityQueue和Python heapq使用堆实现O(log n)插入和O(1)查看最小元素。"
+          },
+          "dijkstra": {
+            "title": "Dijkstra最短路径",
+            "description": "Google Maps在Dijkstra算法中使用最小堆高效查找最短路径。"
+          },
+          "top-k": {
+            "title": "Top-K查询",
+            "description": "Apache Spark和Elasticsearch使用堆在大数据集中高效查找前K个元素。"
+          }
+        }
+      },
+      "linked-list": {
+        "title": "链表",
+        "desc": "链表（Linked List）是一种线性数据结构，由一系列节点组成，每个节点包含数据和指向下一个节点的指针。链表支持 O(1) 的头尾插入和 O(n) 的搜索与删除操作。",
+        "tags": [
+          "链表",
+          "线性结构",
+          "指针"
+        ],
+        "scenarios": {
+          "lru-cache-impl": {
+            "title": "LRU缓存实现",
+            "description": "双向链表为LRU缓存的O(1)移动到前端淘汰策略提供支持。"
+          },
+          "hash-chaining": {
+            "title": "哈希表链地址法",
+            "description": "当哈希冲突发生时，Java HashMap和Python dict使用链表链接冲突条目。"
+          },
+          "undo-redo": {
+            "title": "文本编辑器撤销/重做",
+            "description": "VS Code和Google Docs使用链表跟踪编辑历史以实现撤销/重做。"
+          }
+        }
+      },
+      "lru-cache": {
+        "title": "LRU 缓存",
+        "desc": "LRU（Least Recently Used）缓存是一种固定容量的缓存策略，使用双向链表和哈希表实现。访问或插入时将数据移动到最近使用端，当容量满时淘汰最久未使用的元素。",
+        "tags": [
+          "LRU",
+          "缓存",
+          "哈希表",
+          "双向链表",
+          "O(1)"
+        ],
+        "scenarios": {
+          "memcached-redis": {
+            "title": "Memcached / Redis淘汰策略",
+            "description": "Redis maxmemory-policy和Memcached使用LRU淘汰实现O(1)缓存管理。"
+          },
+          "os-page-replace": {
+            "title": "操作系统页面置换",
+            "description": "Linux内核和Windows内存管理器使用基于LRU的算法进行虚拟内存页面淘汰。"
+          },
+          "cdn-edge-cache": {
+            "title": "CDN边缘缓存",
+            "description": "Cloudflare和AWS CloudFront在边缘节点使用LRU缓存进行内容分发。"
+          }
+        }
+      },
+      "queue": {
+        "title": "队列",
+        "desc": "队列（Queue）是一种先进先出（FIFO）的线性数据结构。元素从尾部（rear）入队，从头部（front）出队，常用于任务调度、广度优先搜索等场景。",
+        "tags": [
+          "队列",
+          "FIFO",
+          "线性结构"
+        ],
+        "scenarios": {
+          "bfs-traversal": {
+            "title": "广度优先遍历",
+            "description": "Linux内核调度器使用队列对进程进行广度优先遍历。"
+          },
+          "job-queue": {
+            "title": "任务队列 (Sidekiq, Celery)",
+            "description": "Sidekiq使用Redis列表作为FIFO任务队列，Celery使用RabbitMQ处理分布式任务。"
+          },
+          "message-queue": {
+            "title": "消息队列 (Kafka, RabbitMQ)",
+            "description": "Apache Kafka和RabbitMQ是解耦生产者和消费者的分布式消息队列。"
+          }
+        }
+      },
+      "red-black-tree": {
+        "title": "红黑树 (Red-Black Tree)",
+        "desc": "红黑树是一种自平衡二叉搜索树，通过节点颜色（红/黑）和旋转操作维护近似平衡，保证插入、搜索、删除操作的时间复杂度为 O(log n)。",
+        "tags": [
+          "数据结构",
+          "红黑树",
+          "平衡二叉树",
+          "自平衡"
+        ],
+        "scenarios": {
+          "java-tree-map": {
+            "title": "Java TreeMap / C++ std::map",
+            "description": "Java TreeMap和C++ std::map使用红黑树实现O(log n)排序键值存储。"
+          },
+          "linux-cfs": {
+            "title": "Linux CFS调度器",
+            "description": "Linux内核的完全公平调度器使用红黑树跟踪进程虚拟运行时间。"
+          },
+          "epoll": {
+            "title": "Linux epoll",
+            "description": "Linux epoll和nginx内部使用红黑树高效管理文件描述符。"
+          }
+        }
+      },
+      "segment-tree": {
+        "title": "线段树 (Segment Tree)",
+        "desc": "线段树是一种二叉树，用于高效区间查询和单点更新。每个节点存储数组某个区间的聚合信息（和、最值）。构建 O(n)，查询/更新 O(log n)。",
+        "tags": [
+          "数据结构",
+          "线段树",
+          "区间树"
+        ],
+        "scenarios": {
+          "database-range": {
+            "title": "数据库范围查询",
+            "description": "PostgreSQL和ClickHouse使用类线段树结构进行高效范围聚合查询。"
+          },
+          "competitive-prog": {
+            "title": "竞赛编程",
+            "description": "线段树是竞赛编程中O(log n)范围求和/最小/最大查询的常用工具。"
+          },
+          "interval-tree": {
+            "title": "区间树（图形学）",
+            "description": "GPU渲染和碰撞检测引擎使用区间树进行空间重叠查询。"
+          }
+        }
+      },
+      "skip-list": {
+        "title": "跳表",
+        "desc": "跳表（Skip List）是一种多层链表结构，通过随机高度实现类似二分查找的效率。最高层作为快速通道，可以跳过中间节点，平均搜索/插入/删除复杂度为 O(log n)。",
+        "tags": [
+          "跳表",
+          "多层链表",
+          "快速通道",
+          "O(log n)"
+        ],
+        "scenarios": {
+          "redis-sorted-sets": {
+            "title": "Redis有序集合",
+            "description": "Redis ZADD和LevelDB memtable使用跳表实现O(log n)排序插入和范围查询。"
+          },
+          "leveldb-memtable": {
+            "title": "LevelDB内存表",
+            "description": "LevelDB和RocksDB使用并发跳表作为刷盘前的内存排序缓冲。"
+          },
+          "hbase-region": {
+            "title": "Apache HBase Region存储",
+            "description": "HBase和Cassandra使用跳表维护内存中排序数据，锁竞争比红黑树更简单。"
+          }
+        }
+      },
+      "stack": {
+        "title": "栈",
+        "desc": "栈（Stack）是一种后进先出（LIFO, Last In First Out）的线性数据结构。元素只能从栈顶压入（push）和弹出（pop），类似于一叠盘子的取放方式。",
+        "tags": [
+          "栈",
+          "LIFO",
+          "线性结构"
+        ],
+        "scenarios": {
+          "call-stack": {
+            "title": "函数调用栈",
+            "description": "V8引擎、JVM和Go运行时使用调用栈跟踪嵌套函数调用。"
+          },
+          "expression-eval": {
+            "title": "表达式求值",
+            "description": "编译器如JavaScript解析器使用栈进行中缀到后缀转换和求值。"
+          },
+          "browser-back": {
+            "title": "浏览器后退按钮",
+            "description": "Chrome和Firefox维护导航栈来支持前进/后退功能。"
+          }
+        }
+      },
+      "trie": {
+        "title": "Trie (前缀树)",
+        "desc": "Trie（字典树/前缀树）是一种树形数据结构，通过逐字符存储字符串实现高效的前缀匹配和查找。插入和查找时间复杂度 O(m)，其中 m 为字符串长度。",
+        "tags": [
+          "数据结构",
+          "Trie",
+          "前缀树",
+          "字符串匹配"
+        ],
+        "scenarios": {
+          "autocomplete": {
+            "title": "搜索自动补全",
+            "description": "Google搜索和VS Code IntelliSense使用Trie实现O(m)前缀自动补全。"
+          },
+          "ip-routing": {
+            "title": "IP路由表",
+            "description": "Linux路由表和BGP路由器使用Trie进行最长前缀匹配的数据包转发。"
+          },
+          "spell-checker": {
+            "title": "拼写检查器",
+            "description": "Hunspell和浏览器拼写检查使用Trie进行快速字典词查找。"
+          }
+        }
+      },
+      "union-find": {
+        "title": "并查集 (Union-Find)",
+        "desc": "并查集（Union-Find/DSU）是一种跟踪元素划分为不相交集合的数据结构。支持 MakeSet、Find（路径压缩）、Union（按秩合并）操作，均摊时间复杂度 O(α(n))，α 为反阿克曼函数。",
+        "tags": [
+          "数据结构",
+          "并查集",
+          "DSU",
+          "路径压缩"
+        ],
+        "scenarios": {
+          "kruskal-mst": {
+            "title": "Kruskal最小生成树",
+            "description": "并查集在Kruskal算法中实现O(α(n))环检测，用于最小生成树。"
+          },
+          "network-connectivity": {
+            "title": "网络连通性",
+            "description": "OSPF等路由协议使用并查集动态跟踪网络组件连通性。"
+          },
+          "social-network": {
+            "title": "社交网络好友推荐",
+            "description": "LinkedIn和Facebook使用并查集变体进行好友推荐和社区检测。"
+          }
+        }
+      }
+    }
+  },
+  "offline": {
+    "title": "当前处于离线状态",
+    "desc": "网络连接已中断，部分功能在恢复网络前暂不可用。",
+    "connectionRestored": "网络已恢复 — 点击重试继续",
+    "status": "等待网络连接…",
+    "retry": "重试",
+    "backHome": "返回首页",
+    "tipsTitle": "离线时可做",
+    "tip1": "• 之前访问过的页面仍可在浏览器缓存中查看。",
+    "tip2": "• 收藏的课程将在恢复网络后自动加载。"
+  },
+  "commandPalette": {
+    "categoryLabels": {
+      "algorithm": "算法",
+      "pattern": "设计模式",
+      "structure": "数据结构",
+      "search": "搜索",
+      "graph": "图算法"
+    }
+  }
+}

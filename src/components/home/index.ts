@@ -1,0 +1,9 @@
+export { Navbar } from "./Navbar";
+export { LogoMark } from "./LogoMark";
+export { Hero } from "./Hero";
+export { Stats } from "./Stats";
+export { HowItWorks } from "./HowItWorks";
+export { Categories } from "./Categories";
+export { Featured } from "./Featured";
+export { VisualizerDemo } from "./VisualizerDemo";
+export { Footer } from "./Footer";

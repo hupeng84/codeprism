@@ -1,0 +1,644 @@
+@import "tailwindcss";
+
+/* ============================================================
+   shadcn/ui CSS Variables (Dark Theme)
+   ============================================================ */
+:root {
+  --background: oklch(0.145 0.015 260);
+  --foreground: oklch(0.93 0.01 260);
+  --card: oklch(0.17 0.015 260);
+  --card-foreground: oklch(0.93 0.01 260);
+  --popover: oklch(0.17 0.015 260);
+  --popover-foreground: oklch(0.93 0.01 260);
+  --primary: oklch(0.65 0.15 15);
+  --primary-foreground: oklch(0.98 0 0);
+  --secondary: oklch(0.22 0.015 260);
+  --secondary-foreground: oklch(0.93 0.01 260);
+  --muted: oklch(0.22 0.015 260);
+  --muted-foreground: oklch(0.63 0.01 260);
+  --accent: oklch(0.22 0.015 260);
+  --accent-foreground: oklch(0.93 0.01 260);
+  --destructive: oklch(0.55 0.2 25);
+  --destructive-foreground: oklch(0.98 0 0);
+  --border: oklch(0.25 0.015 260);
+  --input: oklch(0.25 0.015 260);
+  --ring: oklch(0.65 0.15 15);
+  --chart-1: oklch(0.65 0.15 15);
+  --chart-2: oklch(0.65 0.18 170);
+  --chart-3: oklch(0.75 0.15 80);
+  --chart-4: oklch(0.65 0.15 280);
+  --chart-5: oklch(0.65 0.18 170);
+  --sidebar: oklch(0.12 0.015 260);
+  --sidebar-foreground: oklch(0.93 0.01 260);
+  --sidebar-primary: oklch(0.65 0.15 15);
+  --sidebar-primary-foreground: oklch(0.98 0 0);
+  --sidebar-accent: oklch(0.22 0.015 260);
+  --sidebar-accent-foreground: oklch(0.93 0.01 260);
+  --sidebar-border: oklch(0.25 0.015 260);
+  --sidebar-ring: oklch(0.65 0.15 15);
+  --radius: 0.625rem;
+
+  /* App custom tokens — dark theme (base) */
+  --app-bg-primary: #0B0E17;
+  --app-bg-elevated: #111622;
+  --app-bg-card: #161C2C;
+  --app-bg-card-hover: #1C2340;
+  --app-bg-glass: rgba(22, 28, 44, 0.75);
+  --app-bg-glass-light: rgba(255, 255, 255, 0.04);
+  --app-bg-deep: #080B12;
+  --app-bg-input: #1A2136;
+  --app-bg-code: #0D111C;
+  --app-border: #1E2740;
+  --app-border-hover: #2A3550;
+  --app-text-primary: #E8ECF4;
+  --app-text-secondary: #8892A8;
+  --app-text-tertiary: #5A6480;
+  --app-accent-coral: #FF6B6B;
+  --app-accent-coral-soft: rgba(255, 107, 107, 0.15);
+  --app-accent-teal: #4ECDC4;
+  --app-accent-teal-soft: rgba(78, 205, 196, 0.15);
+  --app-accent-gold: #FFD93D;
+  --app-accent-gold-soft: rgba(255, 217, 61, 0.15);
+  --app-accent-purple: #A78BFA;
+  --app-accent-purple-soft: rgba(167, 139, 250, 0.15);
+}
+
+[data-theme="light"] {
+  --background: oklch(0.98 0 0);
+  --foreground: oklch(0.145 0.015 260);
+  --card: oklch(0.98 0 0);
+  --card-foreground: oklch(0.145 0.015 260);
+  --popover: oklch(0.98 0 0);
+  --popover-foreground: oklch(0.145 0.015 260);
+  --primary: oklch(0.55 0.18 15);
+  --primary-foreground: oklch(0.98 0 0);
+  --secondary: oklch(0.96 0.005 260);
+  --secondary-foreground: oklch(0.145 0.015 260);
+  --muted: oklch(0.96 0.005 260);
+  --muted-foreground: oklch(0.45 0.01 260);
+  --accent: oklch(0.96 0.005 260);
+  --accent-foreground: oklch(0.145 0.015 260);
+  --destructive: oklch(0.55 0.2 25);
+  --destructive-foreground: oklch(0.98 0 0);
+  --border: oklch(0.92 0.005 260);
+  --input: oklch(0.92 0.005 260);
+  --ring: oklch(0.55 0.18 15);
+  --chart-1: oklch(0.55 0.18 15);
+  --chart-2: oklch(0.55 0.2 170);
+  --chart-3: oklch(0.65 0.18 80);
+  --chart-4: oklch(0.55 0.18 280);
+  --chart-5: oklch(0.55 0.2 170);
+  --sidebar: oklch(0.98 0 0);
+  --sidebar-foreground: oklch(0.145 0.015 260);
+  --sidebar-primary: oklch(0.55 0.18 15);
+  --sidebar-primary-foreground: oklch(0.98 0 0);
+  --sidebar-accent: oklch(0.96 0.005 260);
+  --sidebar-accent-foreground: oklch(0.145 0.015 260);
+  --sidebar-border: oklch(0.92 0.005 260);
+  --sidebar-ring: oklch(0.55 0.18 15);
+
+  /* App custom tokens — light theme */
+  --app-bg-primary: #FFFFFF;
+  --app-bg-elevated: #F8FAFC;
+  --app-bg-card: #F1F5F9;
+  --app-bg-card-hover: #E2E8F0;
+  --app-bg-glass: rgba(241, 245, 249, 0.85);
+  --app-bg-glass-light: rgba(0, 0, 0, 0.04);
+  --app-bg-input: #F1F5F9;
+  --app-bg-code: #F8FAFC;
+  --app-bg-deep: #F1F5F9;
+  --app-border: #E2E8F0;
+  --app-border-hover: #CBD5E1;
+  --app-text-primary: #0F172A;
+  --app-text-secondary: #64748B;
+  --app-text-tertiary: #94A3B8;
+  --app-accent-coral-soft: rgba(255, 107, 107, 0.10);
+  --app-accent-teal-soft: rgba(78, 205, 196, 0.10);
+  --app-accent-gold-soft: rgba(255, 217, 61, 0.10);
+  --app-accent-purple-soft: rgba(167, 139, 250, 0.10);
+}
+
+/* ============================================================
+   Tailwind v4 theme — shadcn + app custom tokens
+   ============================================================ */
+@theme inline {
+  /* shadcn/ui color tokens */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-shadcn-accent: var(--accent);
+  --color-shadcn-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border-shadcn: var(--border);
+  --color-input-shadcn: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+
+  /* App custom design tokens — reference via var(), not literal values,
+     so that Tailwind utility classes (e.g. .bg-bg-card) resolve at runtime
+     and respect [data-theme="light"] overrides. */
+  --color-bg-primary: var(--app-bg-primary);
+  --color-bg-elevated: var(--app-bg-elevated);
+  --color-bg-card: var(--app-bg-card);
+  --color-bg-card-hover: var(--app-bg-card-hover);
+  --color-bg-glass: var(--app-bg-glass);
+  --color-bg-glass-light: var(--app-bg-glass-light);
+  --color-bg-deep: var(--app-bg-deep);
+  --color-bg-input: var(--app-bg-input);
+  --color-bg-code: var(--app-bg-code);
+  --color-border: var(--app-border);
+  --color-border-hover: var(--app-border-hover);
+  --color-text-primary: var(--app-text-primary);
+  --color-text-secondary: var(--app-text-secondary);
+  --color-text-tertiary: var(--app-text-tertiary);
+  --color-accent-coral: var(--app-accent-coral);
+  --color-accent-coral-soft: var(--app-accent-coral-soft);
+  --color-accent-teal: var(--app-accent-teal);
+  --color-accent-teal-soft: var(--app-accent-teal-soft);
+  --color-accent-gold: var(--app-accent-gold);
+  --color-accent-gold-soft: var(--app-accent-gold-soft);
+  --color-accent-purple: var(--app-accent-purple);
+  --color-accent-purple-soft: var(--app-accent-purple-soft);
+
+  /* shadcn/ui radius tokens */
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-full: 9999px;
+
+  /* Fonts */
+  --font-heading: 'Sora', -apple-system, sans-serif;
+  --font-body: 'DM Sans', -apple-system, sans-serif;
+  --font-code: 'JetBrains Mono', monospace;
+
+  /* Easing */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* ============================================================
+   Base
+   ============================================================ */
+body {
+  font-family: var(--font-body);
+  background: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* ============================================================
+   Scrollbar
+   ============================================================ */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--color-border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--color-border-hover); }
+
+/* ============================================================
+   Sidebar slide-in animation
+   ============================================================ */
+@keyframes slide-in-left {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.animate-slide-in-left {
+  animation: slide-in-left 0.2s var(--ease-out) forwards;
+}
+
+/* ============================================================
+   Hero stagger entrance
+   ============================================================ */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInPage {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeInPage {
+  animation: fadeInPage 0.35s both var(--ease-out);
+}
+
+/* ============================================================
+   Utility Classes (from ui-design.html design system)
+   ============================================================ */
+.gradient-text {
+  background: linear-gradient(135deg, #FF6B6B, #FF8E53, #FFD93D);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gradient-text-teal {
+  background: linear-gradient(135deg, #4ECDC4, #44B3AB);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.section-title {
+  font-family: var(--font-heading);
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  letter-spacing: -0.5px;
+}
+
+.section-subtitle {
+  color: var(--color-text-secondary);
+  font-size: 16px;
+  margin-bottom: 40px;
+  max-width: 500px;
+}
+
+/* FadeInUp stagger entrance */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeInUp {
+  animation: fadeInUp 0.5s var(--ease-out) forwards;
+}
+
+.animate-fadeInUp-d1 {
+  animation: fadeInUp 0.5s var(--ease-out) 0.1s both;
+}
+
+.animate-fadeInUp-d2 {
+  animation: fadeInUp 0.5s var(--ease-out) 0.2s both;
+}
+
+.animate-fadeInUp-d3 {
+  animation: fadeInUp 0.5s var(--ease-out) 0.3s both;
+}
+
+/* ============================================================
+   Stats Section — gradient backgrounds and glass cards
+   ============================================================ */
+.stats-section {
+  background: linear-gradient(135deg, var(--color-bg-primary) 0%, var(--color-bg-elevated) 50%, var(--color-bg-primary) 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.stats-section::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -25%;
+  width: 50%;
+  height: 200%;
+  background: radial-gradient(ellipse, var(--color-accent-coral-soft) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.stats-section::after {
+  content: '';
+  position: absolute;
+  bottom: -50%;
+  right: -25%;
+  width: 50%;
+  height: 200%;
+  background: radial-gradient(ellipse, var(--color-accent-teal-soft) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.stat-card {
+  background: var(--color-bg-glass);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  transition: all 0.3s var(--ease-out);
+}
+
+.stat-card:hover {
+  border-color: var(--color-border-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+/* ============================================================
+   How It Works — connector line animation
+   ============================================================ */
+.how-it-works-section {
+  background: var(--color-bg-primary);
+}
+
+.step-card {
+  position: relative;
+  z-index: 1;
+}
+
+.step-connector {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  width: calc(100% - 2rem);
+  height: 2px;
+  background: linear-gradient(90deg, var(--color-accent-coral), var(--color-accent-gold));
+  transform: translateY(-50%);
+  opacity: 0.3;
+}
+
+.step-connector-animated {
+  animation: drawLine 0.8s var(--ease-out) forwards;
+  transform-origin: left center;
+}
+
+@keyframes drawLine {
+  from {
+    transform: scaleX(0) translateY(-50%);
+    opacity: 0;
+  }
+  to {
+    transform: scaleX(1) translateY(-50%);
+    opacity: 0.3;
+  }
+}
+
+@media (max-width: 768px) {
+  .step-connector {
+    display: none;
+  }
+}
+
+/* ============================================================
+   Count-up number animation
+   ============================================================ */
+@keyframes countUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.count-up-number {
+  animation: countUp 0.6s var(--ease-out) forwards;
+  opacity: 0;
+}
+
+/* ============================================================
+   Enhanced card hover effects
+   ============================================================ */
+.card-glow-hover {
+  transition: all 0.3s var(--ease-out);
+}
+
+.card-glow-hover:hover {
+  box-shadow: 0 0 40px rgba(255, 107, 107, 0.15), 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+/* ============================================================
+   Category accordion expand
+   ============================================================ */
+.category-item {
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  transition: max-height 0.4s var(--ease-out), opacity 0.3s var(--ease-out), padding 0.3s var(--ease-out);
+}
+
+.category-item.expanded {
+  max-height: 200px;
+  opacity: 1;
+}
+
+/* ============================================================
+   Featured card — larger with more info
+   ============================================================ */
+.featured-card {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s var(--ease-out);
+}
+
+.featured-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--color-accent-coral), var(--color-accent-gold));
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s var(--ease-out);
+}
+
+.featured-card:hover::before {
+  transform: scaleX(1);
+}
+
+.featured-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.25);
+}
+
+/* ============================================================
+   Shimmer loading effect
+   ============================================================ */
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.shimmer {
+  background: linear-gradient(90deg, var(--color-bg-card) 25%, var(--color-bg-card-hover) 50%, var(--color-bg-card) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+/* Reduced motion — disable animations for vestibular disorders,
+   but preserve functional animations needed for interactive visualizations */
+@media (prefers-reduced-motion: reduce) {
+  .animate-fadeInPage,
+  .animate-slide-in-left {
+    animation: none !important;
+  }
+
+  /* Page-level transitions — safe to disable */
+  body,
+  .gradient-text,
+  .gradient-text-teal {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+
+  scroll-behavior: auto !important;
+}
+
+/* ============================================================
+   React Flow animation overrides — ensure edge/node animations
+   render correctly regardless of reduced-motion preferences.
+   These are functional animations (data-driven), not decorative. */
+.react-flow__edge.animated .react-flow__edge-path {
+  stroke-dasharray: 5;
+  animation: react-flow-dashdraw 0.5s linear infinite;
+}
+
+@keyframes react-flow-dashdraw {
+  from {
+    stroke-dashoffset: 10;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* Ensure pattern nodes transition smoothly */
+.pattern-node {
+  transition: border-color 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* ============================================================
+   Print mode — hide chrome, force light theme, page-break control
+   ============================================================ */
+@media print {
+  /* Force a light-on-dark → dark-on-light switch so printed content
+     uses real ink economically. */
+  :root,
+  [data-theme="dark"],
+  [data-theme="light"] {
+    --app-bg-primary: #ffffff !important;
+    --app-bg-elevated: #f8fafc !important;
+    --app-bg-card: #f1f5f9 !important;
+    --app-bg-card-hover: #e2e8f0 !important;
+    --app-bg-glass: rgba(241, 245, 249, 0.6) !important;
+    --app-bg-glass-light: rgba(15, 23, 42, 0.04) !important;
+    --app-bg-deep: #f8fafc !important;
+    --app-bg-input: #ffffff !important;
+    --app-bg-code: #f1f5f9 !important;
+    --app-border: #cbd5e1 !important;
+    --app-border-hover: #94a3b8 !important;
+    --app-text-primary: #0f172a !important;
+    --app-text-secondary: #475569 !important;
+    --app-text-tertiary: #64748b !important;
+    --app-accent-coral: #dc2626 !important;
+    --app-accent-coral-soft: rgba(220, 38, 38, 0.08) !important;
+    --app-accent-teal: #0d9488 !important;
+    --app-accent-teal-soft: rgba(13, 148, 136, 0.08) !important;
+    --app-accent-gold: #b45309 !important;
+    --app-accent-gold-soft: rgba(180, 83, 9, 0.08) !important;
+    --app-accent-purple: #6d28d9 !important;
+    --app-accent-purple-soft: rgba(109, 40, 217, 0.08) !important;
+  }
+
+  /* Hide nav, sidebar, control chrome, interactive widgets */
+  nav,
+  [data-no-print="true"],
+  .print-hide,
+  /* Visualizer interactive controls */
+  button,
+  /* Left + right sidebars of the visualizer */
+  aside,
+  /* Resizable divider */
+  [class*="hover:bg-[#FF6B6B]"] {
+    display: none !important;
+  }
+
+  /* Reset main content to full-width, no scroll */
+  body {
+    background: #fff !important;
+    color: #0f172a !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* Avoid page breaks inside key content sections */
+  h1, h2, h3, h4, h5, h6 {
+    page-break-after: avoid;
+  }
+  pre, code, .break-avoid {
+    page-break-inside: avoid;
+  }
+  /* But force a page break before major sections for readability */
+  .print-page-break {
+    page-break-before: always;
+  }
+  /* The header on each new page should be the page title */
+  h1 {
+    font-size: 22pt !important;
+    margin-bottom: 8pt !important;
+  }
+  h2 {
+    font-size: 16pt !important;
+  }
+  h3 {
+    font-size: 13pt !important;
+  }
+  /* Page margins */
+  @page {
+    margin: 16mm 14mm;
+    size: auto;
+  }
+  /* Use less padding for the visualizer canvas (don't print it) */
+  .visualizer-canvas, .react-flow, .mermaid {
+    display: none !important;
+  }
+  /* Force URLs to show */
+  a[href]:not([href^="#"])::after {
+    content: " (" attr(href) ")";
+    font-size: 9pt;
+    color: #64748b;
+  }
+}
