@@ -229,7 +229,7 @@ function ComparePanel({
           }`}
           style={activeTab === "code" ? { borderColor: accentColor } : undefined}
         >
-          {t("compare.code")}
+          {t("compare.code.title")}
         </button>
         <button
           onClick={() => setActiveTab("info")}

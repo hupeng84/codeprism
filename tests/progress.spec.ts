@@ -60,20 +60,18 @@ test.describe("Progress Tracking", () => {
   });
 
   test("right panel shows current step info", async ({ page }) => {
-    // The right panel has "当前步骤" heading
-    const panelHeading = page.getByText("当前步骤", { exact: true });
+    // The right panel has "Execution Steps" heading
+    const panelHeading = page.getByText("Execution Steps", { exact: true });
     await expect(panelHeading).toBeVisible();
 
     // Step details should show
-    const stepLabel = page.locator("span.text-text-tertiary").filter({ hasText: "步骤" });
+    const stepLabel = page.locator("span.text-text-tertiary").filter({ hasText: "Step" });
     await expect(stepLabel.first()).toBeVisible();
   });
 
   test("playback description updates during animation", async ({ page }) => {
-    // Initial description
-    const descriptionBox = page.locator(
-      "div.bg-bg-glass-light p.text-sm"
-    );
+    // The sidebar contains a description paragraph
+    const descriptionBox = page.locator("p.leading-relaxed");
     // Step forward to change state
     await clickStepForward(page);
     await page.waitForTimeout(500);

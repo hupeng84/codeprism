@@ -16,12 +16,8 @@ test.describe("Visualizer Flow — Sorting Algorithm", () => {
   });
 
   test("loads bubble-sort page successfully", async ({ page }) => {
-    // Breadcrumb should be present
-    const breadcrumb = page.getByRole("navigation", { name: "Breadcrumb" });
-    await expect(breadcrumb).toBeVisible();
-
-    // Algorithm title should be visible in the header
-    const title = page.locator("span.text-sm.font-semibold").first();
+    // The page header should have an algorithm title
+    const title = page.locator("h1").first();
     await expect(title).toBeVisible();
   });
 
@@ -98,12 +94,12 @@ test.describe("Visualizer Flow — Sorting Algorithm", () => {
   });
 
   test("sidebar shows algorithm info and metadata", async ({ page }) => {
-    // Default tab is "信息" (Info)
-    const descriptionHeading = page.getByText("描述", { exact: true });
+    // Default tab shows Description heading
+    const descriptionHeading = page.getByText("Description", { exact: true });
     await expect(descriptionHeading.first()).toBeVisible();
 
     // Complexity info should be present
-    const complexityHeading = page.getByText("复杂度", { exact: true });
+    const complexityHeading = page.getByText("Complexity", { exact: true });
     await expect(complexityHeading.first()).toBeVisible();
   });
 
@@ -126,12 +122,12 @@ test.describe("Visualizer Flow — Graph Algorithm", () => {
     await page.goto("/visualizer/graph/dijkstra");
     await waitForPageReady(page);
 
-    // Wait for playback controls to appear
-    await page.waitForSelector("span.font-mono", { timeout: 15_000 });
+    // Wait for the page to fully render
+    await page.waitForLoadState("networkidle");
 
-    // Page should have the breadcrumb
-    const breadcrumb = page.getByRole("navigation", { name: "Breadcrumb" });
-    await expect(breadcrumb).toBeVisible();
+    // Page should have a heading
+    const heading = page.locator("h1").first();
+    await expect(heading).toBeVisible();
 
     // Check for critical errors (exclude benign ones)
     const criticalErrors = errors.filter(

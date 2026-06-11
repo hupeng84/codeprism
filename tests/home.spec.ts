@@ -35,11 +35,11 @@ test.describe("Home Page", () => {
     await waitForPageReady(page);
 
     const expectedLinks = [
-      { text: "设计模式", href: "/patterns" },
-      { text: "数据结构", href: "/structures" },
-      { text: "算法", href: "/algorithms" },
-      { text: "对比", href: "/compare" },
-      { text: "参考", href: "/reference" },
+      { text: "Patterns", href: "/en/patterns" },
+      { text: "Structures", href: "/en/structures" },
+      { text: "Algorithms", href: "/en/algorithms" },
+      { text: "Compare", href: "/en/compare" },
+      { text: "Reference", href: "/en/reference" },
     ];
 
     for (const link of expectedLinks) {
@@ -66,12 +66,12 @@ test.describe("Home Page", () => {
     await page.goto("/");
     await waitForPageReady(page);
 
-    // "开始学习" CTA button
-    const ctaButton = page.getByRole("link", { name: /开始学习/ });
+    // "Start Learning" CTA button
+    const ctaButton = page.getByRole("link", { name: /Start Learning/ });
     await expect(ctaButton).toBeVisible();
 
-    // "浏览全部" secondary button
-    const browseButton = page.getByRole("link", { name: /浏览全部/ });
+    // "Browse All" secondary button
+    const browseButton = page.getByRole("link", { name: /Browse All/ });
     await expect(browseButton).toBeVisible();
   });
 

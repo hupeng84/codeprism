@@ -16,7 +16,7 @@ test.describe("Reference Page", () => {
     const heading = page.getByRole("heading", { level: 1 });
     await expect(heading).toBeVisible();
     const text = await heading.textContent();
-    expect(text).toContain("复杂度速查表");
+    expect(text).toContain("Reference");
   });
 
   test("table is visible with algorithm data", async ({ page }) => {
@@ -30,7 +30,7 @@ test.describe("Reference Page", () => {
   });
 
   test("search input filters table rows", async ({ page }) => {
-    const searchInput = page.getByPlaceholder("搜索算法名称...");
+    const searchInput = page.getByPlaceholder("Search algorithms and data structures...");
     await expect(searchInput).toBeVisible();
 
     // Type a search query
@@ -76,12 +76,12 @@ test.describe("Reference Page", () => {
   });
 
   test("search with no results shows empty state", async ({ page }) => {
-    const searchInput = page.getByPlaceholder("搜索算法名称...");
+    const searchInput = page.getByPlaceholder("Search algorithms and data structures...");
     await searchInput.fill("zzzznonexistent");
     await page.waitForTimeout(300);
 
-    // Should show "没有找到匹配的算法" message
-    const emptyMessage = page.getByText("没有找到匹配的算法");
+    // Should show "No matching results found" message
+    const emptyMessage = page.getByText("No matching results found");
     await expect(emptyMessage).toBeVisible();
   });
 });

@@ -60,7 +60,7 @@ test.describe("Example: Navigation", () => {
     await page.goto("/");
 
     // Click a nav link and wait for URL to change
-    const refLink = page.getByRole("link", { name: "参考" });
+    const refLink = page.getByRole("link", { name: "Reference", exact: true });
     await refLink.click();
     await page.waitForURL("**/reference");
 
